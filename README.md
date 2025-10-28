@@ -14,8 +14,9 @@ latexmk -pdf -interaction=nonstopmode Talk-LeChen-Banff_20251028.tex
 ```
 
 ## Interactive Media
-- Images gallery: [exp13/images_display.html](./exp13/images_display.html)
-- Videos + images: [exp13/videos_and_images_display.html](./exp13/videos_and_images_display.html)
+- Images gallery (GitHub Pages): https://chenle02.github.io/2025-10-28_Emerging_Synergies_Banff_Le/exp13/images_display.html
+- Videos + images (GitHub Pages): https://chenle02.github.io/2025-10-28_Emerging_Synergies_Banff_Le/exp13/videos_and_images_display.html
+  - If Pages isn’t enabled yet: Settings → Pages → Deploy from branch → `master` (root).
 
 ## Abstract
 

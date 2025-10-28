@@ -65,369 +65,6 @@
       \verb https://doi.org/10.1017/CBO9780511599798
       \endverb
     \endentry
-    \entry{bertini.cancrini:95:stochastic}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=1a1ac1444f0f333731c0a3c3bb4ac6fb}{%
-           family={Bertini},
-           familyi={B\bibinitperiod},
-           given={Lorenzo},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=797adb87e0e3c8c08b5d65fcd7b9743a}{%
-           family={Cancrini},
-           familyi={C\bibinitperiod},
-           given={Nicoletta},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{69c0a3cbd935489f23675422452146db}
-      \strng{fullhash}{69c0a3cbd935489f23675422452146db}
-      \strng{bibnamehash}{69c0a3cbd935489f23675422452146db}
-      \strng{authorbibnamehash}{69c0a3cbd935489f23675422452146db}
-      \strng{authornamehash}{69c0a3cbd935489f23675422452146db}
-      \strng{authorfullhash}{69c0a3cbd935489f23675422452146db}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0022-4715}
-      \field{journaltitle}{J. Statist. Phys.}
-      \field{number}{5-6}
-      \field{title}{The stochastic heat equation: {F}eynman-{K}ac formula and intermittence}
-      \field{volume}{78}
-      \field{year}{1995}
-      \field{pages}{1377\bibrangedash 1401}
-      \range{pages}{25}
-      \verb{doi}
-      \verb 10.1007/BF02180136
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1007/BF02180136
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1007/BF02180136
-      \endverb
-    \endentry
-    \entry{chen.dalang:15:moments*1}{article}{}
-      \name{author}{2}{}{%
-        {{un=1,uniquepart=given,hash=0316584e0bc99e70bf9db7ea4321100b}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Le},
-           giveni={L\bibinitperiod},
-           givenun=1}}%
-        {{un=0,uniquepart=base,hash=028a13f285c4388398391bde8e85c58d}{%
-           family={Dalang},
-           familyi={D\bibinitperiod},
-           given={Robert\bibnamedelima C.},
-           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{028469be4a51e3f4d16dcb18a9030924}
-      \strng{fullhash}{028469be4a51e3f4d16dcb18a9030924}
-      \strng{bibnamehash}{028469be4a51e3f4d16dcb18a9030924}
-      \strng{authorbibnamehash}{028469be4a51e3f4d16dcb18a9030924}
-      \strng{authornamehash}{028469be4a51e3f4d16dcb18a9030924}
-      \strng{authorfullhash}{028469be4a51e3f4d16dcb18a9030924}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{2194-0401}
-      \field{journaltitle}{Stoch. Partial Differ. Equ. Anal. Comput.}
-      \field{number}{3}
-      \field{title}{Moments, intermittency and growth indices for the nonlinear fractional stochastic heat equation}
-      \field{volume}{3}
-      \field{year}{2015}
-      \field{pages}{360\bibrangedash 397}
-      \range{pages}{38}
-      \verb{doi}
-      \verb 10.1007/s40072-015-0054-x
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1007/s40072-015-0054-x
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1007/s40072-015-0054-x
-      \endverb
-    \endentry
-    \entry{chen.foondun.ea:23:global}{article}{}
-      \name{author}{4}{}{%
-        {{un=1,uniquepart=given,hash=0316584e0bc99e70bf9db7ea4321100b}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Le},
-           giveni={L\bibinitperiod},
-           givenun=1}}%
-        {{un=0,uniquepart=base,hash=4b2a3df9392be41b3c9c22a5d9228025}{%
-           family={Foondun},
-           familyi={F\bibinitperiod},
-           given={Mohammud},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c2afcd8f68c846c5cf9161b86cc27bd6}{%
-           family={Huang},
-           familyi={H\bibinitperiod},
-           given={Jingyu},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=018ca44ea3e1331d9a540730bdb29dd4}{%
-           family={Salins},
-           familyi={S\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{595ddd5c1461a26a884ac596f45701b6}
-      \strng{fullhash}{595ddd5c1461a26a884ac596f45701b6}
-      \strng{bibnamehash}{595ddd5c1461a26a884ac596f45701b6}
-      \strng{authorbibnamehash}{595ddd5c1461a26a884ac596f45701b6}
-      \strng{authornamehash}{595ddd5c1461a26a884ac596f45701b6}
-      \strng{authorfullhash}{595ddd5c1461a26a884ac596f45701b6}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Nonlinearity (to appear in 2025), preprint arXiv:2310.02153}
-      \field{month}{10}
-      \field{title}{Global solution for superlinear stochastic heat equation on $\mathbb{R}^d$ under Osgood-type conditions}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb http://arXiv.org/abs/2310.02153
-      \endverb
-      \verb{url}
-      \verb http://arXiv.org/abs/2310.02153
-      \endverb
-    \endentry
-    \entry{chen.huang:23:superlinear}{article}{}
-      \name{author}{2}{}{%
-        {{un=1,uniquepart=given,hash=0316584e0bc99e70bf9db7ea4321100b}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Le},
-           giveni={L\bibinitperiod},
-           givenun=1}}%
-        {{un=0,uniquepart=base,hash=c2afcd8f68c846c5cf9161b86cc27bd6}{%
-           family={Huang},
-           familyi={H\bibinitperiod},
-           given={Jingyu},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{366f01c73df0292e1c0572e7848c64e1}
-      \strng{fullhash}{366f01c73df0292e1c0572e7848c64e1}
-      \strng{bibnamehash}{366f01c73df0292e1c0572e7848c64e1}
-      \strng{authorbibnamehash}{366f01c73df0292e1c0572e7848c64e1}
-      \strng{authornamehash}{366f01c73df0292e1c0572e7848c64e1}
-      \strng{authorfullhash}{366f01c73df0292e1c0572e7848c64e1}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0002-9939}
-      \field{journaltitle}{Proc. Amer. Math. Soc.}
-      \field{number}{9}
-      \field{title}{Superlinear stochastic heat equation on {$\Bbb{R}^d$}}
-      \field{volume}{151}
-      \field{year}{2023}
-      \field{pages}{4063\bibrangedash 4078}
-      \range{pages}{16}
-      \verb{doi}
-      \verb 10.1090/proc/16436
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1090/proc/16436
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1090/proc/16436
-      \endverb
-    \endentry
-    \entry{chen:15:precise}{article}{}
-      \name{author}{1}{}{%
-        {{un=1,uniquepart=given,hash=a9bbdf0b37cdab3c9d58efe11438ac86}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Xia},
-           giveni={X\bibinitperiod},
-           givenun=1}}%
-      }
-      \strng{namehash}{a9bbdf0b37cdab3c9d58efe11438ac86}
-      \strng{fullhash}{a9bbdf0b37cdab3c9d58efe11438ac86}
-      \strng{bibnamehash}{a9bbdf0b37cdab3c9d58efe11438ac86}
-      \strng{authorbibnamehash}{a9bbdf0b37cdab3c9d58efe11438ac86}
-      \strng{authornamehash}{a9bbdf0b37cdab3c9d58efe11438ac86}
-      \strng{authorfullhash}{a9bbdf0b37cdab3c9d58efe11438ac86}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0246-0203}
-      \field{journaltitle}{Ann. Inst. Henri Poincaré Probab. Stat.}
-      \field{number}{4}
-      \field{title}{Precise intermittency for the parabolic {A}nderson equation with an {$(1+1)$}-dimensional time-space white noise}
-      \field{volume}{51}
-      \field{year}{2015}
-      \field{pages}{1486\bibrangedash 1499}
-      \range{pages}{14}
-      \verb{doi}
-      \verb 10.1214/15-AIHP673
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1214/15-AIHP673
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1214/15-AIHP673
-      \endverb
-    \endentry
-    \entry{conus.joseph.ea:13:on}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=1980f8573016de7f7aa45ecea450b316}{%
-           family={Conus},
-           familyi={C\bibinitperiod},
-           given={Daniel},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=33827fc39b02b6df271e5145dc7a4f4b}{%
-           family={Joseph},
-           familyi={J\bibinitperiod},
-           given={Mathew},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=dbd50ba58acc6052dd09bfb2bbe99f76}{%
-           family={Khoshnevisan},
-           familyi={K\bibinitperiod},
-           given={Davar},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b374f933ededc1d95e255f98f2e7c249}{%
-           family={Shiu},
-           familyi={S\bibinitperiod},
-           given={Shang-Yuan},
-           giveni={S\bibinithyphendelim Y\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{c3d83f14a888c75113b5d8638495f3d1}
-      \strng{fullhash}{c3d83f14a888c75113b5d8638495f3d1}
-      \strng{bibnamehash}{c3d83f14a888c75113b5d8638495f3d1}
-      \strng{authorbibnamehash}{c3d83f14a888c75113b5d8638495f3d1}
-      \strng{authornamehash}{c3d83f14a888c75113b5d8638495f3d1}
-      \strng{authorfullhash}{c3d83f14a888c75113b5d8638495f3d1}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0178-8051}
-      \field{journaltitle}{Probab. Theory Related Fields}
-      \field{number}{3-4}
-      \field{title}{On the chaotic character of the stochastic heat equation, {II}}
-      \field{volume}{156}
-      \field{year}{2013}
-      \field{pages}{483\bibrangedash 533}
-      \range{pages}{51}
-      \verb{doi}
-      \verb 10.1007/s00440-012-0434-3
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1007/s00440-012-0434-3
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1007/s00440-012-0434-3
-      \endverb
-    \endentry
-    \entry{hairer:14:theory}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=55919e6dcf3286d07280bfe04f1f8f88}{%
-           family={Hairer},
-           familyi={H\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{55919e6dcf3286d07280bfe04f1f8f88}
-      \strng{fullhash}{55919e6dcf3286d07280bfe04f1f8f88}
-      \strng{bibnamehash}{55919e6dcf3286d07280bfe04f1f8f88}
-      \strng{authorbibnamehash}{55919e6dcf3286d07280bfe04f1f8f88}
-      \strng{authornamehash}{55919e6dcf3286d07280bfe04f1f8f88}
-      \strng{authorfullhash}{55919e6dcf3286d07280bfe04f1f8f88}
-      \field{extraname}{1}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0020-9910}
-      \field{journaltitle}{Invent. Math.}
-      \field{number}{2}
-      \field{title}{A theory of regularity structures}
-      \field{volume}{198}
-      \field{year}{2014}
-      \field{pages}{269\bibrangedash 504}
-      \range{pages}{236}
-      \verb{doi}
-      \verb 10.1007/s00222-014-0505-4
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1007/s00222-014-0505-4
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1007/s00222-014-0505-4
-      \endverb
-    \endentry
-    \entry{hairer:13:solving}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=77a6aeb5159cb51c26b716e066c282e8}{%
-           family={Hairer},
-           familyi={H\bibinitperiod},
-           given={Martin},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{77a6aeb5159cb51c26b716e066c282e8}
-      \strng{fullhash}{77a6aeb5159cb51c26b716e066c282e8}
-      \strng{bibnamehash}{77a6aeb5159cb51c26b716e066c282e8}
-      \strng{authorbibnamehash}{77a6aeb5159cb51c26b716e066c282e8}
-      \strng{authornamehash}{77a6aeb5159cb51c26b716e066c282e8}
-      \strng{authorfullhash}{77a6aeb5159cb51c26b716e066c282e8}
-      \field{extraname}{2}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0003-486X}
-      \field{journaltitle}{Ann. of Math. (2)}
-      \field{number}{2}
-      \field{title}{Solving the {KPZ} equation}
-      \field{volume}{178}
-      \field{year}{2013}
-      \field{pages}{559\bibrangedash 664}
-      \range{pages}{106}
-      \verb{doi}
-      \verb 10.4007/annals.2013.178.2.4
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.4007/annals.2013.178.2.4
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.4007/annals.2013.178.2.4
-      \endverb
-    \endentry
     \entry{kardar.parisi.ea:86:dynamic}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=54a0490abeaf97b6e5c1253d9063c158}{%
@@ -536,55 +173,6 @@
       \verb https://doi.org/10.1142/S0218348X93000101
       \endverb
     \endentry
-    \entry{santalla.ferreira:18:eden}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=905da9825082c31c50c2eaca598ff412}{%
-           family={Santalla},
-           familyi={S\bibinitperiod},
-           given={Silvia\bibnamedelima N.},
-           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e22a097d1e9120b76d5383f7587c302d}{%
-           family={Ferreira},
-           familyi={F\bibinitperiod},
-           given={Silvio\bibnamedelima C.},
-           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {American Physical Society}%
-      }
-      \strng{namehash}{63192bff39f6ed74e192c780fd511bbb}
-      \strng{fullhash}{63192bff39f6ed74e192c780fd511bbb}
-      \strng{bibnamehash}{63192bff39f6ed74e192c780fd511bbb}
-      \strng{authorbibnamehash}{63192bff39f6ed74e192c780fd511bbb}
-      \strng{authornamehash}{63192bff39f6ed74e192c780fd511bbb}
-      \strng{authorfullhash}{63192bff39f6ed74e192c780fd511bbb}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issue}{2}
-      \field{journaltitle}{Phys. Rev. E}
-      \field{month}{8}
-      \field{title}{Eden model with nonlocal growth rules and kinetic roughening in biological systems}
-      \field{volume}{98}
-      \field{year}{2018}
-      \field{pages}{022405}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevE.98.022405
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevE.98.022405
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevE.98.022405
-      \endverb
-    \endentry
     \entry{takeuchi.sano.ea:11:growing}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=fe8a2f4f9a09d8ada544734aef8d8f05}{%
@@ -635,61 +223,6 @@
       \field{year}{2011}
       \field{pages}{1\bibrangedash 5}
       \range{pages}{5}
-    \endentry
-    \entry{zel-dovich.ruzmauikin.ea:90:almighty}{book}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=08c0fa62c9d54d8951e705d4df6cb63c}{%
-           family={Zel{\cprime}dovich},
-           familyi={Z\bibinitperiod},
-           given={Ya.\bibnamedelimi B.},
-           giveni={Y\bibinitperiod\bibinitdelim B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ae244231f206ffb59488b4553873b5cd}{%
-           family={Ruzmauikin},
-           familyi={R\bibinitperiod},
-           given={A.\bibnamedelimi A.},
-           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=377f0b494955d48492d3442856daf79b}{%
-           family={Sokoloff},
-           familyi={S\bibinitperiod},
-           given={D.\bibnamedelimi D.},
-           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {World Scientific Publishing Co., Inc., River Edge, NJ}%
-      }
-      \strng{namehash}{5f234fd50af3292518d2c5a73a48fe20}
-      \strng{fullhash}{5f234fd50af3292518d2c5a73a48fe20}
-      \strng{bibnamehash}{5f234fd50af3292518d2c5a73a48fe20}
-      \strng{authorbibnamehash}{5f234fd50af3292518d2c5a73a48fe20}
-      \strng{authornamehash}{5f234fd50af3292518d2c5a73a48fe20}
-      \strng{authorfullhash}{5f234fd50af3292518d2c5a73a48fe20}
-      \field{sortinit}{Z}
-      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{9971-50-916-4; 9971-50-917-2}
-      \field{note}{Translated from the Russian by Anvar Shukurov}
-      \field{series}{World Scientific Lecture Notes in Physics}
-      \field{title}{The almighty chance}
-      \field{volume}{20}
-      \field{year}{1990}
-      \field{pages}{xii+316}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1142/9789812799197
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1142/9789812799197
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1142/9789812799197
-      \endverb
     \endentry
     \entry{zhang.zhang.ea:92:modeling}{article}{}
       \name{author}{4}{}{%
@@ -797,27 +330,252 @@
       \verb https://doi.org/10.1017/CBO9780511599798
       \endverb
     \endentry
-    \entry{bertini.cancrini:95:stochastic}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=1a1ac1444f0f333731c0a3c3bb4ac6fb}{%
-           family={Bertini},
-           familyi={B\bibinitperiod},
-           given={Lorenzo},
-           giveni={L\bibinitperiod},
+    \entry{kardar.parisi.ea:86:dynamic}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=54a0490abeaf97b6e5c1253d9063c158}{%
+           family={Kardar},
+           familyi={K\bibinitperiod},
+           given={Mehran},
+           giveni={M\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=797adb87e0e3c8c08b5d65fcd7b9743a}{%
-           family={Cancrini},
-           familyi={C\bibinitperiod},
-           given={Nicoletta},
-           giveni={N\bibinitperiod},
+        {{un=0,uniquepart=base,hash=633aedb846f931194e4d892bef86fdc0}{%
+           family={Parisi},
+           familyi={P\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=0ebf627c80af5c31707b77b5f3fd9e64}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yi-Cheng},
+           giveni={Y\bibinithyphendelim C\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {APS}%
+      }
+      \strng{namehash}{3e1f0512e359a05c99e9338c2ec7d697}
+      \strng{fullhash}{3e1f0512e359a05c99e9338c2ec7d697}
+      \strng{bibnamehash}{3e1f0512e359a05c99e9338c2ec7d697}
+      \strng{authorbibnamehash}{3e1f0512e359a05c99e9338c2ec7d697}
+      \strng{authornamehash}{3e1f0512e359a05c99e9338c2ec7d697}
+      \strng{authorfullhash}{3e1f0512e359a05c99e9338c2ec7d697}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{number}{9}
+      \field{title}{Dynamic scaling of growing interfaces}
+      \field{volume}{56}
+      \field{year}{1986}
+      \field{pages}{889}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.56.889
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1103/PhysRevLett.56.889
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1103/PhysRevLett.56.889
+      \endverb
+    \endentry
+    \entry{kertesz.horvath.ea:93:self-affine}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ed0a0297e5b7b46ff549ae8f1494c6ee}{%
+           family={Kertész},
+           familyi={K\bibinitperiod},
+           given={János},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c6cc320ce593a144b1039d5c85e09d9c}{%
+           family={Horváth},
+           familyi={H\bibinitperiod},
+           given={Viktor\bibnamedelima k.},
+           giveni={V\bibinitperiod\bibinitdelim k\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6ae457a192b06a1b23d612fa1c3d4acf}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={Ferenc},
+           giveni={F\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{69c0a3cbd935489f23675422452146db}
-      \strng{fullhash}{69c0a3cbd935489f23675422452146db}
-      \strng{bibnamehash}{69c0a3cbd935489f23675422452146db}
-      \strng{authorbibnamehash}{69c0a3cbd935489f23675422452146db}
-      \strng{authornamehash}{69c0a3cbd935489f23675422452146db}
-      \strng{authorfullhash}{69c0a3cbd935489f23675422452146db}
+      \strng{namehash}{f1c4b64d67348eb3816ae8a898a032ba}
+      \strng{fullhash}{f1c4b64d67348eb3816ae8a898a032ba}
+      \strng{bibnamehash}{f1c4b64d67348eb3816ae8a898a032ba}
+      \strng{authorbibnamehash}{f1c4b64d67348eb3816ae8a898a032ba}
+      \strng{authornamehash}{f1c4b64d67348eb3816ae8a898a032ba}
+      \strng{authorfullhash}{f1c4b64d67348eb3816ae8a898a032ba}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Fractals}
+      \field{number}{01}
+      \field{title}{Self-affine rupture lines in paper sheets}
+      \field{volume}{01}
+      \field{year}{1993}
+      \field{pages}{67\bibrangedash 74}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1142/S0218348X93000101
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1142/S0218348X93000101
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1142/S0218348X93000101
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1142/S0218348X93000101
+      \endverb
+    \endentry
+    \entry{takeuchi.sano.ea:11:growing}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=fe8a2f4f9a09d8ada544734aef8d8f05}{%
+           family={Takeuchi},
+           familyi={T\bibinitperiod},
+           given={Kazumasa\bibnamedelima A},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d979269887a6888983d5893d9d708b46}{%
+           family={Sano},
+           familyi={S\bibinitperiod},
+           given={Masaki},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=feeade81c078ac164b1509f7699165ba}{%
+           family={Sasamoto},
+           familyi={S\bibinitperiod},
+           given={Tomohiro},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77543397e50171ccd97dc2336a3cb9c0}{%
+           family={Spohn},
+           familyi={S\bibinitperiod},
+           given={Herbert},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{e7c3021d26cb5612836f05322df1a9c4}
+      \strng{fullhash}{e7c3021d26cb5612836f05322df1a9c4}
+      \strng{bibnamehash}{e7c3021d26cb5612836f05322df1a9c4}
+      \strng{authorbibnamehash}{e7c3021d26cb5612836f05322df1a9c4}
+      \strng{authornamehash}{e7c3021d26cb5612836f05322df1a9c4}
+      \strng{authorfullhash}{e7c3021d26cb5612836f05322df1a9c4}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sci. Rep.}
+      \field{number}{1}
+      \field{title}{Growing interfaces uncover universal fluctuations behind scale invariance}
+      \field{volume}{1}
+      \field{year}{2011}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+    \endentry
+    \entry{zhang.zhang.ea:92:modeling}{article}{}
+      \name{author}{4}{}{%
+        {{un=1,uniquepart=given,hash=c085572f860d99d03a37c331ee13ff68}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=4c02062347dcd9520a0342ae90044e28}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Y.-C.},
+           giveni={Y\bibinithyphendelim C\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=c7d281937653c248ac8aa5ed78f450c0}{%
+           family={Alstrøm},
+           familyi={A\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f2145e90c0fe6257ccd6ec9ef8a6551}{%
+           family={Levinsen},
+           familyi={L\bibinitperiod},
+           given={M.T.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5d6ea45d0133e6f771e03c9b90d4542e}
+      \strng{fullhash}{5d6ea45d0133e6f771e03c9b90d4542e}
+      \strng{bibnamehash}{5d6ea45d0133e6f771e03c9b90d4542e}
+      \strng{authorbibnamehash}{5d6ea45d0133e6f771e03c9b90d4542e}
+      \strng{authornamehash}{5d6ea45d0133e6f771e03c9b90d4542e}
+      \strng{authorfullhash}{5d6ea45d0133e6f771e03c9b90d4542e}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0378--4371}
+      \field{journaltitle}{Phys. A: Stat. Mech. Appl.}
+      \field{number}{3}
+      \field{title}{Modeling forest fire by a paper-burning experiment, a realization of the interface growth mechanism}
+      \field{volume}{189}
+      \field{year}{1992}
+      \field{pages}{383\bibrangedash 389}
+      \range{pages}{7}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0378-4371(92)90050-Z
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/037843719290050Z
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/037843719290050Z
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{1}
+  \datalist[entry]{nyt/apasortcite//global/global}
+    \entry{barabasi.stanley:95:fractal}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=15bacd7ddfc866c5dd96976d4b0244d5}{%
+           family={Barabási},
+           familyi={B\bibinitperiod},
+           given={Albert-László},
+           giveni={A\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5f5c56c0c8f34aa567709e10df5afd57}{%
+           family={Stanley},
+           familyi={S\bibinitperiod},
+           given={H.\bibnamedelimi Eugene},
+           giveni={H\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press, Cambridge}%
+      }
+      \strng{namehash}{40b98df652324937fd2cec6b184c2891}
+      \strng{fullhash}{40b98df652324937fd2cec6b184c2891}
+      \strng{bibnamehash}{40b98df652324937fd2cec6b184c2891}
+      \strng{authorbibnamehash}{40b98df652324937fd2cec6b184c2891}
+      \strng{authornamehash}{40b98df652324937fd2cec6b184c2891}
+      \strng{authorfullhash}{40b98df652324937fd2cec6b184c2891}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -825,339 +583,66 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{0022-4715}
-      \field{journaltitle}{J. Statist. Phys.}
-      \field{number}{5-6}
-      \field{title}{The stochastic heat equation: {F}eynman-{K}ac formula and intermittence}
-      \field{volume}{78}
+      \field{isbn}{0-521-48318-2}
+      \field{title}{Fractal concepts in surface growth}
       \field{year}{1995}
-      \field{pages}{1377\bibrangedash 1401}
-      \range{pages}{25}
+      \field{pages}{xx+366}
+      \range{pages}{-1}
       \verb{doi}
-      \verb 10.1007/BF02180136
+      \verb 10.1017/CBO9780511599798
       \endverb
       \verb{urlraw}
-      \verb https://doi.org/10.1007/BF02180136
+      \verb https://doi.org/10.1017/CBO9780511599798
       \endverb
       \verb{url}
-      \verb https://doi.org/10.1007/BF02180136
+      \verb https://doi.org/10.1017/CBO9780511599798
       \endverb
     \endentry
-    \entry{chen.dalang:15:moments*1}{article}{}
+    \entry{family.vicsek:85:scaling}{article}{}
       \name{author}{2}{}{%
-        {{un=1,uniquepart=given,hash=0316584e0bc99e70bf9db7ea4321100b}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Le},
-           giveni={L\bibinitperiod},
-           givenun=1}}%
-        {{un=0,uniquepart=base,hash=028a13f285c4388398391bde8e85c58d}{%
-           family={Dalang},
-           familyi={D\bibinitperiod},
-           given={Robert\bibnamedelima C.},
-           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{028469be4a51e3f4d16dcb18a9030924}
-      \strng{fullhash}{028469be4a51e3f4d16dcb18a9030924}
-      \strng{bibnamehash}{028469be4a51e3f4d16dcb18a9030924}
-      \strng{authorbibnamehash}{028469be4a51e3f4d16dcb18a9030924}
-      \strng{authornamehash}{028469be4a51e3f4d16dcb18a9030924}
-      \strng{authorfullhash}{028469be4a51e3f4d16dcb18a9030924}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{2194-0401}
-      \field{journaltitle}{Stoch. Partial Differ. Equ. Anal. Comput.}
-      \field{number}{3}
-      \field{title}{Moments, intermittency and growth indices for the nonlinear fractional stochastic heat equation}
-      \field{volume}{3}
-      \field{year}{2015}
-      \field{pages}{360\bibrangedash 397}
-      \range{pages}{38}
-      \verb{doi}
-      \verb 10.1007/s40072-015-0054-x
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1007/s40072-015-0054-x
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1007/s40072-015-0054-x
-      \endverb
-    \endentry
-    \entry{chen.foondun.ea:23:global}{article}{}
-      \name{author}{4}{}{%
-        {{un=1,uniquepart=given,hash=0316584e0bc99e70bf9db7ea4321100b}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Le},
-           giveni={L\bibinitperiod},
-           givenun=1}}%
-        {{un=0,uniquepart=base,hash=4b2a3df9392be41b3c9c22a5d9228025}{%
-           family={Foondun},
+        {{un=0,uniquepart=base,hash=e00d6ba1f958c6a9bbc50ffb6ecb5142}{%
+           family={Family},
            familyi={F\bibinitperiod},
-           given={Mohammud},
-           giveni={M\bibinitperiod},
+           given={Fereydoon},
+           giveni={F\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=c2afcd8f68c846c5cf9161b86cc27bd6}{%
-           family={Huang},
-           familyi={H\bibinitperiod},
-           given={Jingyu},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=018ca44ea3e1331d9a540730bdb29dd4}{%
-           family={Salins},
-           familyi={S\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod},
+        {{un=0,uniquepart=base,hash=6ff33ab4371a3804415d624c6171ef14}{%
+           family={Vicsek},
+           familyi={V\bibinitperiod},
+           given={Tamás},
+           giveni={T\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{595ddd5c1461a26a884ac596f45701b6}
-      \strng{fullhash}{595ddd5c1461a26a884ac596f45701b6}
-      \strng{bibnamehash}{595ddd5c1461a26a884ac596f45701b6}
-      \strng{authorbibnamehash}{595ddd5c1461a26a884ac596f45701b6}
-      \strng{authornamehash}{595ddd5c1461a26a884ac596f45701b6}
-      \strng{authorfullhash}{595ddd5c1461a26a884ac596f45701b6}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Nonlinearity (to appear in 2025), preprint arXiv:2310.02153}
-      \field{month}{10}
-      \field{title}{Global solution for superlinear stochastic heat equation on $\mathbb{R}^d$ under Osgood-type conditions}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb http://arXiv.org/abs/2310.02153
-      \endverb
-      \verb{url}
-      \verb http://arXiv.org/abs/2310.02153
-      \endverb
-    \endentry
-    \entry{chen.huang:23:superlinear}{article}{}
-      \name{author}{2}{}{%
-        {{un=1,uniquepart=given,hash=0316584e0bc99e70bf9db7ea4321100b}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Le},
-           giveni={L\bibinitperiod},
-           givenun=1}}%
-        {{un=0,uniquepart=base,hash=c2afcd8f68c846c5cf9161b86cc27bd6}{%
-           family={Huang},
-           familyi={H\bibinitperiod},
-           given={Jingyu},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{366f01c73df0292e1c0572e7848c64e1}
-      \strng{fullhash}{366f01c73df0292e1c0572e7848c64e1}
-      \strng{bibnamehash}{366f01c73df0292e1c0572e7848c64e1}
-      \strng{authorbibnamehash}{366f01c73df0292e1c0572e7848c64e1}
-      \strng{authornamehash}{366f01c73df0292e1c0572e7848c64e1}
-      \strng{authorfullhash}{366f01c73df0292e1c0572e7848c64e1}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0002-9939}
-      \field{journaltitle}{Proc. Amer. Math. Soc.}
-      \field{number}{9}
-      \field{title}{Superlinear stochastic heat equation on {$\Bbb{R}^d$}}
-      \field{volume}{151}
-      \field{year}{2023}
-      \field{pages}{4063\bibrangedash 4078}
-      \range{pages}{16}
-      \verb{doi}
-      \verb 10.1090/proc/16436
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1090/proc/16436
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1090/proc/16436
-      \endverb
-    \endentry
-    \entry{chen:15:precise}{article}{}
-      \name{author}{1}{}{%
-        {{un=1,uniquepart=given,hash=a9bbdf0b37cdab3c9d58efe11438ac86}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Xia},
-           giveni={X\bibinitperiod},
-           givenun=1}}%
-      }
-      \strng{namehash}{a9bbdf0b37cdab3c9d58efe11438ac86}
-      \strng{fullhash}{a9bbdf0b37cdab3c9d58efe11438ac86}
-      \strng{bibnamehash}{a9bbdf0b37cdab3c9d58efe11438ac86}
-      \strng{authorbibnamehash}{a9bbdf0b37cdab3c9d58efe11438ac86}
-      \strng{authornamehash}{a9bbdf0b37cdab3c9d58efe11438ac86}
-      \strng{authorfullhash}{a9bbdf0b37cdab3c9d58efe11438ac86}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0246-0203}
-      \field{journaltitle}{Ann. Inst. Henri Poincaré Probab. Stat.}
-      \field{number}{4}
-      \field{title}{Precise intermittency for the parabolic {A}nderson equation with an {$(1+1)$}-dimensional time-space white noise}
-      \field{volume}{51}
-      \field{year}{2015}
-      \field{pages}{1486\bibrangedash 1499}
-      \range{pages}{14}
-      \verb{doi}
-      \verb 10.1214/15-AIHP673
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1214/15-AIHP673
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1214/15-AIHP673
-      \endverb
-    \endentry
-    \entry{conus.joseph.ea:13:on}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=1980f8573016de7f7aa45ecea450b316}{%
-           family={Conus},
-           familyi={C\bibinitperiod},
-           given={Daniel},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=33827fc39b02b6df271e5145dc7a4f4b}{%
-           family={Joseph},
-           familyi={J\bibinitperiod},
-           given={Mathew},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=dbd50ba58acc6052dd09bfb2bbe99f76}{%
-           family={Khoshnevisan},
-           familyi={K\bibinitperiod},
-           given={Davar},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b374f933ededc1d95e255f98f2e7c249}{%
-           family={Shiu},
-           familyi={S\bibinitperiod},
-           given={Shang-Yuan},
-           giveni={S\bibinithyphendelim Y\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{c3d83f14a888c75113b5d8638495f3d1}
-      \strng{fullhash}{c3d83f14a888c75113b5d8638495f3d1}
-      \strng{bibnamehash}{c3d83f14a888c75113b5d8638495f3d1}
-      \strng{authorbibnamehash}{c3d83f14a888c75113b5d8638495f3d1}
-      \strng{authornamehash}{c3d83f14a888c75113b5d8638495f3d1}
-      \strng{authorfullhash}{c3d83f14a888c75113b5d8638495f3d1}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \strng{namehash}{b1e8475ba5a9dc55f3d28dcfea70e014}
+      \strng{fullhash}{b1e8475ba5a9dc55f3d28dcfea70e014}
+      \strng{bibnamehash}{b1e8475ba5a9dc55f3d28dcfea70e014}
+      \strng{authorbibnamehash}{b1e8475ba5a9dc55f3d28dcfea70e014}
+      \strng{authornamehash}{b1e8475ba5a9dc55f3d28dcfea70e014}
+      \strng{authorfullhash}{b1e8475ba5a9dc55f3d28dcfea70e014}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{0178-8051}
-      \field{journaltitle}{Probab. Theory Related Fields}
-      \field{number}{3-4}
-      \field{title}{On the chaotic character of the stochastic heat equation, {II}}
-      \field{volume}{156}
-      \field{year}{2013}
-      \field{pages}{483\bibrangedash 533}
-      \range{pages}{51}
-      \verb{doi}
-      \verb 10.1007/s00440-012-0434-3
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1007/s00440-012-0434-3
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1007/s00440-012-0434-3
-      \endverb
-    \endentry
-    \entry{hairer:14:theory}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=55919e6dcf3286d07280bfe04f1f8f88}{%
-           family={Hairer},
-           familyi={H\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{55919e6dcf3286d07280bfe04f1f8f88}
-      \strng{fullhash}{55919e6dcf3286d07280bfe04f1f8f88}
-      \strng{bibnamehash}{55919e6dcf3286d07280bfe04f1f8f88}
-      \strng{authorbibnamehash}{55919e6dcf3286d07280bfe04f1f8f88}
-      \strng{authornamehash}{55919e6dcf3286d07280bfe04f1f8f88}
-      \strng{authorfullhash}{55919e6dcf3286d07280bfe04f1f8f88}
-      \field{extraname}{1}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0020-9910}
-      \field{journaltitle}{Invent. Math.}
+      \field{journaltitle}{Journal of Physics A: Mathematical and General}
+      \field{month}{2}
       \field{number}{2}
-      \field{title}{A theory of regularity structures}
-      \field{volume}{198}
-      \field{year}{2014}
-      \field{pages}{269\bibrangedash 504}
-      \range{pages}{236}
+      \field{title}{Scaling of the active zone in the Eden process on percolation networks and the ballistic deposition model}
+      \field{volume}{18}
+      \field{year}{1985}
+      \true{nocite}
+      \field{pages}{L75}
+      \range{pages}{1}
       \verb{doi}
-      \verb 10.1007/s00222-014-0505-4
+      \verb 10.1088/0305-4470/18/2/005
       \endverb
       \verb{urlraw}
-      \verb https://doi.org/10.1007/s00222-014-0505-4
+      \verb https://dx.doi.org/10.1088/0305-4470/18/2/005
       \endverb
       \verb{url}
-      \verb https://doi.org/10.1007/s00222-014-0505-4
-      \endverb
-    \endentry
-    \entry{hairer:13:solving}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=77a6aeb5159cb51c26b716e066c282e8}{%
-           family={Hairer},
-           familyi={H\bibinitperiod},
-           given={Martin},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{77a6aeb5159cb51c26b716e066c282e8}
-      \strng{fullhash}{77a6aeb5159cb51c26b716e066c282e8}
-      \strng{bibnamehash}{77a6aeb5159cb51c26b716e066c282e8}
-      \strng{authorbibnamehash}{77a6aeb5159cb51c26b716e066c282e8}
-      \strng{authornamehash}{77a6aeb5159cb51c26b716e066c282e8}
-      \strng{authorfullhash}{77a6aeb5159cb51c26b716e066c282e8}
-      \field{extraname}{2}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0003-486X}
-      \field{journaltitle}{Ann. of Math. (2)}
-      \field{number}{2}
-      \field{title}{Solving the {KPZ} equation}
-      \field{volume}{178}
-      \field{year}{2013}
-      \field{pages}{559\bibrangedash 664}
-      \range{pages}{106}
-      \verb{doi}
-      \verb 10.4007/annals.2013.178.2.4
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.4007/annals.2013.178.2.4
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.4007/annals.2013.178.2.4
+      \verb https://dx.doi.org/10.1088/0305-4470/18/2/005
       \endverb
     \endentry
     \entry{kardar.parisi.ea:86:dynamic}{article}{}
@@ -1268,55 +753,6 @@
       \verb https://doi.org/10.1142/S0218348X93000101
       \endverb
     \endentry
-    \entry{santalla.ferreira:18:eden}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=905da9825082c31c50c2eaca598ff412}{%
-           family={Santalla},
-           familyi={S\bibinitperiod},
-           given={Silvia\bibnamedelima N.},
-           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e22a097d1e9120b76d5383f7587c302d}{%
-           family={Ferreira},
-           familyi={F\bibinitperiod},
-           given={Silvio\bibnamedelima C.},
-           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {American Physical Society}%
-      }
-      \strng{namehash}{63192bff39f6ed74e192c780fd511bbb}
-      \strng{fullhash}{63192bff39f6ed74e192c780fd511bbb}
-      \strng{bibnamehash}{63192bff39f6ed74e192c780fd511bbb}
-      \strng{authorbibnamehash}{63192bff39f6ed74e192c780fd511bbb}
-      \strng{authornamehash}{63192bff39f6ed74e192c780fd511bbb}
-      \strng{authorfullhash}{63192bff39f6ed74e192c780fd511bbb}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issue}{2}
-      \field{journaltitle}{Phys. Rev. E}
-      \field{month}{8}
-      \field{title}{Eden model with nonlocal growth rules and kinetic roughening in biological systems}
-      \field{volume}{98}
-      \field{year}{2018}
-      \field{pages}{022405}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevE.98.022405
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevE.98.022405
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevE.98.022405
-      \endverb
-    \endentry
     \entry{takeuchi.sano.ea:11:growing}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=fe8a2f4f9a09d8ada544734aef8d8f05}{%
@@ -1367,61 +803,6 @@
       \field{year}{2011}
       \field{pages}{1\bibrangedash 5}
       \range{pages}{5}
-    \endentry
-    \entry{zel-dovich.ruzmauikin.ea:90:almighty}{book}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=08c0fa62c9d54d8951e705d4df6cb63c}{%
-           family={Zel{\cprime}dovich},
-           familyi={Z\bibinitperiod},
-           given={Ya.\bibnamedelimi B.},
-           giveni={Y\bibinitperiod\bibinitdelim B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ae244231f206ffb59488b4553873b5cd}{%
-           family={Ruzmauikin},
-           familyi={R\bibinitperiod},
-           given={A.\bibnamedelimi A.},
-           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=377f0b494955d48492d3442856daf79b}{%
-           family={Sokoloff},
-           familyi={S\bibinitperiod},
-           given={D.\bibnamedelimi D.},
-           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {World Scientific Publishing Co., Inc., River Edge, NJ}%
-      }
-      \strng{namehash}{5f234fd50af3292518d2c5a73a48fe20}
-      \strng{fullhash}{5f234fd50af3292518d2c5a73a48fe20}
-      \strng{bibnamehash}{5f234fd50af3292518d2c5a73a48fe20}
-      \strng{authorbibnamehash}{5f234fd50af3292518d2c5a73a48fe20}
-      \strng{authornamehash}{5f234fd50af3292518d2c5a73a48fe20}
-      \strng{authorfullhash}{5f234fd50af3292518d2c5a73a48fe20}
-      \field{sortinit}{Z}
-      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{9971-50-916-4; 9971-50-917-2}
-      \field{note}{Translated from the Russian by Anvar Shukurov}
-      \field{series}{World Scientific Lecture Notes in Physics}
-      \field{title}{The almighty chance}
-      \field{volume}{20}
-      \field{year}{1990}
-      \field{pages}{xii+316}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1142/9789812799197
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1142/9789812799197
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1142/9789812799197
-      \endverb
     \endentry
     \entry{zhang.zhang.ea:92:modeling}{article}{}
       \name{author}{4}{}{%
@@ -1482,411 +863,292 @@
       \endverb
     \endentry
   \enddatalist
-\endrefsection
-
-\refsection{1}
-  \datalist[entry]{nyt/apasortcite//global/global}
-    \entry{chen.xia:23:asymptotic}{article}{}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{barabasi.stanley:95:fractal}{book}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=0316584e0bc99e70bf9db7ea4321100b}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Le},
-           giveni={L\bibinitperiod},
+        {{un=0,uniquepart=base,hash=15bacd7ddfc866c5dd96976d4b0244d5}{%
+           family={Barabási},
+           familyi={B\bibinitperiod},
+           given={Albert-László},
+           giveni={A\bibinithyphendelim L\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=96fc313a9755b913afad800b39d87ea5}{%
-           family={Xia},
-           familyi={X\bibinitperiod},
-           given={Panqiu},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{d04a0c18c2868d6626167014ab9c6702}
-      \strng{fullhash}{d04a0c18c2868d6626167014ab9c6702}
-      \strng{bibnamehash}{d04a0c18c2868d6626167014ab9c6702}
-      \strng{authorbibnamehash}{d04a0c18c2868d6626167014ab9c6702}
-      \strng{authornamehash}{d04a0c18c2868d6626167014ab9c6702}
-      \strng{authorfullhash}{d04a0c18c2868d6626167014ab9c6702}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Preprint arXiv:2306.06761, to appear in Annals of Probability}
-      \field{month}{6}
-      \field{title}{Asymptotic properties of stochastic partial differential equations in the sublinear regime}
-      \field{year}{2023}
-      \true{nocite}
-      \verb{urlraw}
-      \verb http://arXiv.org/abs/2306.06761
-      \endverb
-      \verb{url}
-      \verb http://arXiv.org/abs/2306.06761
-      \endverb
-    \endentry
-    \entry{conus.joseph.ea:13:on}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=1980f8573016de7f7aa45ecea450b316}{%
-           family={Conus},
-           familyi={C\bibinitperiod},
-           given={Daniel},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=33827fc39b02b6df271e5145dc7a4f4b}{%
-           family={Joseph},
-           familyi={J\bibinitperiod},
-           given={Mathew},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=dbd50ba58acc6052dd09bfb2bbe99f76}{%
-           family={Khoshnevisan},
-           familyi={K\bibinitperiod},
-           given={Davar},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b374f933ededc1d95e255f98f2e7c249}{%
-           family={Shiu},
+        {{un=0,uniquepart=base,hash=5f5c56c0c8f34aa567709e10df5afd57}{%
+           family={Stanley},
            familyi={S\bibinitperiod},
-           given={Shang-Yuan},
-           giveni={S\bibinithyphendelim Y\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{c3d83f14a888c75113b5d8638495f3d1}
-      \strng{fullhash}{c3d83f14a888c75113b5d8638495f3d1}
-      \strng{bibnamehash}{c3d83f14a888c75113b5d8638495f3d1}
-      \strng{authorbibnamehash}{c3d83f14a888c75113b5d8638495f3d1}
-      \strng{authornamehash}{c3d83f14a888c75113b5d8638495f3d1}
-      \strng{authorfullhash}{c3d83f14a888c75113b5d8638495f3d1}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0178-8051}
-      \field{journaltitle}{Probab. Theory Related Fields}
-      \field{number}{3-4}
-      \field{title}{On the chaotic character of the stochastic heat equation, {II}}
-      \field{volume}{156}
-      \field{year}{2013}
-      \field{pages}{483\bibrangedash 533}
-      \range{pages}{51}
-      \verb{doi}
-      \verb 10.1007/s00440-012-0434-3
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1007/s00440-012-0434-3
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1007/s00440-012-0434-3
-      \endverb
-    \endentry
-    \entry{zel-dovich.molchanov.ea:87:self-excitation}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=08c0fa62c9d54d8951e705d4df6cb63c}{%
-           family={Zel{\cprime}dovich},
-           familyi={Z\bibinitperiod},
-           given={Ya.\bibnamedelimi B.},
-           giveni={Y\bibinitperiod\bibinitdelim B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=29cf39671a0e94765289d1ade84885f3}{%
-           family={Molchanov},
-           familyi={M\bibinitperiod},
-           given={S.\bibnamedelimi A.},
-           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ae244231f206ffb59488b4553873b5cd}{%
-           family={Ruzmau{i}kin},
-           familyi={R\bibinitperiod},
-           given={A.\bibnamedelimi A.},
-           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=377f0b494955d48492d3442856daf79b}{%
-           family={Sokoloff},
-           familyi={S\bibinitperiod},
-           given={D.\bibnamedelimi D.},
-           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{7b22bd776cfcb7a66ffe34fd8fc9a8fe}
-      \strng{fullhash}{7b22bd776cfcb7a66ffe34fd8fc9a8fe}
-      \strng{bibnamehash}{7b22bd776cfcb7a66ffe34fd8fc9a8fe}
-      \strng{authorbibnamehash}{7b22bd776cfcb7a66ffe34fd8fc9a8fe}
-      \strng{authornamehash}{7b22bd776cfcb7a66ffe34fd8fc9a8fe}
-      \strng{authorfullhash}{7b22bd776cfcb7a66ffe34fd8fc9a8fe}
-      \field{sortinit}{Z}
-      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0027-8424}
-      \field{journaltitle}{Proc. Nat. Acad. Sci. U.S.A.}
-      \field{number}{18}
-      \field{title}{Self-excitation of a nonlinear scalar field in a random medium}
-      \field{volume}{84}
-      \field{year}{1987}
-      \true{nocite}
-      \field{pages}{6323\bibrangedash 6325}
-      \range{pages}{3}
-      \verb{doi}
-      \verb 10.1073/pnas.84.18.6323
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1073/pnas.84.18.6323
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1073/pnas.84.18.6323
-      \endverb
-    \endentry
-    \entry{zel-dovich.ruzmauikin.ea:90:almighty}{book}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=08c0fa62c9d54d8951e705d4df6cb63c}{%
-           family={Zel{\cprime}dovich},
-           familyi={Z\bibinitperiod},
-           given={Ya.\bibnamedelimi B.},
-           giveni={Y\bibinitperiod\bibinitdelim B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ae244231f206ffb59488b4553873b5cd}{%
-           family={Ruzmauikin},
-           familyi={R\bibinitperiod},
-           given={A.\bibnamedelimi A.},
-           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=377f0b494955d48492d3442856daf79b}{%
-           family={Sokoloff},
-           familyi={S\bibinitperiod},
-           given={D.\bibnamedelimi D.},
-           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={H.\bibnamedelimi Eugene},
+           giveni={H\bibinitperiod\bibinitdelim E\bibinitperiod},
            givenun=0}}%
       }
       \list{publisher}{1}{%
-        {World Scientific Publishing Co., Inc., River Edge, NJ}%
+        {Cambridge University Press, Cambridge}%
       }
-      \strng{namehash}{5f234fd50af3292518d2c5a73a48fe20}
-      \strng{fullhash}{5f234fd50af3292518d2c5a73a48fe20}
-      \strng{bibnamehash}{5f234fd50af3292518d2c5a73a48fe20}
-      \strng{authorbibnamehash}{5f234fd50af3292518d2c5a73a48fe20}
-      \strng{authornamehash}{5f234fd50af3292518d2c5a73a48fe20}
-      \strng{authorfullhash}{5f234fd50af3292518d2c5a73a48fe20}
-      \field{sortinit}{Z}
-      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \strng{namehash}{40b98df652324937fd2cec6b184c2891}
+      \strng{fullhash}{40b98df652324937fd2cec6b184c2891}
+      \strng{bibnamehash}{40b98df652324937fd2cec6b184c2891}
+      \strng{authorbibnamehash}{40b98df652324937fd2cec6b184c2891}
+      \strng{authornamehash}{40b98df652324937fd2cec6b184c2891}
+      \strng{authorfullhash}{40b98df652324937fd2cec6b184c2891}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{isbn}{9971-50-916-4; 9971-50-917-2}
-      \field{note}{Translated from the Russian by Anvar Shukurov}
-      \field{series}{World Scientific Lecture Notes in Physics}
-      \field{title}{The almighty chance}
-      \field{volume}{20}
-      \field{year}{1990}
-      \field{pages}{xii+316}
+      \field{isbn}{0-521-48318-2}
+      \field{title}{Fractal concepts in surface growth}
+      \field{year}{1995}
+      \field{pages}{xx+366}
       \range{pages}{-1}
       \verb{doi}
-      \verb 10.1142/9789812799197
+      \verb 10.1017/CBO9780511599798
       \endverb
       \verb{urlraw}
-      \verb https://doi.org/10.1142/9789812799197
+      \verb https://doi.org/10.1017/CBO9780511599798
       \endverb
       \verb{url}
-      \verb https://doi.org/10.1142/9789812799197
+      \verb https://doi.org/10.1017/CBO9780511599798
       \endverb
     \endentry
-  \enddatalist
-  \datalist[entry]{nyt/global//global/global}
-    \entry{chen.xia:23:asymptotic}{article}{}
+    \entry{family.vicsek:85:scaling}{article}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=0316584e0bc99e70bf9db7ea4321100b}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Le},
-           giveni={L\bibinitperiod},
+        {{un=0,uniquepart=base,hash=e00d6ba1f958c6a9bbc50ffb6ecb5142}{%
+           family={Family},
+           familyi={F\bibinitperiod},
+           given={Fereydoon},
+           giveni={F\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=96fc313a9755b913afad800b39d87ea5}{%
-           family={Xia},
-           familyi={X\bibinitperiod},
-           given={Panqiu},
-           giveni={P\bibinitperiod},
+        {{un=0,uniquepart=base,hash=6ff33ab4371a3804415d624c6171ef14}{%
+           family={Vicsek},
+           familyi={V\bibinitperiod},
+           given={Tamás},
+           giveni={T\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{d04a0c18c2868d6626167014ab9c6702}
-      \strng{fullhash}{d04a0c18c2868d6626167014ab9c6702}
-      \strng{bibnamehash}{d04a0c18c2868d6626167014ab9c6702}
-      \strng{authorbibnamehash}{d04a0c18c2868d6626167014ab9c6702}
-      \strng{authornamehash}{d04a0c18c2868d6626167014ab9c6702}
-      \strng{authorfullhash}{d04a0c18c2868d6626167014ab9c6702}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \strng{namehash}{b1e8475ba5a9dc55f3d28dcfea70e014}
+      \strng{fullhash}{b1e8475ba5a9dc55f3d28dcfea70e014}
+      \strng{bibnamehash}{b1e8475ba5a9dc55f3d28dcfea70e014}
+      \strng{authorbibnamehash}{b1e8475ba5a9dc55f3d28dcfea70e014}
+      \strng{authornamehash}{b1e8475ba5a9dc55f3d28dcfea70e014}
+      \strng{authorfullhash}{b1e8475ba5a9dc55f3d28dcfea70e014}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Preprint arXiv:2306.06761, to appear in Annals of Probability}
-      \field{month}{6}
-      \field{title}{Asymptotic properties of stochastic partial differential equations in the sublinear regime}
-      \field{year}{2023}
+      \field{journaltitle}{Journal of Physics A: Mathematical and General}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Scaling of the active zone in the Eden process on percolation networks and the ballistic deposition model}
+      \field{volume}{18}
+      \field{year}{1985}
       \true{nocite}
+      \field{pages}{L75}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0305-4470/18/2/005
+      \endverb
       \verb{urlraw}
-      \verb http://arXiv.org/abs/2306.06761
+      \verb https://dx.doi.org/10.1088/0305-4470/18/2/005
       \endverb
       \verb{url}
-      \verb http://arXiv.org/abs/2306.06761
+      \verb https://dx.doi.org/10.1088/0305-4470/18/2/005
       \endverb
     \endentry
-    \entry{conus.joseph.ea:13:on}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=1980f8573016de7f7aa45ecea450b316}{%
-           family={Conus},
-           familyi={C\bibinitperiod},
-           given={Daniel},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=33827fc39b02b6df271e5145dc7a4f4b}{%
-           family={Joseph},
-           familyi={J\bibinitperiod},
-           given={Mathew},
+    \entry{kardar.parisi.ea:86:dynamic}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=54a0490abeaf97b6e5c1253d9063c158}{%
+           family={Kardar},
+           familyi={K\bibinitperiod},
+           given={Mehran},
            giveni={M\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=dbd50ba58acc6052dd09bfb2bbe99f76}{%
-           family={Khoshnevisan},
-           familyi={K\bibinitperiod},
-           given={Davar},
-           giveni={D\bibinitperiod},
+        {{un=0,uniquepart=base,hash=633aedb846f931194e4d892bef86fdc0}{%
+           family={Parisi},
+           familyi={P\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=b374f933ededc1d95e255f98f2e7c249}{%
-           family={Shiu},
-           familyi={S\bibinitperiod},
-           given={Shang-Yuan},
-           giveni={S\bibinithyphendelim Y\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{c3d83f14a888c75113b5d8638495f3d1}
-      \strng{fullhash}{c3d83f14a888c75113b5d8638495f3d1}
-      \strng{bibnamehash}{c3d83f14a888c75113b5d8638495f3d1}
-      \strng{authorbibnamehash}{c3d83f14a888c75113b5d8638495f3d1}
-      \strng{authornamehash}{c3d83f14a888c75113b5d8638495f3d1}
-      \strng{authorfullhash}{c3d83f14a888c75113b5d8638495f3d1}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0178-8051}
-      \field{journaltitle}{Probab. Theory Related Fields}
-      \field{number}{3-4}
-      \field{title}{On the chaotic character of the stochastic heat equation, {II}}
-      \field{volume}{156}
-      \field{year}{2013}
-      \field{pages}{483\bibrangedash 533}
-      \range{pages}{51}
-      \verb{doi}
-      \verb 10.1007/s00440-012-0434-3
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1007/s00440-012-0434-3
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1007/s00440-012-0434-3
-      \endverb
-    \endentry
-    \entry{zel-dovich.molchanov.ea:87:self-excitation}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=08c0fa62c9d54d8951e705d4df6cb63c}{%
-           family={Zel{\cprime}dovich},
+        {{un=1,uniquepart=given,hash=0ebf627c80af5c31707b77b5f3fd9e64}{%
+           family={Zhang},
            familyi={Z\bibinitperiod},
-           given={Ya.\bibnamedelimi B.},
-           giveni={Y\bibinitperiod\bibinitdelim B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=29cf39671a0e94765289d1ade84885f3}{%
-           family={Molchanov},
-           familyi={M\bibinitperiod},
-           given={S.\bibnamedelimi A.},
-           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ae244231f206ffb59488b4553873b5cd}{%
-           family={Ruzmau{i}kin},
-           familyi={R\bibinitperiod},
-           given={A.\bibnamedelimi A.},
-           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=377f0b494955d48492d3442856daf79b}{%
-           family={Sokoloff},
-           familyi={S\bibinitperiod},
-           given={D.\bibnamedelimi D.},
-           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=0}}%
+           given={Yi-Cheng},
+           giveni={Y\bibinithyphendelim C\bibinitperiod},
+           givenun=1}}%
       }
-      \strng{namehash}{7b22bd776cfcb7a66ffe34fd8fc9a8fe}
-      \strng{fullhash}{7b22bd776cfcb7a66ffe34fd8fc9a8fe}
-      \strng{bibnamehash}{7b22bd776cfcb7a66ffe34fd8fc9a8fe}
-      \strng{authorbibnamehash}{7b22bd776cfcb7a66ffe34fd8fc9a8fe}
-      \strng{authornamehash}{7b22bd776cfcb7a66ffe34fd8fc9a8fe}
-      \strng{authorfullhash}{7b22bd776cfcb7a66ffe34fd8fc9a8fe}
-      \field{sortinit}{Z}
-      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \list{publisher}{1}{%
+        {APS}%
+      }
+      \strng{namehash}{3e1f0512e359a05c99e9338c2ec7d697}
+      \strng{fullhash}{3e1f0512e359a05c99e9338c2ec7d697}
+      \strng{bibnamehash}{3e1f0512e359a05c99e9338c2ec7d697}
+      \strng{authorbibnamehash}{3e1f0512e359a05c99e9338c2ec7d697}
+      \strng{authornamehash}{3e1f0512e359a05c99e9338c2ec7d697}
+      \strng{authorfullhash}{3e1f0512e359a05c99e9338c2ec7d697}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{0027-8424}
-      \field{journaltitle}{Proc. Nat. Acad. Sci. U.S.A.}
-      \field{number}{18}
-      \field{title}{Self-excitation of a nonlinear scalar field in a random medium}
-      \field{volume}{84}
-      \field{year}{1987}
-      \true{nocite}
-      \field{pages}{6323\bibrangedash 6325}
-      \range{pages}{3}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{number}{9}
+      \field{title}{Dynamic scaling of growing interfaces}
+      \field{volume}{56}
+      \field{year}{1986}
+      \field{pages}{889}
+      \range{pages}{1}
       \verb{doi}
-      \verb 10.1073/pnas.84.18.6323
+      \verb 10.1103/PhysRevLett.56.889
       \endverb
       \verb{urlraw}
-      \verb https://doi.org/10.1073/pnas.84.18.6323
+      \verb https://doi.org/10.1103/PhysRevLett.56.889
       \endverb
       \verb{url}
-      \verb https://doi.org/10.1073/pnas.84.18.6323
+      \verb https://doi.org/10.1103/PhysRevLett.56.889
       \endverb
     \endentry
-    \entry{zel-dovich.ruzmauikin.ea:90:almighty}{book}{}
+    \entry{kertesz.horvath.ea:93:self-affine}{article}{}
       \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=08c0fa62c9d54d8951e705d4df6cb63c}{%
-           family={Zel{\cprime}dovich},
-           familyi={Z\bibinitperiod},
-           given={Ya.\bibnamedelimi B.},
-           giveni={Y\bibinitperiod\bibinitdelim B\bibinitperiod},
+        {{un=0,uniquepart=base,hash=ed0a0297e5b7b46ff549ae8f1494c6ee}{%
+           family={Kertész},
+           familyi={K\bibinitperiod},
+           given={János},
+           giveni={J\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=ae244231f206ffb59488b4553873b5cd}{%
-           family={Ruzmauikin},
-           familyi={R\bibinitperiod},
-           given={A.\bibnamedelimi A.},
-           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+        {{un=0,uniquepart=base,hash=c6cc320ce593a144b1039d5c85e09d9c}{%
+           family={Horváth},
+           familyi={H\bibinitperiod},
+           given={Viktor\bibnamedelima k.},
+           giveni={V\bibinitperiod\bibinitdelim k\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=377f0b494955d48492d3442856daf79b}{%
-           family={Sokoloff},
+        {{un=0,uniquepart=base,hash=6ae457a192b06a1b23d612fa1c3d4acf}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={Ferenc},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f1c4b64d67348eb3816ae8a898a032ba}
+      \strng{fullhash}{f1c4b64d67348eb3816ae8a898a032ba}
+      \strng{bibnamehash}{f1c4b64d67348eb3816ae8a898a032ba}
+      \strng{authorbibnamehash}{f1c4b64d67348eb3816ae8a898a032ba}
+      \strng{authornamehash}{f1c4b64d67348eb3816ae8a898a032ba}
+      \strng{authorfullhash}{f1c4b64d67348eb3816ae8a898a032ba}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Fractals}
+      \field{number}{01}
+      \field{title}{Self-affine rupture lines in paper sheets}
+      \field{volume}{01}
+      \field{year}{1993}
+      \field{pages}{67\bibrangedash 74}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1142/S0218348X93000101
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1142/S0218348X93000101
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1142/S0218348X93000101
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1142/S0218348X93000101
+      \endverb
+    \endentry
+    \entry{takeuchi.sano.ea:11:growing}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=fe8a2f4f9a09d8ada544734aef8d8f05}{%
+           family={Takeuchi},
+           familyi={T\bibinitperiod},
+           given={Kazumasa\bibnamedelima A},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d979269887a6888983d5893d9d708b46}{%
+           family={Sano},
            familyi={S\bibinitperiod},
-           given={D.\bibnamedelimi D.},
-           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Masaki},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=feeade81c078ac164b1509f7699165ba}{%
+           family={Sasamoto},
+           familyi={S\bibinitperiod},
+           given={Tomohiro},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77543397e50171ccd97dc2336a3cb9c0}{%
+           family={Spohn},
+           familyi={S\bibinitperiod},
+           given={Herbert},
+           giveni={H\bibinitperiod},
            givenun=0}}%
       }
       \list{publisher}{1}{%
-        {World Scientific Publishing Co., Inc., River Edge, NJ}%
+        {Nature Publishing Group}%
       }
-      \strng{namehash}{5f234fd50af3292518d2c5a73a48fe20}
-      \strng{fullhash}{5f234fd50af3292518d2c5a73a48fe20}
-      \strng{bibnamehash}{5f234fd50af3292518d2c5a73a48fe20}
-      \strng{authorbibnamehash}{5f234fd50af3292518d2c5a73a48fe20}
-      \strng{authornamehash}{5f234fd50af3292518d2c5a73a48fe20}
-      \strng{authorfullhash}{5f234fd50af3292518d2c5a73a48fe20}
+      \strng{namehash}{e7c3021d26cb5612836f05322df1a9c4}
+      \strng{fullhash}{e7c3021d26cb5612836f05322df1a9c4}
+      \strng{bibnamehash}{e7c3021d26cb5612836f05322df1a9c4}
+      \strng{authorbibnamehash}{e7c3021d26cb5612836f05322df1a9c4}
+      \strng{authornamehash}{e7c3021d26cb5612836f05322df1a9c4}
+      \strng{authorfullhash}{e7c3021d26cb5612836f05322df1a9c4}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sci. Rep.}
+      \field{number}{1}
+      \field{title}{Growing interfaces uncover universal fluctuations behind scale invariance}
+      \field{volume}{1}
+      \field{year}{2011}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+    \endentry
+    \entry{zhang.zhang.ea:92:modeling}{article}{}
+      \name{author}{4}{}{%
+        {{un=1,uniquepart=given,hash=c085572f860d99d03a37c331ee13ff68}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=4c02062347dcd9520a0342ae90044e28}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Y.-C.},
+           giveni={Y\bibinithyphendelim C\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=c7d281937653c248ac8aa5ed78f450c0}{%
+           family={Alstrøm},
+           familyi={A\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f2145e90c0fe6257ccd6ec9ef8a6551}{%
+           family={Levinsen},
+           familyi={L\bibinitperiod},
+           given={M.T.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5d6ea45d0133e6f771e03c9b90d4542e}
+      \strng{fullhash}{5d6ea45d0133e6f771e03c9b90d4542e}
+      \strng{bibnamehash}{5d6ea45d0133e6f771e03c9b90d4542e}
+      \strng{authorbibnamehash}{5d6ea45d0133e6f771e03c9b90d4542e}
+      \strng{authornamehash}{5d6ea45d0133e6f771e03c9b90d4542e}
+      \strng{authorfullhash}{5d6ea45d0133e6f771e03c9b90d4542e}
       \field{sortinit}{Z}
       \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
       \field{extradatescope}{labelyear}
@@ -1894,614 +1156,22 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{isbn}{9971-50-916-4; 9971-50-917-2}
-      \field{note}{Translated from the Russian by Anvar Shukurov}
-      \field{series}{World Scientific Lecture Notes in Physics}
-      \field{title}{The almighty chance}
-      \field{volume}{20}
-      \field{year}{1990}
-      \field{pages}{xii+316}
-      \range{pages}{-1}
+      \field{issn}{0378--4371}
+      \field{journaltitle}{Phys. A: Stat. Mech. Appl.}
+      \field{number}{3}
+      \field{title}{Modeling forest fire by a paper-burning experiment, a realization of the interface growth mechanism}
+      \field{volume}{189}
+      \field{year}{1992}
+      \field{pages}{383\bibrangedash 389}
+      \range{pages}{7}
       \verb{doi}
-      \verb 10.1142/9789812799197
+      \verb https://doi.org/10.1016/0378-4371(92)90050-Z
       \endverb
       \verb{urlraw}
-      \verb https://doi.org/10.1142/9789812799197
+      \verb https://www.sciencedirect.com/science/article/pii/037843719290050Z
       \endverb
       \verb{url}
-      \verb https://doi.org/10.1142/9789812799197
-      \endverb
-    \endentry
-  \enddatalist
-\endrefsection
-
-\refsection{2}
-  \datalist[entry]{nyt/apasortcite//global/global}
-    \entry{khoshnevisan:03:intersections}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=dbd50ba58acc6052dd09bfb2bbe99f76}{%
-           family={Khoshnevisan},
-           familyi={K\bibinitperiod},
-           given={Davar},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{dbd50ba58acc6052dd09bfb2bbe99f76}
-      \strng{fullhash}{dbd50ba58acc6052dd09bfb2bbe99f76}
-      \strng{bibnamehash}{dbd50ba58acc6052dd09bfb2bbe99f76}
-      \strng{authorbibnamehash}{dbd50ba58acc6052dd09bfb2bbe99f76}
-      \strng{authornamehash}{dbd50ba58acc6052dd09bfb2bbe99f76}
-      \strng{authorfullhash}{dbd50ba58acc6052dd09bfb2bbe99f76}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0723-0869}
-      \field{journaltitle}{Expo. Math.}
-      \field{number}{2}
-      \field{title}{Intersections of {B}rownian motions}
-      \field{volume}{21}
-      \field{year}{2003}
-      \true{nocite}
-      \field{pages}{97\bibrangedash 114}
-      \range{pages}{18}
-      \verb{doi}
-      \verb 10.1016/S0723-0869(03)80013-0
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1016/S0723-0869(03)80013-0
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1016/S0723-0869(03)80013-0
-      \endverb
-    \endentry
-    \entry{khoshnevisan.kim.ea:17:intermittency}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=dbd50ba58acc6052dd09bfb2bbe99f76}{%
-           family={Khoshnevisan},
-           familyi={K\bibinitperiod},
-           given={Davar},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5f6403337ade7112234e50df3b83cf27}{%
-           family={Kim},
-           familyi={K\bibinitperiod},
-           given={Kunwoo},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f0f4bfd9bcc2482e8ba4ed3278df932f}{%
-           family={Xiao},
-           familyi={X\bibinitperiod},
-           given={Yimin},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{2fe83f4b42720ffc5e8f595b10939da2}
-      \strng{fullhash}{2fe83f4b42720ffc5e8f595b10939da2}
-      \strng{bibnamehash}{2fe83f4b42720ffc5e8f595b10939da2}
-      \strng{authorbibnamehash}{2fe83f4b42720ffc5e8f595b10939da2}
-      \strng{authornamehash}{2fe83f4b42720ffc5e8f595b10939da2}
-      \strng{authorfullhash}{2fe83f4b42720ffc5e8f595b10939da2}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0091-1798}
-      \field{journaltitle}{Ann. Probab.}
-      \field{number}{6A}
-      \field{title}{Intermittency and multifractality: a case study via parabolic stochastic {PDE}s}
-      \field{volume}{45}
-      \field{year}{2017}
-      \true{nocite}
-      \field{pages}{3697\bibrangedash 3751}
-      \range{pages}{55}
-      \verb{doi}
-      \verb 10.1214/16-AOP1147
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1214/16-AOP1147
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1214/16-AOP1147
-      \endverb
-    \endentry
-    \entry{khoshnevisan.xiao:15:brownian}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=dbd50ba58acc6052dd09bfb2bbe99f76}{%
-           family={Khoshnevisan},
-           familyi={K\bibinitperiod},
-           given={Davar},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f0f4bfd9bcc2482e8ba4ed3278df932f}{%
-           family={Xiao},
-           familyi={X\bibinitperiod},
-           given={Yimin},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{c9f7e601d4e0e86acc6588d7f5b24f83}
-      \strng{fullhash}{c9f7e601d4e0e86acc6588d7f5b24f83}
-      \strng{bibnamehash}{c9f7e601d4e0e86acc6588d7f5b24f83}
-      \strng{authorbibnamehash}{c9f7e601d4e0e86acc6588d7f5b24f83}
-      \strng{authornamehash}{c9f7e601d4e0e86acc6588d7f5b24f83}
-      \strng{authorfullhash}{c9f7e601d4e0e86acc6588d7f5b24f83}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0091-1798}
-      \field{journaltitle}{Ann. Probab.}
-      \field{number}{1}
-      \field{title}{Brownian motion and thermal capacity}
-      \field{volume}{43}
-      \field{year}{2015}
-      \true{nocite}
-      \field{pages}{405\bibrangedash 434}
-      \range{pages}{30}
-      \verb{doi}
-      \verb 10.1214/14-AOP910
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1214/14-AOP910
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1214/14-AOP910
-      \endverb
-    \endentry
-  \enddatalist
-  \datalist[entry]{nyt/global//global/global}
-    \entry{khoshnevisan:03:intersections}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=dbd50ba58acc6052dd09bfb2bbe99f76}{%
-           family={Khoshnevisan},
-           familyi={K\bibinitperiod},
-           given={Davar},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{dbd50ba58acc6052dd09bfb2bbe99f76}
-      \strng{fullhash}{dbd50ba58acc6052dd09bfb2bbe99f76}
-      \strng{bibnamehash}{dbd50ba58acc6052dd09bfb2bbe99f76}
-      \strng{authorbibnamehash}{dbd50ba58acc6052dd09bfb2bbe99f76}
-      \strng{authornamehash}{dbd50ba58acc6052dd09bfb2bbe99f76}
-      \strng{authorfullhash}{dbd50ba58acc6052dd09bfb2bbe99f76}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0723-0869}
-      \field{journaltitle}{Expo. Math.}
-      \field{number}{2}
-      \field{title}{Intersections of {B}rownian motions}
-      \field{volume}{21}
-      \field{year}{2003}
-      \true{nocite}
-      \field{pages}{97\bibrangedash 114}
-      \range{pages}{18}
-      \verb{doi}
-      \verb 10.1016/S0723-0869(03)80013-0
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1016/S0723-0869(03)80013-0
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1016/S0723-0869(03)80013-0
-      \endverb
-    \endentry
-    \entry{khoshnevisan.kim.ea:17:intermittency}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=dbd50ba58acc6052dd09bfb2bbe99f76}{%
-           family={Khoshnevisan},
-           familyi={K\bibinitperiod},
-           given={Davar},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5f6403337ade7112234e50df3b83cf27}{%
-           family={Kim},
-           familyi={K\bibinitperiod},
-           given={Kunwoo},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f0f4bfd9bcc2482e8ba4ed3278df932f}{%
-           family={Xiao},
-           familyi={X\bibinitperiod},
-           given={Yimin},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{2fe83f4b42720ffc5e8f595b10939da2}
-      \strng{fullhash}{2fe83f4b42720ffc5e8f595b10939da2}
-      \strng{bibnamehash}{2fe83f4b42720ffc5e8f595b10939da2}
-      \strng{authorbibnamehash}{2fe83f4b42720ffc5e8f595b10939da2}
-      \strng{authornamehash}{2fe83f4b42720ffc5e8f595b10939da2}
-      \strng{authorfullhash}{2fe83f4b42720ffc5e8f595b10939da2}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0091-1798}
-      \field{journaltitle}{Ann. Probab.}
-      \field{number}{6A}
-      \field{title}{Intermittency and multifractality: a case study via parabolic stochastic {PDE}s}
-      \field{volume}{45}
-      \field{year}{2017}
-      \true{nocite}
-      \field{pages}{3697\bibrangedash 3751}
-      \range{pages}{55}
-      \verb{doi}
-      \verb 10.1214/16-AOP1147
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1214/16-AOP1147
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1214/16-AOP1147
-      \endverb
-    \endentry
-    \entry{khoshnevisan.xiao:15:brownian}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=dbd50ba58acc6052dd09bfb2bbe99f76}{%
-           family={Khoshnevisan},
-           familyi={K\bibinitperiod},
-           given={Davar},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f0f4bfd9bcc2482e8ba4ed3278df932f}{%
-           family={Xiao},
-           familyi={X\bibinitperiod},
-           given={Yimin},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{c9f7e601d4e0e86acc6588d7f5b24f83}
-      \strng{fullhash}{c9f7e601d4e0e86acc6588d7f5b24f83}
-      \strng{bibnamehash}{c9f7e601d4e0e86acc6588d7f5b24f83}
-      \strng{authorbibnamehash}{c9f7e601d4e0e86acc6588d7f5b24f83}
-      \strng{authornamehash}{c9f7e601d4e0e86acc6588d7f5b24f83}
-      \strng{authorfullhash}{c9f7e601d4e0e86acc6588d7f5b24f83}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0091-1798}
-      \field{journaltitle}{Ann. Probab.}
-      \field{number}{1}
-      \field{title}{Brownian motion and thermal capacity}
-      \field{volume}{43}
-      \field{year}{2015}
-      \true{nocite}
-      \field{pages}{405\bibrangedash 434}
-      \range{pages}{30}
-      \verb{doi}
-      \verb 10.1214/14-AOP910
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1214/14-AOP910
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1214/14-AOP910
-      \endverb
-    \endentry
-  \enddatalist
-\endrefsection
-
-\refsection{3}
-  \datalist[entry]{nyt/apasortcite//global/global}
-    \entry{khoshnevisan:03:intersections}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=dbd50ba58acc6052dd09bfb2bbe99f76}{%
-           family={Khoshnevisan},
-           familyi={K\bibinitperiod},
-           given={Davar},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{dbd50ba58acc6052dd09bfb2bbe99f76}
-      \strng{fullhash}{dbd50ba58acc6052dd09bfb2bbe99f76}
-      \strng{bibnamehash}{dbd50ba58acc6052dd09bfb2bbe99f76}
-      \strng{authorbibnamehash}{dbd50ba58acc6052dd09bfb2bbe99f76}
-      \strng{authornamehash}{dbd50ba58acc6052dd09bfb2bbe99f76}
-      \strng{authorfullhash}{dbd50ba58acc6052dd09bfb2bbe99f76}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0723-0869}
-      \field{journaltitle}{Expo. Math.}
-      \field{number}{2}
-      \field{title}{Intersections of {B}rownian motions}
-      \field{volume}{21}
-      \field{year}{2003}
-      \true{nocite}
-      \field{pages}{97\bibrangedash 114}
-      \range{pages}{18}
-      \verb{doi}
-      \verb 10.1016/S0723-0869(03)80013-0
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1016/S0723-0869(03)80013-0
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1016/S0723-0869(03)80013-0
-      \endverb
-    \endentry
-  \enddatalist
-  \datalist[entry]{nyt/global//global/global}
-    \entry{khoshnevisan:03:intersections}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=dbd50ba58acc6052dd09bfb2bbe99f76}{%
-           family={Khoshnevisan},
-           familyi={K\bibinitperiod},
-           given={Davar},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{dbd50ba58acc6052dd09bfb2bbe99f76}
-      \strng{fullhash}{dbd50ba58acc6052dd09bfb2bbe99f76}
-      \strng{bibnamehash}{dbd50ba58acc6052dd09bfb2bbe99f76}
-      \strng{authorbibnamehash}{dbd50ba58acc6052dd09bfb2bbe99f76}
-      \strng{authornamehash}{dbd50ba58acc6052dd09bfb2bbe99f76}
-      \strng{authorfullhash}{dbd50ba58acc6052dd09bfb2bbe99f76}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0723-0869}
-      \field{journaltitle}{Expo. Math.}
-      \field{number}{2}
-      \field{title}{Intersections of {B}rownian motions}
-      \field{volume}{21}
-      \field{year}{2003}
-      \true{nocite}
-      \field{pages}{97\bibrangedash 114}
-      \range{pages}{18}
-      \verb{doi}
-      \verb 10.1016/S0723-0869(03)80013-0
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1016/S0723-0869(03)80013-0
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1016/S0723-0869(03)80013-0
-      \endverb
-    \endentry
-  \enddatalist
-\endrefsection
-
-\refsection{4}
-  \datalist[entry]{nyt/apasortcite//global/global}
-    \entry{khoshnevisan.xiao:15:brownian}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=dbd50ba58acc6052dd09bfb2bbe99f76}{%
-           family={Khoshnevisan},
-           familyi={K\bibinitperiod},
-           given={Davar},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f0f4bfd9bcc2482e8ba4ed3278df932f}{%
-           family={Xiao},
-           familyi={X\bibinitperiod},
-           given={Yimin},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{c9f7e601d4e0e86acc6588d7f5b24f83}
-      \strng{fullhash}{c9f7e601d4e0e86acc6588d7f5b24f83}
-      \strng{bibnamehash}{c9f7e601d4e0e86acc6588d7f5b24f83}
-      \strng{authorbibnamehash}{c9f7e601d4e0e86acc6588d7f5b24f83}
-      \strng{authornamehash}{c9f7e601d4e0e86acc6588d7f5b24f83}
-      \strng{authorfullhash}{c9f7e601d4e0e86acc6588d7f5b24f83}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0091-1798}
-      \field{journaltitle}{Ann. Probab.}
-      \field{number}{1}
-      \field{title}{Brownian motion and thermal capacity}
-      \field{volume}{43}
-      \field{year}{2015}
-      \true{nocite}
-      \field{pages}{405\bibrangedash 434}
-      \range{pages}{30}
-      \verb{doi}
-      \verb 10.1214/14-AOP910
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1214/14-AOP910
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1214/14-AOP910
-      \endverb
-    \endentry
-  \enddatalist
-  \datalist[entry]{nyt/global//global/global}
-    \entry{khoshnevisan.xiao:15:brownian}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=dbd50ba58acc6052dd09bfb2bbe99f76}{%
-           family={Khoshnevisan},
-           familyi={K\bibinitperiod},
-           given={Davar},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f0f4bfd9bcc2482e8ba4ed3278df932f}{%
-           family={Xiao},
-           familyi={X\bibinitperiod},
-           given={Yimin},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{c9f7e601d4e0e86acc6588d7f5b24f83}
-      \strng{fullhash}{c9f7e601d4e0e86acc6588d7f5b24f83}
-      \strng{bibnamehash}{c9f7e601d4e0e86acc6588d7f5b24f83}
-      \strng{authorbibnamehash}{c9f7e601d4e0e86acc6588d7f5b24f83}
-      \strng{authornamehash}{c9f7e601d4e0e86acc6588d7f5b24f83}
-      \strng{authorfullhash}{c9f7e601d4e0e86acc6588d7f5b24f83}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0091-1798}
-      \field{journaltitle}{Ann. Probab.}
-      \field{number}{1}
-      \field{title}{Brownian motion and thermal capacity}
-      \field{volume}{43}
-      \field{year}{2015}
-      \true{nocite}
-      \field{pages}{405\bibrangedash 434}
-      \range{pages}{30}
-      \verb{doi}
-      \verb 10.1214/14-AOP910
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1214/14-AOP910
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1214/14-AOP910
-      \endverb
-    \endentry
-  \enddatalist
-\endrefsection
-
-\refsection{5}
-  \datalist[entry]{nyt/apasortcite//global/global}
-    \entry{khoshnevisan.kim.ea:17:intermittency}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=dbd50ba58acc6052dd09bfb2bbe99f76}{%
-           family={Khoshnevisan},
-           familyi={K\bibinitperiod},
-           given={Davar},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5f6403337ade7112234e50df3b83cf27}{%
-           family={Kim},
-           familyi={K\bibinitperiod},
-           given={Kunwoo},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f0f4bfd9bcc2482e8ba4ed3278df932f}{%
-           family={Xiao},
-           familyi={X\bibinitperiod},
-           given={Yimin},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{2fe83f4b42720ffc5e8f595b10939da2}
-      \strng{fullhash}{2fe83f4b42720ffc5e8f595b10939da2}
-      \strng{bibnamehash}{2fe83f4b42720ffc5e8f595b10939da2}
-      \strng{authorbibnamehash}{2fe83f4b42720ffc5e8f595b10939da2}
-      \strng{authornamehash}{2fe83f4b42720ffc5e8f595b10939da2}
-      \strng{authorfullhash}{2fe83f4b42720ffc5e8f595b10939da2}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0091-1798}
-      \field{journaltitle}{Ann. Probab.}
-      \field{number}{6A}
-      \field{title}{Intermittency and multifractality: a case study via parabolic stochastic {PDE}s}
-      \field{volume}{45}
-      \field{year}{2017}
-      \true{nocite}
-      \field{pages}{3697\bibrangedash 3751}
-      \range{pages}{55}
-      \verb{doi}
-      \verb 10.1214/16-AOP1147
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1214/16-AOP1147
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1214/16-AOP1147
-      \endverb
-    \endentry
-  \enddatalist
-  \datalist[entry]{nyt/global//global/global}
-    \entry{khoshnevisan.kim.ea:17:intermittency}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=dbd50ba58acc6052dd09bfb2bbe99f76}{%
-           family={Khoshnevisan},
-           familyi={K\bibinitperiod},
-           given={Davar},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5f6403337ade7112234e50df3b83cf27}{%
-           family={Kim},
-           familyi={K\bibinitperiod},
-           given={Kunwoo},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f0f4bfd9bcc2482e8ba4ed3278df932f}{%
-           family={Xiao},
-           familyi={X\bibinitperiod},
-           given={Yimin},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{2fe83f4b42720ffc5e8f595b10939da2}
-      \strng{fullhash}{2fe83f4b42720ffc5e8f595b10939da2}
-      \strng{bibnamehash}{2fe83f4b42720ffc5e8f595b10939da2}
-      \strng{authorbibnamehash}{2fe83f4b42720ffc5e8f595b10939da2}
-      \strng{authornamehash}{2fe83f4b42720ffc5e8f595b10939da2}
-      \strng{authorfullhash}{2fe83f4b42720ffc5e8f595b10939da2}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0091-1798}
-      \field{journaltitle}{Ann. Probab.}
-      \field{number}{6A}
-      \field{title}{Intermittency and multifractality: a case study via parabolic stochastic {PDE}s}
-      \field{volume}{45}
-      \field{year}{2017}
-      \true{nocite}
-      \field{pages}{3697\bibrangedash 3751}
-      \range{pages}{55}
-      \verb{doi}
-      \verb 10.1214/16-AOP1147
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1214/16-AOP1147
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1214/16-AOP1147
+      \verb https://www.sciencedirect.com/science/article/pii/037843719290050Z
       \endverb
     \endentry
   \enddatalist

@@ -30,11 +30,4 @@ The Central Limit Theorem's robustness invites an analogous question for the Kar
 Support from NSF 2443823, NSF 2246850, and the Simons Foundation Travel Grant (2022–2027) is gratefully acknowledged.
 
 ## License
-Unless otherwise noted, content in this repository is licensed under
-Creative Commons Attribution 4.0 International (CC BY 4.0).
-
-- License file: [LICENSE](./LICENSE)
-- Summary: https://creativecommons.org/licenses/by/4.0/
-- Legal code: https://creativecommons.org/licenses/by/4.0/legalcode
-
-Note: Personal materials (e.g., `docs/`, `eTA/` if present) are excluded from distribution.
+CC BY 4.0 — see [LICENSE](./LICENSE).

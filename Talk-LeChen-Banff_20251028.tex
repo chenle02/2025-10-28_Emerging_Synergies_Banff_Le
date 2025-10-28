@@ -550,43 +550,65 @@
 \section{Family-Vicsek scaling and experiments}
 
 \begin{frame}[t]{What we measure}
-\small
-Discrete interface with heights $h(x,t)$, $x=1,\dots,L$. Mean
-$\bar h(t)=\frac1L\sum_{x=1}^L h(x,t)$.
-\[
-w(L,t)
-:=\sqrt{\frac1L\sum_{x=1}^L\big(h(x,t)-\bar h(t)\big)^2}
-\quad\text{(interface width / roughness)}.
-\]
-Empirically (log–log):
-\begin{itemize}\itemsep2pt
-\item Early time: $w(L,t)\sim t^{\beta}$ (growth exponent $\beta$).
-\item Late time: $w(L,t)\to w_{\mathrm{sat}}(L)\sim L^{\alpha}$ (roughness exponent $\alpha$).
-\item Crossover time: $t_\times(L)\sim L^{z}$ (dynamic exponent $z$).
+  \small Discrete interface with heights $h(x,t)$, $x=1,\dots,L$. Mean $\bar
+  h(t)=\frac1L\sum_{x=1}^L h(x,t)$.
+  \[
+    w(L,t)
+    :=\sqrt{\frac1L\sum_{x=1}^L\big(h(x,t)-\bar h(t)\big)^2}
+    \quad\text{(interface width / roughness)}.
+  \]
+  Empirically (log–log):
+  \begin{itemize}\itemsep2pt
+  \item Early time: $w(L,t)\sim t^{\beta}$ (growth exponent $\beta$).
+  \item Late time: $w(L,t)\to w_{\mathrm{sat}}(L)\sim L^{\alpha}$ (roughness
+    exponent $\alpha$).
+  \item Crossover time: $t_\times(L)\sim L^{z}$ (dynamic exponent $z$).
 \end{itemize}
 \end{frame}
+\begin{frame}[fragile,t] % COMENTS
+ \frametitle{Family--Vicsek scaling theory \\ 
+ \small $\alpha$: Roughness exp.;  $\beta$: Growth exp.; $z$: Dynamic exp.}
+  \begin{center}
+    \includegraphics[width=0.9\linewidth]{./figs/log-log_Illistrutaion.jpg} \\
 
-\begin{frame}[t]{Family–Vicsek scaling ansatz}
-\small
-\[
-\boxed{\;w(L,t)\;\sim\; L^{\alpha}\, f\!\left(\dfrac{t}{L^{z}}\right)\;}
-\]
-with
-\[
-f(u)\sim 
-\begin{cases}
-u^{\beta}, & u\ll1,\\[2pt]
-\text{const}, & u\gg1.
-\end{cases}
-\qquad\Rightarrow\qquad
-\boxed{\;\beta=\dfrac{\alpha}{z}\;}
-\]
-Immediate consequences:
-\[
-w_{\mathrm{sat}}(L) \sim L^{\alpha},\qquad
-t_\times(L)\sim L^{z}.
-\]
-Interpretation: dynamic renormalization $x\!\to\! b x$, $t\!\to\! b^{z}t$, $h\!\to\! b^{\alpha}h$ leaves $w(L,t)/L^{\alpha}$ invariant as a function of $t/L^{z}$.
+    \vfill{\footnotesize \textcolor{gray}{(Image from Barab\'asi-Stanley's book
+    95)}}
+  \end{center}
+\end{frame}
+\begin{frame}[t]
+   \frametitle{Family--Vicsek scaling theory \\ 
+   \small $\alpha$: Roughness exp.; $\beta$: Growth exp.; $z$: Dynamic exp.}
+   \small
+  \[
+    \boxed{\;w(L,t)\;\sim\; L^{\alpha}\, f\!\left(\dfrac{t}{L^{z}}\right)\;}
+  \]
+  with
+  \[
+  f(u)\sim 
+  \begin{cases}
+  u^{\beta}, & u\ll1,\\[2pt]
+  \text{const}, & u\gg1.
+  \end{cases}
+  \qquad\Rightarrow\qquad
+  \boxed{\;\beta=\dfrac{\alpha}{z}\;}
+  \]
+  Immediate consequences:
+  \[
+    w_{\mathrm{sat}}(L) \sim L^{\alpha},\qquad
+    t_\times(L)\sim L^{z}.
+  \]
+  Interpretation: dynamic renormalization $x\!\to\! b x$, $t\!\to\! b^{z}t$,
+  $h\!\to\! b^{\alpha}h$ leaves $w(L,t)/L^{\alpha}$ invariant as a function of
+  $t/L^{z}$.
+
+  \vfill
+  \begin{center}
+    \includegraphics[width=0.6\linewidth]{./figs/FV.png} \\
+
+    {\footnotesize \textcolor{gray}{(Image from Barab\'asi-Stanley's book 95)}}
+  \end{center}
+
+  \myFootCite{family.vicsek:85:scaling}
 \end{frame}
 
 \begin{frame}[t]{How to verify FV scaling (data collapse)}

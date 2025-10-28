@@ -65,539 +65,6 @@
       \verb https://doi.org/10.1017/CBO9780511599798
       \endverb
     \endentry
-    \entry{kardar.parisi.ea:86:dynamic}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=54a0490abeaf97b6e5c1253d9063c158}{%
-           family={Kardar},
-           familyi={K\bibinitperiod},
-           given={Mehran},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=633aedb846f931194e4d892bef86fdc0}{%
-           family={Parisi},
-           familyi={P\bibinitperiod},
-           given={Giorgio},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{un=1,uniquepart=given,hash=0ebf627c80af5c31707b77b5f3fd9e64}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Yi-Cheng},
-           giveni={Y\bibinithyphendelim C\bibinitperiod},
-           givenun=1}}%
-      }
-      \list{publisher}{1}{%
-        {APS}%
-      }
-      \strng{namehash}{3e1f0512e359a05c99e9338c2ec7d697}
-      \strng{fullhash}{3e1f0512e359a05c99e9338c2ec7d697}
-      \strng{bibnamehash}{3e1f0512e359a05c99e9338c2ec7d697}
-      \strng{authorbibnamehash}{3e1f0512e359a05c99e9338c2ec7d697}
-      \strng{authornamehash}{3e1f0512e359a05c99e9338c2ec7d697}
-      \strng{authorfullhash}{3e1f0512e359a05c99e9338c2ec7d697}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Phys. Rev. Lett.}
-      \field{number}{9}
-      \field{title}{Dynamic scaling of growing interfaces}
-      \field{volume}{56}
-      \field{year}{1986}
-      \field{pages}{889}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevLett.56.889
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1103/PhysRevLett.56.889
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1103/PhysRevLett.56.889
-      \endverb
-    \endentry
-    \entry{kertesz.horvath.ea:93:self-affine}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=ed0a0297e5b7b46ff549ae8f1494c6ee}{%
-           family={Kertész},
-           familyi={K\bibinitperiod},
-           given={János},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c6cc320ce593a144b1039d5c85e09d9c}{%
-           family={Horváth},
-           familyi={H\bibinitperiod},
-           given={Viktor\bibnamedelima k.},
-           giveni={V\bibinitperiod\bibinitdelim k\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6ae457a192b06a1b23d612fa1c3d4acf}{%
-           family={Weber},
-           familyi={W\bibinitperiod},
-           given={Ferenc},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{f1c4b64d67348eb3816ae8a898a032ba}
-      \strng{fullhash}{f1c4b64d67348eb3816ae8a898a032ba}
-      \strng{bibnamehash}{f1c4b64d67348eb3816ae8a898a032ba}
-      \strng{authorbibnamehash}{f1c4b64d67348eb3816ae8a898a032ba}
-      \strng{authornamehash}{f1c4b64d67348eb3816ae8a898a032ba}
-      \strng{authorfullhash}{f1c4b64d67348eb3816ae8a898a032ba}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Fractals}
-      \field{number}{01}
-      \field{title}{Self-affine rupture lines in paper sheets}
-      \field{volume}{01}
-      \field{year}{1993}
-      \field{pages}{67\bibrangedash 74}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.1142/S0218348X93000101
-      \endverb
-      \verb{eprint}
-      \verb https://doi.org/10.1142/S0218348X93000101
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1142/S0218348X93000101
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1142/S0218348X93000101
-      \endverb
-    \endentry
-    \entry{takeuchi.sano.ea:11:growing}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=fe8a2f4f9a09d8ada544734aef8d8f05}{%
-           family={Takeuchi},
-           familyi={T\bibinitperiod},
-           given={Kazumasa\bibnamedelima A},
-           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d979269887a6888983d5893d9d708b46}{%
-           family={Sano},
-           familyi={S\bibinitperiod},
-           given={Masaki},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=feeade81c078ac164b1509f7699165ba}{%
-           family={Sasamoto},
-           familyi={S\bibinitperiod},
-           given={Tomohiro},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=77543397e50171ccd97dc2336a3cb9c0}{%
-           family={Spohn},
-           familyi={S\bibinitperiod},
-           given={Herbert},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Nature Publishing Group}%
-      }
-      \strng{namehash}{e7c3021d26cb5612836f05322df1a9c4}
-      \strng{fullhash}{e7c3021d26cb5612836f05322df1a9c4}
-      \strng{bibnamehash}{e7c3021d26cb5612836f05322df1a9c4}
-      \strng{authorbibnamehash}{e7c3021d26cb5612836f05322df1a9c4}
-      \strng{authornamehash}{e7c3021d26cb5612836f05322df1a9c4}
-      \strng{authorfullhash}{e7c3021d26cb5612836f05322df1a9c4}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Sci. Rep.}
-      \field{number}{1}
-      \field{title}{Growing interfaces uncover universal fluctuations behind scale invariance}
-      \field{volume}{1}
-      \field{year}{2011}
-      \field{pages}{1\bibrangedash 5}
-      \range{pages}{5}
-    \endentry
-    \entry{zhang.zhang.ea:92:modeling}{article}{}
-      \name{author}{4}{}{%
-        {{un=1,uniquepart=given,hash=c085572f860d99d03a37c331ee13ff68}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Jun},
-           giveni={J\bibinitperiod},
-           givenun=1}}%
-        {{un=1,uniquepart=given,hash=4c02062347dcd9520a0342ae90044e28}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Y.-C.},
-           giveni={Y\bibinithyphendelim C\bibinitperiod},
-           givenun=1}}%
-        {{un=0,uniquepart=base,hash=c7d281937653c248ac8aa5ed78f450c0}{%
-           family={Alstrøm},
-           familyi={A\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7f2145e90c0fe6257ccd6ec9ef8a6551}{%
-           family={Levinsen},
-           familyi={L\bibinitperiod},
-           given={M.T.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{5d6ea45d0133e6f771e03c9b90d4542e}
-      \strng{fullhash}{5d6ea45d0133e6f771e03c9b90d4542e}
-      \strng{bibnamehash}{5d6ea45d0133e6f771e03c9b90d4542e}
-      \strng{authorbibnamehash}{5d6ea45d0133e6f771e03c9b90d4542e}
-      \strng{authornamehash}{5d6ea45d0133e6f771e03c9b90d4542e}
-      \strng{authorfullhash}{5d6ea45d0133e6f771e03c9b90d4542e}
-      \field{sortinit}{Z}
-      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0378--4371}
-      \field{journaltitle}{Phys. A: Stat. Mech. Appl.}
-      \field{number}{3}
-      \field{title}{Modeling forest fire by a paper-burning experiment, a realization of the interface growth mechanism}
-      \field{volume}{189}
-      \field{year}{1992}
-      \field{pages}{383\bibrangedash 389}
-      \range{pages}{7}
-      \verb{doi}
-      \verb https://doi.org/10.1016/0378-4371(92)90050-Z
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/037843719290050Z
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/037843719290050Z
-      \endverb
-    \endentry
-  \enddatalist
-  \datalist[entry]{nyt/global//global/global}
-    \entry{barabasi.stanley:95:fractal}{book}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=15bacd7ddfc866c5dd96976d4b0244d5}{%
-           family={Barabási},
-           familyi={B\bibinitperiod},
-           given={Albert-László},
-           giveni={A\bibinithyphendelim L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5f5c56c0c8f34aa567709e10df5afd57}{%
-           family={Stanley},
-           familyi={S\bibinitperiod},
-           given={H.\bibnamedelimi Eugene},
-           giveni={H\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Cambridge University Press, Cambridge}%
-      }
-      \strng{namehash}{40b98df652324937fd2cec6b184c2891}
-      \strng{fullhash}{40b98df652324937fd2cec6b184c2891}
-      \strng{bibnamehash}{40b98df652324937fd2cec6b184c2891}
-      \strng{authorbibnamehash}{40b98df652324937fd2cec6b184c2891}
-      \strng{authornamehash}{40b98df652324937fd2cec6b184c2891}
-      \strng{authorfullhash}{40b98df652324937fd2cec6b184c2891}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{0-521-48318-2}
-      \field{title}{Fractal concepts in surface growth}
-      \field{year}{1995}
-      \field{pages}{xx+366}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1017/CBO9780511599798
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1017/CBO9780511599798
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1017/CBO9780511599798
-      \endverb
-    \endentry
-    \entry{kardar.parisi.ea:86:dynamic}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=54a0490abeaf97b6e5c1253d9063c158}{%
-           family={Kardar},
-           familyi={K\bibinitperiod},
-           given={Mehran},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=633aedb846f931194e4d892bef86fdc0}{%
-           family={Parisi},
-           familyi={P\bibinitperiod},
-           given={Giorgio},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{un=1,uniquepart=given,hash=0ebf627c80af5c31707b77b5f3fd9e64}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Yi-Cheng},
-           giveni={Y\bibinithyphendelim C\bibinitperiod},
-           givenun=1}}%
-      }
-      \list{publisher}{1}{%
-        {APS}%
-      }
-      \strng{namehash}{3e1f0512e359a05c99e9338c2ec7d697}
-      \strng{fullhash}{3e1f0512e359a05c99e9338c2ec7d697}
-      \strng{bibnamehash}{3e1f0512e359a05c99e9338c2ec7d697}
-      \strng{authorbibnamehash}{3e1f0512e359a05c99e9338c2ec7d697}
-      \strng{authornamehash}{3e1f0512e359a05c99e9338c2ec7d697}
-      \strng{authorfullhash}{3e1f0512e359a05c99e9338c2ec7d697}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Phys. Rev. Lett.}
-      \field{number}{9}
-      \field{title}{Dynamic scaling of growing interfaces}
-      \field{volume}{56}
-      \field{year}{1986}
-      \field{pages}{889}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevLett.56.889
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1103/PhysRevLett.56.889
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1103/PhysRevLett.56.889
-      \endverb
-    \endentry
-    \entry{kertesz.horvath.ea:93:self-affine}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=ed0a0297e5b7b46ff549ae8f1494c6ee}{%
-           family={Kertész},
-           familyi={K\bibinitperiod},
-           given={János},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c6cc320ce593a144b1039d5c85e09d9c}{%
-           family={Horváth},
-           familyi={H\bibinitperiod},
-           given={Viktor\bibnamedelima k.},
-           giveni={V\bibinitperiod\bibinitdelim k\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6ae457a192b06a1b23d612fa1c3d4acf}{%
-           family={Weber},
-           familyi={W\bibinitperiod},
-           given={Ferenc},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{f1c4b64d67348eb3816ae8a898a032ba}
-      \strng{fullhash}{f1c4b64d67348eb3816ae8a898a032ba}
-      \strng{bibnamehash}{f1c4b64d67348eb3816ae8a898a032ba}
-      \strng{authorbibnamehash}{f1c4b64d67348eb3816ae8a898a032ba}
-      \strng{authornamehash}{f1c4b64d67348eb3816ae8a898a032ba}
-      \strng{authorfullhash}{f1c4b64d67348eb3816ae8a898a032ba}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Fractals}
-      \field{number}{01}
-      \field{title}{Self-affine rupture lines in paper sheets}
-      \field{volume}{01}
-      \field{year}{1993}
-      \field{pages}{67\bibrangedash 74}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.1142/S0218348X93000101
-      \endverb
-      \verb{eprint}
-      \verb https://doi.org/10.1142/S0218348X93000101
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1142/S0218348X93000101
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1142/S0218348X93000101
-      \endverb
-    \endentry
-    \entry{takeuchi.sano.ea:11:growing}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=fe8a2f4f9a09d8ada544734aef8d8f05}{%
-           family={Takeuchi},
-           familyi={T\bibinitperiod},
-           given={Kazumasa\bibnamedelima A},
-           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d979269887a6888983d5893d9d708b46}{%
-           family={Sano},
-           familyi={S\bibinitperiod},
-           given={Masaki},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=feeade81c078ac164b1509f7699165ba}{%
-           family={Sasamoto},
-           familyi={S\bibinitperiod},
-           given={Tomohiro},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=77543397e50171ccd97dc2336a3cb9c0}{%
-           family={Spohn},
-           familyi={S\bibinitperiod},
-           given={Herbert},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Nature Publishing Group}%
-      }
-      \strng{namehash}{e7c3021d26cb5612836f05322df1a9c4}
-      \strng{fullhash}{e7c3021d26cb5612836f05322df1a9c4}
-      \strng{bibnamehash}{e7c3021d26cb5612836f05322df1a9c4}
-      \strng{authorbibnamehash}{e7c3021d26cb5612836f05322df1a9c4}
-      \strng{authornamehash}{e7c3021d26cb5612836f05322df1a9c4}
-      \strng{authorfullhash}{e7c3021d26cb5612836f05322df1a9c4}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Sci. Rep.}
-      \field{number}{1}
-      \field{title}{Growing interfaces uncover universal fluctuations behind scale invariance}
-      \field{volume}{1}
-      \field{year}{2011}
-      \field{pages}{1\bibrangedash 5}
-      \range{pages}{5}
-    \endentry
-    \entry{zhang.zhang.ea:92:modeling}{article}{}
-      \name{author}{4}{}{%
-        {{un=1,uniquepart=given,hash=c085572f860d99d03a37c331ee13ff68}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Jun},
-           giveni={J\bibinitperiod},
-           givenun=1}}%
-        {{un=1,uniquepart=given,hash=4c02062347dcd9520a0342ae90044e28}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Y.-C.},
-           giveni={Y\bibinithyphendelim C\bibinitperiod},
-           givenun=1}}%
-        {{un=0,uniquepart=base,hash=c7d281937653c248ac8aa5ed78f450c0}{%
-           family={Alstrøm},
-           familyi={A\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7f2145e90c0fe6257ccd6ec9ef8a6551}{%
-           family={Levinsen},
-           familyi={L\bibinitperiod},
-           given={M.T.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{5d6ea45d0133e6f771e03c9b90d4542e}
-      \strng{fullhash}{5d6ea45d0133e6f771e03c9b90d4542e}
-      \strng{bibnamehash}{5d6ea45d0133e6f771e03c9b90d4542e}
-      \strng{authorbibnamehash}{5d6ea45d0133e6f771e03c9b90d4542e}
-      \strng{authornamehash}{5d6ea45d0133e6f771e03c9b90d4542e}
-      \strng{authorfullhash}{5d6ea45d0133e6f771e03c9b90d4542e}
-      \field{sortinit}{Z}
-      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0378--4371}
-      \field{journaltitle}{Phys. A: Stat. Mech. Appl.}
-      \field{number}{3}
-      \field{title}{Modeling forest fire by a paper-burning experiment, a realization of the interface growth mechanism}
-      \field{volume}{189}
-      \field{year}{1992}
-      \field{pages}{383\bibrangedash 389}
-      \range{pages}{7}
-      \verb{doi}
-      \verb https://doi.org/10.1016/0378-4371(92)90050-Z
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/037843719290050Z
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/037843719290050Z
-      \endverb
-    \endentry
-  \enddatalist
-\endrefsection
-
-\refsection{1}
-  \datalist[entry]{nyt/apasortcite//global/global}
-    \entry{barabasi.stanley:95:fractal}{book}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=15bacd7ddfc866c5dd96976d4b0244d5}{%
-           family={Barabási},
-           familyi={B\bibinitperiod},
-           given={Albert-László},
-           giveni={A\bibinithyphendelim L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5f5c56c0c8f34aa567709e10df5afd57}{%
-           family={Stanley},
-           familyi={S\bibinitperiod},
-           given={H.\bibnamedelimi Eugene},
-           giveni={H\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Cambridge University Press, Cambridge}%
-      }
-      \strng{namehash}{40b98df652324937fd2cec6b184c2891}
-      \strng{fullhash}{40b98df652324937fd2cec6b184c2891}
-      \strng{bibnamehash}{40b98df652324937fd2cec6b184c2891}
-      \strng{authorbibnamehash}{40b98df652324937fd2cec6b184c2891}
-      \strng{authornamehash}{40b98df652324937fd2cec6b184c2891}
-      \strng{authorfullhash}{40b98df652324937fd2cec6b184c2891}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{0-521-48318-2}
-      \field{title}{Fractal concepts in surface growth}
-      \field{year}{1995}
-      \field{pages}{xx+366}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1017/CBO9780511599798
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1017/CBO9780511599798
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1017/CBO9780511599798
-      \endverb
-    \endentry
     \entry{family.vicsek:85:scaling}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=e00d6ba1f958c6a9bbc50ffb6ecb5142}{%
@@ -632,7 +99,6 @@
       \field{title}{Scaling of the active zone in the Eden process on percolation networks and the ballistic deposition model}
       \field{volume}{18}
       \field{year}{1985}
-      \true{nocite}
       \field{pages}{L75}
       \range{pages}{1}
       \verb{doi}
@@ -944,7 +410,631 @@
       \field{title}{Scaling of the active zone in the Eden process on percolation networks and the ballistic deposition model}
       \field{volume}{18}
       \field{year}{1985}
-      \true{nocite}
+      \field{pages}{L75}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0305-4470/18/2/005
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/0305-4470/18/2/005
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/0305-4470/18/2/005
+      \endverb
+    \endentry
+    \entry{kardar.parisi.ea:86:dynamic}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=54a0490abeaf97b6e5c1253d9063c158}{%
+           family={Kardar},
+           familyi={K\bibinitperiod},
+           given={Mehran},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=633aedb846f931194e4d892bef86fdc0}{%
+           family={Parisi},
+           familyi={P\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=0ebf627c80af5c31707b77b5f3fd9e64}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yi-Cheng},
+           giveni={Y\bibinithyphendelim C\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {APS}%
+      }
+      \strng{namehash}{3e1f0512e359a05c99e9338c2ec7d697}
+      \strng{fullhash}{3e1f0512e359a05c99e9338c2ec7d697}
+      \strng{bibnamehash}{3e1f0512e359a05c99e9338c2ec7d697}
+      \strng{authorbibnamehash}{3e1f0512e359a05c99e9338c2ec7d697}
+      \strng{authornamehash}{3e1f0512e359a05c99e9338c2ec7d697}
+      \strng{authorfullhash}{3e1f0512e359a05c99e9338c2ec7d697}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{number}{9}
+      \field{title}{Dynamic scaling of growing interfaces}
+      \field{volume}{56}
+      \field{year}{1986}
+      \field{pages}{889}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.56.889
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1103/PhysRevLett.56.889
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1103/PhysRevLett.56.889
+      \endverb
+    \endentry
+    \entry{kertesz.horvath.ea:93:self-affine}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ed0a0297e5b7b46ff549ae8f1494c6ee}{%
+           family={Kertész},
+           familyi={K\bibinitperiod},
+           given={János},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c6cc320ce593a144b1039d5c85e09d9c}{%
+           family={Horváth},
+           familyi={H\bibinitperiod},
+           given={Viktor\bibnamedelima k.},
+           giveni={V\bibinitperiod\bibinitdelim k\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6ae457a192b06a1b23d612fa1c3d4acf}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={Ferenc},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f1c4b64d67348eb3816ae8a898a032ba}
+      \strng{fullhash}{f1c4b64d67348eb3816ae8a898a032ba}
+      \strng{bibnamehash}{f1c4b64d67348eb3816ae8a898a032ba}
+      \strng{authorbibnamehash}{f1c4b64d67348eb3816ae8a898a032ba}
+      \strng{authornamehash}{f1c4b64d67348eb3816ae8a898a032ba}
+      \strng{authorfullhash}{f1c4b64d67348eb3816ae8a898a032ba}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Fractals}
+      \field{number}{01}
+      \field{title}{Self-affine rupture lines in paper sheets}
+      \field{volume}{01}
+      \field{year}{1993}
+      \field{pages}{67\bibrangedash 74}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1142/S0218348X93000101
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1142/S0218348X93000101
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1142/S0218348X93000101
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1142/S0218348X93000101
+      \endverb
+    \endentry
+    \entry{takeuchi.sano.ea:11:growing}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=fe8a2f4f9a09d8ada544734aef8d8f05}{%
+           family={Takeuchi},
+           familyi={T\bibinitperiod},
+           given={Kazumasa\bibnamedelima A},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d979269887a6888983d5893d9d708b46}{%
+           family={Sano},
+           familyi={S\bibinitperiod},
+           given={Masaki},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=feeade81c078ac164b1509f7699165ba}{%
+           family={Sasamoto},
+           familyi={S\bibinitperiod},
+           given={Tomohiro},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77543397e50171ccd97dc2336a3cb9c0}{%
+           family={Spohn},
+           familyi={S\bibinitperiod},
+           given={Herbert},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{e7c3021d26cb5612836f05322df1a9c4}
+      \strng{fullhash}{e7c3021d26cb5612836f05322df1a9c4}
+      \strng{bibnamehash}{e7c3021d26cb5612836f05322df1a9c4}
+      \strng{authorbibnamehash}{e7c3021d26cb5612836f05322df1a9c4}
+      \strng{authornamehash}{e7c3021d26cb5612836f05322df1a9c4}
+      \strng{authorfullhash}{e7c3021d26cb5612836f05322df1a9c4}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sci. Rep.}
+      \field{number}{1}
+      \field{title}{Growing interfaces uncover universal fluctuations behind scale invariance}
+      \field{volume}{1}
+      \field{year}{2011}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+    \endentry
+    \entry{zhang.zhang.ea:92:modeling}{article}{}
+      \name{author}{4}{}{%
+        {{un=1,uniquepart=given,hash=c085572f860d99d03a37c331ee13ff68}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=4c02062347dcd9520a0342ae90044e28}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Y.-C.},
+           giveni={Y\bibinithyphendelim C\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=c7d281937653c248ac8aa5ed78f450c0}{%
+           family={Alstrøm},
+           familyi={A\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f2145e90c0fe6257ccd6ec9ef8a6551}{%
+           family={Levinsen},
+           familyi={L\bibinitperiod},
+           given={M.T.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5d6ea45d0133e6f771e03c9b90d4542e}
+      \strng{fullhash}{5d6ea45d0133e6f771e03c9b90d4542e}
+      \strng{bibnamehash}{5d6ea45d0133e6f771e03c9b90d4542e}
+      \strng{authorbibnamehash}{5d6ea45d0133e6f771e03c9b90d4542e}
+      \strng{authornamehash}{5d6ea45d0133e6f771e03c9b90d4542e}
+      \strng{authorfullhash}{5d6ea45d0133e6f771e03c9b90d4542e}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0378--4371}
+      \field{journaltitle}{Phys. A: Stat. Mech. Appl.}
+      \field{number}{3}
+      \field{title}{Modeling forest fire by a paper-burning experiment, a realization of the interface growth mechanism}
+      \field{volume}{189}
+      \field{year}{1992}
+      \field{pages}{383\bibrangedash 389}
+      \range{pages}{7}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0378-4371(92)90050-Z
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/037843719290050Z
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/037843719290050Z
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{1}
+  \datalist[entry]{nyt/apasortcite//global/global}
+    \entry{barabasi.stanley:95:fractal}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=15bacd7ddfc866c5dd96976d4b0244d5}{%
+           family={Barabási},
+           familyi={B\bibinitperiod},
+           given={Albert-László},
+           giveni={A\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5f5c56c0c8f34aa567709e10df5afd57}{%
+           family={Stanley},
+           familyi={S\bibinitperiod},
+           given={H.\bibnamedelimi Eugene},
+           giveni={H\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press, Cambridge}%
+      }
+      \strng{namehash}{40b98df652324937fd2cec6b184c2891}
+      \strng{fullhash}{40b98df652324937fd2cec6b184c2891}
+      \strng{bibnamehash}{40b98df652324937fd2cec6b184c2891}
+      \strng{authorbibnamehash}{40b98df652324937fd2cec6b184c2891}
+      \strng{authornamehash}{40b98df652324937fd2cec6b184c2891}
+      \strng{authorfullhash}{40b98df652324937fd2cec6b184c2891}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0-521-48318-2}
+      \field{title}{Fractal concepts in surface growth}
+      \field{year}{1995}
+      \field{pages}{xx+366}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1017/CBO9780511599798
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1017/CBO9780511599798
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1017/CBO9780511599798
+      \endverb
+    \endentry
+    \entry{family.vicsek:85:scaling}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e00d6ba1f958c6a9bbc50ffb6ecb5142}{%
+           family={Family},
+           familyi={F\bibinitperiod},
+           given={Fereydoon},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6ff33ab4371a3804415d624c6171ef14}{%
+           family={Vicsek},
+           familyi={V\bibinitperiod},
+           given={Tamás},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b1e8475ba5a9dc55f3d28dcfea70e014}
+      \strng{fullhash}{b1e8475ba5a9dc55f3d28dcfea70e014}
+      \strng{bibnamehash}{b1e8475ba5a9dc55f3d28dcfea70e014}
+      \strng{authorbibnamehash}{b1e8475ba5a9dc55f3d28dcfea70e014}
+      \strng{authornamehash}{b1e8475ba5a9dc55f3d28dcfea70e014}
+      \strng{authorfullhash}{b1e8475ba5a9dc55f3d28dcfea70e014}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Physics A: Mathematical and General}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Scaling of the active zone in the Eden process on percolation networks and the ballistic deposition model}
+      \field{volume}{18}
+      \field{year}{1985}
+      \field{pages}{L75}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0305-4470/18/2/005
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/0305-4470/18/2/005
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/0305-4470/18/2/005
+      \endverb
+    \endentry
+    \entry{kardar.parisi.ea:86:dynamic}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=54a0490abeaf97b6e5c1253d9063c158}{%
+           family={Kardar},
+           familyi={K\bibinitperiod},
+           given={Mehran},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=633aedb846f931194e4d892bef86fdc0}{%
+           family={Parisi},
+           familyi={P\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=0ebf627c80af5c31707b77b5f3fd9e64}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yi-Cheng},
+           giveni={Y\bibinithyphendelim C\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {APS}%
+      }
+      \strng{namehash}{3e1f0512e359a05c99e9338c2ec7d697}
+      \strng{fullhash}{3e1f0512e359a05c99e9338c2ec7d697}
+      \strng{bibnamehash}{3e1f0512e359a05c99e9338c2ec7d697}
+      \strng{authorbibnamehash}{3e1f0512e359a05c99e9338c2ec7d697}
+      \strng{authornamehash}{3e1f0512e359a05c99e9338c2ec7d697}
+      \strng{authorfullhash}{3e1f0512e359a05c99e9338c2ec7d697}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{number}{9}
+      \field{title}{Dynamic scaling of growing interfaces}
+      \field{volume}{56}
+      \field{year}{1986}
+      \field{pages}{889}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.56.889
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1103/PhysRevLett.56.889
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1103/PhysRevLett.56.889
+      \endverb
+    \endentry
+    \entry{kertesz.horvath.ea:93:self-affine}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ed0a0297e5b7b46ff549ae8f1494c6ee}{%
+           family={Kertész},
+           familyi={K\bibinitperiod},
+           given={János},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c6cc320ce593a144b1039d5c85e09d9c}{%
+           family={Horváth},
+           familyi={H\bibinitperiod},
+           given={Viktor\bibnamedelima k.},
+           giveni={V\bibinitperiod\bibinitdelim k\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6ae457a192b06a1b23d612fa1c3d4acf}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={Ferenc},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f1c4b64d67348eb3816ae8a898a032ba}
+      \strng{fullhash}{f1c4b64d67348eb3816ae8a898a032ba}
+      \strng{bibnamehash}{f1c4b64d67348eb3816ae8a898a032ba}
+      \strng{authorbibnamehash}{f1c4b64d67348eb3816ae8a898a032ba}
+      \strng{authornamehash}{f1c4b64d67348eb3816ae8a898a032ba}
+      \strng{authorfullhash}{f1c4b64d67348eb3816ae8a898a032ba}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Fractals}
+      \field{number}{01}
+      \field{title}{Self-affine rupture lines in paper sheets}
+      \field{volume}{01}
+      \field{year}{1993}
+      \field{pages}{67\bibrangedash 74}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1142/S0218348X93000101
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1142/S0218348X93000101
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1142/S0218348X93000101
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1142/S0218348X93000101
+      \endverb
+    \endentry
+    \entry{takeuchi.sano.ea:11:growing}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=fe8a2f4f9a09d8ada544734aef8d8f05}{%
+           family={Takeuchi},
+           familyi={T\bibinitperiod},
+           given={Kazumasa\bibnamedelima A},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d979269887a6888983d5893d9d708b46}{%
+           family={Sano},
+           familyi={S\bibinitperiod},
+           given={Masaki},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=feeade81c078ac164b1509f7699165ba}{%
+           family={Sasamoto},
+           familyi={S\bibinitperiod},
+           given={Tomohiro},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77543397e50171ccd97dc2336a3cb9c0}{%
+           family={Spohn},
+           familyi={S\bibinitperiod},
+           given={Herbert},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{e7c3021d26cb5612836f05322df1a9c4}
+      \strng{fullhash}{e7c3021d26cb5612836f05322df1a9c4}
+      \strng{bibnamehash}{e7c3021d26cb5612836f05322df1a9c4}
+      \strng{authorbibnamehash}{e7c3021d26cb5612836f05322df1a9c4}
+      \strng{authornamehash}{e7c3021d26cb5612836f05322df1a9c4}
+      \strng{authorfullhash}{e7c3021d26cb5612836f05322df1a9c4}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sci. Rep.}
+      \field{number}{1}
+      \field{title}{Growing interfaces uncover universal fluctuations behind scale invariance}
+      \field{volume}{1}
+      \field{year}{2011}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+    \endentry
+    \entry{zhang.zhang.ea:92:modeling}{article}{}
+      \name{author}{4}{}{%
+        {{un=1,uniquepart=given,hash=c085572f860d99d03a37c331ee13ff68}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=4c02062347dcd9520a0342ae90044e28}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Y.-C.},
+           giveni={Y\bibinithyphendelim C\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=c7d281937653c248ac8aa5ed78f450c0}{%
+           family={Alstrøm},
+           familyi={A\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f2145e90c0fe6257ccd6ec9ef8a6551}{%
+           family={Levinsen},
+           familyi={L\bibinitperiod},
+           given={M.T.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5d6ea45d0133e6f771e03c9b90d4542e}
+      \strng{fullhash}{5d6ea45d0133e6f771e03c9b90d4542e}
+      \strng{bibnamehash}{5d6ea45d0133e6f771e03c9b90d4542e}
+      \strng{authorbibnamehash}{5d6ea45d0133e6f771e03c9b90d4542e}
+      \strng{authornamehash}{5d6ea45d0133e6f771e03c9b90d4542e}
+      \strng{authorfullhash}{5d6ea45d0133e6f771e03c9b90d4542e}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0378--4371}
+      \field{journaltitle}{Phys. A: Stat. Mech. Appl.}
+      \field{number}{3}
+      \field{title}{Modeling forest fire by a paper-burning experiment, a realization of the interface growth mechanism}
+      \field{volume}{189}
+      \field{year}{1992}
+      \field{pages}{383\bibrangedash 389}
+      \range{pages}{7}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0378-4371(92)90050-Z
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/037843719290050Z
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/037843719290050Z
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{nyt/global//global/global}
+    \entry{barabasi.stanley:95:fractal}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=15bacd7ddfc866c5dd96976d4b0244d5}{%
+           family={Barabási},
+           familyi={B\bibinitperiod},
+           given={Albert-László},
+           giveni={A\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5f5c56c0c8f34aa567709e10df5afd57}{%
+           family={Stanley},
+           familyi={S\bibinitperiod},
+           given={H.\bibnamedelimi Eugene},
+           giveni={H\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press, Cambridge}%
+      }
+      \strng{namehash}{40b98df652324937fd2cec6b184c2891}
+      \strng{fullhash}{40b98df652324937fd2cec6b184c2891}
+      \strng{bibnamehash}{40b98df652324937fd2cec6b184c2891}
+      \strng{authorbibnamehash}{40b98df652324937fd2cec6b184c2891}
+      \strng{authornamehash}{40b98df652324937fd2cec6b184c2891}
+      \strng{authorfullhash}{40b98df652324937fd2cec6b184c2891}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0-521-48318-2}
+      \field{title}{Fractal concepts in surface growth}
+      \field{year}{1995}
+      \field{pages}{xx+366}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1017/CBO9780511599798
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1017/CBO9780511599798
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1017/CBO9780511599798
+      \endverb
+    \endentry
+    \entry{family.vicsek:85:scaling}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e00d6ba1f958c6a9bbc50ffb6ecb5142}{%
+           family={Family},
+           familyi={F\bibinitperiod},
+           given={Fereydoon},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6ff33ab4371a3804415d624c6171ef14}{%
+           family={Vicsek},
+           familyi={V\bibinitperiod},
+           given={Tamás},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b1e8475ba5a9dc55f3d28dcfea70e014}
+      \strng{fullhash}{b1e8475ba5a9dc55f3d28dcfea70e014}
+      \strng{bibnamehash}{b1e8475ba5a9dc55f3d28dcfea70e014}
+      \strng{authorbibnamehash}{b1e8475ba5a9dc55f3d28dcfea70e014}
+      \strng{authornamehash}{b1e8475ba5a9dc55f3d28dcfea70e014}
+      \strng{authorfullhash}{b1e8475ba5a9dc55f3d28dcfea70e014}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Physics A: Mathematical and General}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Scaling of the active zone in the Eden process on percolation networks and the ballistic deposition model}
+      \field{volume}{18}
+      \field{year}{1985}
       \field{pages}{L75}
       \range{pages}{1}
       \verb{doi}

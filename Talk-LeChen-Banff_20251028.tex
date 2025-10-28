@@ -463,7 +463,7 @@
           },
           dashnodeD/.style={draw, dashed, minimum size=1cm, very thick, fill = gray!30!white},
         }
-        \draw[thick] (0,-0.5) --++ (8,0) node [midway, below, draw=none] {Substrate} node[midway, draw = none, below, yshift =-5em, scale = 2] {$W(t,x) \sim t^{1/2}$};
+        \draw[thick] (0,-0.5) --++ (8,0) node [midway, below, draw=none] {Substrate} node[midway, draw = none, below, yshift =-5em, scale = 3] {$W(t,x) \sim t^{1/2}$};
         \node[solidnode] (1) at (2,0) {1};
         \node[solidnode] (3) at (2,1) {3};
         \node[solidnode] (4) at (2,2) {4};
@@ -497,7 +497,7 @@
             append after command={\pgfextra{\draw [->, thick, shorten >=1.5pt] (\tikzlastnode.east) -- ++(0.5cm,0) -- ++(0,-0.5cm); \draw [->, thick, shorten >=1.5pt] (\tikzlastnode.west) -- ++(-0.5cm,0) -- ++(0,-0.5cm);}}
           }
         }
-        \draw[thick] (0,-0.5) --++ (8,0) node [midway, below, draw=none] {Substrate} node[midway, draw = none, below, yshift =-5em, scale = 2, red] {$W(t,x) \sim t^{1/4}$??};
+        \draw[thick] (0,-0.5) --++ (8,0) node [midway, below, draw=none] {Substrate} node[midway, draw = none, below, yshift =-5em, scale = 3, red] {$W(t,x) \sim t^{??}$};
         \node[solidnode] (1b) at (2,0) {1};
         \node[solidnode] (3b) at (2,1) {3};
         \node[solidnode] (4b) at (2,2) {4};
@@ -521,7 +521,7 @@
           },
           dashnodeD/.style={draw, dashed, minimum size=1cm, very thick, fill = gray!30!white},
         }
-        \draw[thick] (0,-0.5) --++ (8,0) node [midway, below, draw=none] {Substrate} node[midway, draw = none, below, yshift =-5em, scale = 2, red] {$W(t,x) \sim t^{1/3}$??};
+        \draw[thick] (0,-0.5) --++ (8,0) node [midway, below, draw=none] {Substrate} node[midway, draw = none, below, yshift =-5em, scale = 3, red] {$W(t,x) \sim t^{??}$};
         \node[solidnode] (1c) at (2,0) {1};
         \node[solidnode] (3c) at (2,1) {3};
         \node[solidnode] (4c) at (2,2) {4};
@@ -958,6 +958,34 @@ f(u)\sim u^{\beta}\ (u\!\ll\!1),\ f(u)\to\text{const}\ (u\!\gg\!1),\
     + 80\% sticky \\
     of 1x1 piece
   \end{minipage}
+\end{frame}
+\begin{frame}[fragile,t] % COMENTS
+
+  \begin{problock}{Question}
+    For various configurations of Tetromino pieces, do the resulting surface
+    robustly exhibit Family--Vicsek scaling?
+
+    Will the scaling exponent $\beta$ be always close to $ \displaystyle \frac{1}{3}$?
+  \end{problock}
+  
+\end{frame}
+\begin{frame}[fragile] % Mixture question (sticky vs nonsticky)
+  \frametitle{Mixture Parameter $\ell$ and Scaling}
+
+  \begin{assblock}{Setup}
+    Consider a mixture of $\ell\%$ ($\ell \in [0, 100]$) nonsticky pieces and
+    $(100{-}\alpha)\%$ sticky pieces, where only the $1\times1$ piece is sticky.
+  \end{assblock}
+
+  \begin{problock}{Question}
+    How does $\alpha$ influence the scaling exponents, in particular, $ \displaystyle \beta \stackrel{?}{\approx} \frac{1}{3}$?
+  \end{problock}
+
+  \vspace{0.5em}
+  {\small
+    \textbf{Simulations and log--log plots:}\newline
+    \url{https://chenle02.github.io/2025-10-28_Emerging_Synergies_Banff_Le/exp13/videos_and_images_display.html}
+  }
 \end{frame}
 \begin{frame}<13->[t,fragile] % Outreach photos
   \frametitle{Outreach Highlights}

@@ -632,37 +632,7 @@
   \myFootCite{family.vicsek:85:scaling}
 \end{frame}
 
-\begin{frame}[t]{Continuum viewpoint: EW and KPZ}
-  \small
-  \begin{columns}[T,onlytextwidth]
-    \column{0.5\textwidth}
-    \begin{assblock}{Edwards--Wilkinson (EW)}
-      \emph{Linear diffusion + noise}
-      \[
-        \partial_t h \,=\, \nu\,\nabla^2 h \,+\, \eta,
-        \qquad \langle\eta\eta\rangle \propto \delta(x)\,\delta(t).
-      \]
-      Scale invariance (1D): \ $z=2$, $\alpha=\tfrac12$ \Rightarrow $\beta=\tfrac14$.
-      \[
-        \boxed{\alpha=\tfrac12\!,\ z=2\!,\ \beta=\tfrac14}
-      \]
-    \end{assblock}
 
-    \column{0.5\textwidth}
-    \begin{problock}{Kardar--Parisi--Zhang (KPZ)}
-      \emph{Nonlinear growth}
-      \[
-        \partial_t h \,=\, \nu\,\nabla^2 h \,+\, \tfrac{\lambda}{2}(\nabla h)^2 \,+\, \eta.
-      \]
-      Galilean/tilt invariance: $\alpha+z=2$. In 1D (exact):
-      \[
-        \boxed{\alpha=\tfrac12\!,\ z=\tfrac32\!,\ \beta=\tfrac13}
-      \]
-      \vspace{-0.3em}
-      {\footnotesize BD, RSOS, Eden $\Rightarrow$ KPZ universality in 1+1D.}
-    \end{problock}
-  \end{columns}
-\end{frame}
 \begin{frame}[fragile] % Random diposition vs ballistic decomposition
   \begin{center}
     \Large Simulations on \\ \bigskip
@@ -719,23 +689,161 @@
   \myFootCite{kardar.parisi.ea:86:dynamic}
 \end{frame}
 
-\section{More examples}
-\begin{frame}[fragile] % More models
-  \frametitle{More models? Even more simpler?}
-
+\begin{frame}[fragile] % Three deposition models in one TikZ (no overlays)
   \begin{center}
-    \begin{tikzpicture}
-        % Node for the image
-        \node[anchor=east, inner sep=0] (image) at (0,0) {\includegraphics[width=0.5\textwidth]{./figs/Figure_8-4_SOS-Issing-Gas.png}};
+    \resizebox{0.95\linewidth}{!}{%
+    \begin{tikzpicture}[every node/.style={draw, minimum size=1cm}]
+      % Global bounding box to control overall size and align baselines
+      \useasboundingbox (-0.5,-1.2) rectangle (26,6.2);
 
-        % Labels
-        \node[anchor=west] at ([yshift=3cm]image.east) {Solid-on-Solid};
-        \node[anchor=west] at ([yshift=1.4cm]image.east) {Ising};
-        \node[anchor=west] at ([yshift=0.8cm]image.east) {Lattice Gas};
-    \end{tikzpicture}
+      % Titles above each panel
+      \node[draw=none, scale=2] at (4, 6.4) {Random deposition};
+      \node[draw=none, scale=2] at (13,6.4) {RD with surface relaxation};
+      \node[draw=none, scale=2] at (22,6.4) {Ballistic deposition};
+
+      % Panel 1: Random deposition
+      \begin{scope}[shift={(0,0)}]
+        \tikzset{
+          solidnode/.style={draw, fill = gray!80!white, solid, minimum size=1cm},
+          dashnodeX/.style={
+            draw, dashed, minimum size=1cm, very thick,
+            append after command={
+              (\tikzlastnode.south) [shorten >=1.5pt, very thick] edge [->, thick] ++(0,-0.5cm)
+            }
+          },
+          dashnodeD/.style={draw, dashed, minimum size=1cm, very thick, fill = gray!30!white},
+        }
+        \draw[thick] (0,-0.5) --++ (8,0) node [midway, below, draw=none] {Substrate} node[midway, draw = none, below, yshift =-5em, scale = 3] {$W(t,x) \sim t^{1/2}$};
+        \node[solidnode] (1) at (2,0) {1};
+        \node[solidnode] (3) at (2,1) {3};
+        \node[solidnode] (4) at (2,2) {4};
+        \node[solidnode] (5) at (3,0) {2};
+        \node[solidnode] (2) at (6,0) {5};
+        \node[dashnodeX] (6) at (3,5) {6};
+        \node[dashnodeX] (7) at (6,5) {7};
+        \node[dashnodeD] (6') at (3,1) {6'};
+        \node[dashnodeD] (7') at (6,1) {7'};
+      \end{scope}
+
+      % Panel 2: RD with surface relaxation
+      \begin{scope}[shift={(9,0)}]
+        \tikzset{
+          solidnode/.style={draw, fill=gray!80!white, solid, minimum size=1cm},
+          dashnodeX/.style={
+            draw, dashed, minimum size=1cm, very thick,
+            append after command={
+              \pgfextra{\draw [->, thick, shorten >=1.5pt] (\tikzlastnode.south) -- ++(0,-0.5cm);} }
+          },
+          dashnodeR/.style={
+            draw, dashed, minimum size=1cm, very thick, fill=gray!30!white,
+            append after command={\pgfextra{\draw [->, thick, shorten >=1.5pt] (\tikzlastnode.east) -- ++(0.5cm,0) -- ++(0,-0.5cm);}}
+          },
+          dashnodeL/.style={
+            draw, dashed, minimum size=1cm, very thick, fill=gray!30!white,
+            append after command={\pgfextra{\draw [->, thick, shorten >=1.5pt] (\tikzlastnode.west) -- ++(-0.5cm,0) -- ++(0,-0.5cm);}}
+          },
+          dashnodeT/.style={
+            draw, dashed, minimum size=1cm, very thick, fill=gray!30!white,
+            append after command={\pgfextra{\draw [->, thick, shorten >=1.5pt] (\tikzlastnode.east) -- ++(0.5cm,0) -- ++(0,-0.5cm); \draw [->, thick, shorten >=1.5pt] (\tikzlastnode.west) -- ++(-0.5cm,0) -- ++(0,-0.5cm);}}
+          }
+        }
+        \draw[thick] (0,-0.5) --++ (8,0) 
+          node [midway, below, draw=none] {Substrate} 
+          node[midway, draw = none, below, yshift =-5em, scale = 3, red] {$W(t,x) \sim t^{1/4}$}
+          node[midway, draw = none, below, yshift =-18em, scale = 3] {Edwards--Wilkinson};
+        \node[solidnode] (1b) at (2,0) {1};
+        \node[solidnode] (3b) at (2,1) {3};
+        \node[solidnode] (4b) at (2,2) {4};
+        \node[solidnode] (5b) at (3,0) {2};
+        \node[solidnode] (2b) at (6,0) {5};
+        \node[dashnodeX] (6b) at (3,5) {6};
+        \node[dashnodeX] (7b) at (6,5) {7};
+        \node[dashnodeX] (8b) at (2,5) {8};
+        \node[dashnodeR] (6pb) at (3,1) {6'};
+        \node[dashnodeT] (7pb) at (6,1) {7'};
+        \node[dashnodeL] (8pb) at (2,3) {8'};
+      \end{scope}
+
+      % Panel 3: Ballistic deposition
+      \begin{scope}[shift={(18,0)}]
+        \tikzset{
+          solidnode/.style={draw, fill=gray!80!white, solid, minimum size=1cm},
+          dashnodeX/.style={
+            draw, dashed, minimum size=1cm, very thick,
+            append after command={\pgfextra{\draw [->, thick, shorten >=1.5pt] (\tikzlastnode.south) -- ++(0,-0.5cm);}}
+          },
+          dashnodeD/.style={draw, dashed, minimum size=1cm, very thick, fill = gray!30!white},
+        }
+        \draw[thick] (0,-0.5) --++ (8,0) 
+          node [midway, below, draw=none] {Substrate} 
+          node[midway, draw = none, below, yshift =-5em, scale = 3, red] {$W(t,x) \sim t^{1/3}$}
+          node[midway, draw = none, below, yshift =-18em, scale = 3] {KPZ/BD};
+        \node[solidnode] (1c) at (2,0) {1};
+        \node[solidnode] (3c) at (2,1) {3};
+        \node[solidnode] (4c) at (2,2) {4};
+        \node[solidnode] (5c) at (3,0) {2};
+        \node[solidnode] (2c) at (6,0) {5};
+        \node[dashnodeX] (6c) at (3,5) {6};
+        \node[dashnodeX] (7c) at (6,5) {7};
+        \node[dashnodeX] (8c) at (1,5) {8};
+        \node[dashnodeD] (6pc) at (3,2) {6'};
+        \node[dashnodeD] (7pc) at (6,1) {7'};
+        \node[dashnodeD] (8pc) at (1,2) {8'};
+      \end{scope}
+    \end{tikzpicture}%
+    }
   \end{center}
-
 \end{frame}
+
+\begin{frame}<13->{Two universality classes: EW and KPZ}
+  \small
+  \begin{columns}[T,onlytextwidth]
+    \column{0.48\textwidth}
+    \begin{assblock}{Edwards--Wilkinson (EW)}
+      \emph{Linear diffusion + noise}
+      \[
+        \partial_t h \,=\, \nu\,\nabla^2 h \,+\, \eta,
+        \qquad \langle\eta\eta\rangle \propto \delta(x)\,\delta(t).
+      \]
+      Scale invariance (1D): \ $z=2$, $\alpha=\tfrac12$ \Rightarrow $\beta=\tfrac14$.
+      \[
+        \boxed{\alpha=\tfrac12\!,\ z=2\!,\ \beta=\tfrac14}
+      \]
+    \end{assblock}
+
+    \column{0.48\textwidth}
+    \begin{problock}{Kardar--Parisi--Zhang (KPZ)}
+      \emph{Nonlinear growth}
+      \[
+        \partial_t h \,=\, \nu\,\nabla^2 h \,+\, \tfrac{\lambda}{2}(\nabla h)^2 \,+\, \eta.
+      \]
+      % Galilean/tilt invariance: $\alpha+z=2$.
+      In 1D (exact):
+      \[
+        \boxed{\alpha=\tfrac12\!,\ z=\tfrac32\!,\ \beta=\tfrac13}
+      \]
+      \vspace{-0.3em}
+      {\footnotesize BD, SOS, Eden $\Rightarrow$ KPZ universality in 1+1D.}
+    \end{problock}
+  \end{columns}
+\end{frame}
+\section{More examples}
+% \begin{frame}[fragile] % More models
+%   \frametitle{More models? Even more simpler?}
+
+%   \begin{center}
+%     \begin{tikzpicture}
+%         % Node for the image
+%         \node[anchor=east, inner sep=0] (image) at (0,0) {\includegraphics[width=0.5\textwidth]{./figs/Figure_8-4_SOS-Issing-Gas.png}};
+
+%         % Labels
+%         \node[anchor=west] at ([yshift=3cm]image.east) {Solid-on-Solid};
+%         \node[anchor=west] at ([yshift=1.4cm]image.east) {Ising};
+%         \node[anchor=west] at ([yshift=0.8cm]image.east) {Lattice Gas};
+%     \end{tikzpicture}
+%   \end{center}
+
+% \end{frame}
 \begin{frame}[fragile] % Paper -- a random environment
   \frametitle{Paper -- a random environment}
 

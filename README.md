@@ -28,13 +28,21 @@ latexmk -pdf -interaction=nonstopmode Talk-LeChen-Banff_20251028.tex
 Supplementary movies (Scientific Reports, 2011) used for context and outreach:
 
 <figure>
-  <video src="./movies/MOESM2.mov" controls muted playsinline width="420"></video>
+  <video controls muted playsinline width="420">
+    <source src="./movies/MOESM2.mov" type="video/quicktime" />
+    Your browser does not support inline playback. Download: <a href="./movies/MOESM2.mov">MOESM2.mov</a>
+  </video>
   <figcaption>MOESM2.mov — Circular interface growth (Takeuchi et al., 2011)</figcaption>
+  
 </figure>
 
 <figure>
-  <video src="./movies/MOESM3.mov" controls muted playsinline width="420"></video>
+  <video controls muted playsinline width="420">
+    <source src="./movies/MOESM3.mov" type="video/quicktime" />
+    Your browser does not support inline playback. Download: <a href="./movies/MOESM3.mov">MOESM3.mov</a>
+  </video>
   <figcaption>MOESM3.mov — Flat interface growth (Takeuchi et al., 2011)</figcaption>
+  
 </figure>
 
 If your browser doesn’t display inline players here, use the direct links: [MOESM2.mov](./movies/MOESM2.mov), [MOESM3.mov](./movies/MOESM3.mov).
@@ -60,7 +68,7 @@ The Central Limit Theorem's robustness invites an analogous question for the Kar
 - Bibliography collection (SPDEs-Bib): [github.com/chenle02/SPDEs-Bib](https://github.com/chenle02/SPDEs-Bib)
 - Simulation package (surface growth models): [github.com/chenle02/Simulations_on_Some_Surface_Growth_Models](https://github.com/chenle02/Simulations_on_Some_Surface_Growth_Models)
 
-- Takeuchi, K. A.; Sano, M.; Sasamoto, T.; Spohn, H. “Growing interfaces uncover universal fluctuations behind scale invariance.” Scientific Reports 1 (2011), 34. doi:10.1038/srep00034.
+- Takeuchi, K. A.; Sano, M.; Sasamoto, T.; Spohn, H. “Growing interfaces uncover universal fluctuations behind scale invariance.” Scientific Reports 1 (2011), 34. https://doi.org/10.1038/srep00034
 
 ## Acknowledgments
 Support from NSF 2443823, NSF 2246850, and the Simons Foundation Travel Grant (2022–2027) is gratefully acknowledged.

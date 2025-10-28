@@ -232,7 +232,7 @@
   \end{center}
 \end{frame}
 
-\begin{frame}[t]{Random Deposition (independent columns)}
+\begin{frame}[t]{Random Deposition (independent columns, nonsticky)}
   \small \textbf{Model.} $L$ independent columns. At each integer time $t =
   1,2,\dots$, drop \emph{one} particle on a uniformly random column. Heights
   $h(t,x)$, mean $\overline h(t)=\frac1L\sum_{x=1}^L h(t,x) = \frac{t}{L}$,
@@ -241,14 +241,13 @@
     W^2(L,t)=\frac1L\sum_{x=1}^L \big(h(t,x)-\overline h(t)\big)^2.
   \]
 
-  \medskip \textbf{Single–column law.} After $t$ drops total,
+  \pause\medskip\textbf{Single--column law:} After $t$ drops total,
   \[
     h(t,x)\sim \mathrm{Binomial}\!\left(t,\frac1L\right),\qquad
     \mathbb E[h(t,x)]=\frac{t}{L},\quad \mathrm{Var}(h(t,x))=\;t\,\frac1L\!\left(1-\frac1L\right).
   \]
 
-  \medskip
-  \textbf{Width (variance decomposition).} By i.i.d.\ columns,
+  \pause\medskip\textbf{Fluctuation:} By i.i.d.\ columns,
   \[
     \mathbb E\!\left[W^2(L,t)\right]
     =\frac1L\sum_{x=1}^L\mathbb E\left[h(t,x)^2\right] - \mathbb E\left[\overline h^{\,2}(t)\right]
@@ -270,10 +269,14 @@
   % \(W^2(L,t)\simeq t/L\) (no lateral correlations, no true saturation).
 
 \end{frame}
+\begin{frame}[fragile] % COMENTS
+  For ballistic deposition (sticky), lateral interactions appear, can we view it
+  as a perturbation of random deposition (nonsticky)?
+\end{frame}
 \begin{frame}[fragile] % Random diposition vs ballistic decomposition
   \begin{center}
     \Large Simulations on \\ \bigskip
-    Random deposition  vs. Ballistic decomposition
+    Random deposition vs. Ballistic decomposition
   \end{center}
 \end{frame}
 \begin{frame}[fragile] % More models

@@ -19,151 +19,6 @@
 \begin{frame}{Plan} % TOC
  \tableofcontents
 \end{frame}
-\section{Tetromino Pieces}
-\begin{frame}<7-> % Tetromino overview
-  \frametitle{Tetrominoes}
-
-  \begin{center}
-    % Show sticky (non-bordered) variants
-    \renewcommand{\arraystretch}{1.2}
-    \begin{tabular}{cccc}
-      \includegraphics[height=0.425cm]{tetromino/Tetromino_1x1_Single.png} &
-      \includegraphics[height=1.55cm]{tetromino/Tetromino_I_Vertical.png} &
-      \includegraphics[height=0.95cm]{tetromino/Tetromino_O_Single.png} &
-      \includegraphics[height=0.90cm]{tetromino/Tetromino_T_Up.png} \\
-      {\small 1x1} & {\small I (Vertical)} & {\small O (2x2)} & {\small T (Up)} \\
-      \includegraphics[height=0.90cm]{tetromino/Tetromino_S_Horizontal.png} &
-      \includegraphics[height=0.90cm]{tetromino/Tetromino_Z_Horizontal.png} &
-      \includegraphics[height=1.35cm]{tetromino/Tetromino_J_Up.png} &
-      \includegraphics[height=1.35cm]{tetromino/Tetromino_L_Up.png} \\
-      {\small S (Horiz)} & {\small Z (Horiz)} & {\small J (Up)} & {\small L (Up)} \\
-    \end{tabular}
-  \end{center}
-  \vfill
-  \begin{minipage}{0.65\textwidth}
-    \begin{itemize}
-      \item ``1x1'': Single (extra single-site particle)
-      \item ``I'': Horizontal, Vertical
-      \item ``J, L, T'': Up, Right, Down, Left
-      \item ``S, Z'': Horizontal, Vertical
-      \item ``O'': Single (2x2 square)
-    \end{itemize}
-  \end{minipage}
-  \begin{minipage}{0.30\textwidth}
-    \begin{itemize}
-      \item Sticky
-      \item Nonstikcy
-    \end{itemize}
-  \end{minipage}
-  \pause
-  \begin{align*}
-    (1+1\times 2 +3\times 4 + 2 \times 2 + 1) \times 2 = 20 \times 2 = 40 \text{ types of pieces}
-  \end{align*}
-\end{frame}
-\begin{frame}[fragile,t]{Configure files} % Tetromino simulation parameters
-  \begin{minipage}{0.32\textwidth}
-    \scriptsize
-    \begin{verbatim}
-    steps: 12000
-    width: 100
-    height: 300
-    seed: 12
-    Piece-00: [20, 0]
-    Piece-01: [20, 0]
-    Piece-02: [20, 0]
-    Piece-03: [20, 0]
-    Piece-04: [20, 0]
-    Piece-05: [20, 0]
-    Piece-06: [20, 0]
-    Piece-07: [20, 0]
-    Piece-08: [20, 0]
-    Piece-09: [20, 0]
-    Piece-10: [20, 0]
-    Piece-11: [20, 0]
-    Piece-12: [20, 0]
-    Piece-13: [20, 0]
-    Piece-14: [20, 0]
-    Piece-15: [20, 0]
-    Piece-16: [20, 0]
-    Piece-17: [20, 0]
-    Piece-18: [20, 0]
-    Piece-19: [20, 0]
-    \end{verbatim}
-    \centering
-    \small
-    All nonsticky pieces \\
-    with equal prob.
-  \end{minipage}
-  \begin{minipage}{0.32\textwidth}
-    \scriptsize
-    \begin{verbatim}
-    steps: 12000
-    width: 100
-    height: 300
-    seed: 12
-    Piece-00: [0, 20]
-    Piece-01: [0, 20]
-    Piece-02: [0, 20]
-    Piece-03: [0, 20]
-    Piece-04: [0, 20]
-    Piece-05: [0, 20]
-    Piece-06: [0, 20]
-    Piece-07: [0, 20]
-    Piece-08: [0, 20]
-    Piece-09: [0, 20]
-    Piece-10: [0, 20]
-    Piece-11: [0, 20]
-    Piece-12: [0, 20]
-    Piece-13: [0, 20]
-    Piece-14: [0, 20]
-    Piece-15: [0, 20]
-    Piece-16: [0, 20]
-    Piece-17: [0, 20]
-    Piece-18: [0, 20]
-    Piece-19: [0, 20]
-    \end{verbatim}
-    \centering
-    \small
-    All sticky pieces \\ 
-    with equal prob.
-  \end{minipage}
-  \begin{minipage}{0.32\textwidth}
-    \scriptsize
-    \begin{verbatim}
-    steps: 12000
-    width: 100
-    height: 300
-    seed: 12
-    Piece-00: [0, 0]
-    Piece-01: [0, 0]
-    Piece-02: [0, 0]
-    Piece-03: [0, 0]
-    Piece-04: [0, 0]
-    Piece-05: [0, 0]
-    Piece-06: [0, 0]
-    Piece-07: [0, 0]
-    Piece-08: [0, 0]
-    Piece-09: [0, 0]
-    Piece-10: [0, 0]
-    Piece-11: [0, 0]
-    Piece-12: [0, 0]
-    Piece-13: [0, 0]
-    Piece-14: [0, 0]
-    Piece-15: [0, 0]
-    Piece-16: [0, 0]
-    Piece-17: [0, 0]
-    Piece-18: [0, 0]
-    Piece-19: [20, 80]
-    \end{verbatim}
-    \centering
-    \small
-    20\% nonsticky \\
-    + 80\% sticky \\
-    of 1x1 piece
-  \end{minipage}
-    
-
-\end{frame}
 \section{Introduction to growth model and SPDE}
 \begin{frame}[fragile] % Random deposition
   \frametitle{Random deposition}
@@ -524,22 +379,163 @@
   \myFootCite{kardar.parisi.ea:86:dynamic}
 \end{frame}
 
+
+\section{Tetromino Pieces}
+\begin{frame}<7-> % Tetromino overview
+  \frametitle{Tetrominoes}
+
+  \begin{center}
+    % Show sticky (non-bordered) variants
+    \renewcommand{\arraystretch}{1.2}
+    \begin{tabular}{cccc}
+      \includegraphics[height=0.425cm]{tetromino/Tetromino_1x1_Single.png} &
+      \includegraphics[height=1.55cm]{tetromino/Tetromino_I_Vertical.png} &
+      \includegraphics[height=0.95cm]{tetromino/Tetromino_O_Single.png} &
+      \includegraphics[height=0.90cm]{tetromino/Tetromino_T_Up.png} \\
+      {\small 1x1} & {\small I (Vertical)} & {\small O (2x2)} & {\small T (Up)} \\
+      \includegraphics[height=0.90cm]{tetromino/Tetromino_S_Horizontal.png} &
+      \includegraphics[height=0.90cm]{tetromino/Tetromino_Z_Horizontal.png} &
+      \includegraphics[height=1.35cm]{tetromino/Tetromino_J_Up.png} &
+      \includegraphics[height=1.35cm]{tetromino/Tetromino_L_Up.png} \\
+      {\small S (Horiz)} & {\small Z (Horiz)} & {\small J (Up)} & {\small L (Up)} \\
+    \end{tabular}
+  \end{center}
+  \vfill
+  \begin{minipage}{0.65\textwidth}
+    \begin{itemize}
+      \item ``1x1'': Single (extra single-site particle)
+      \item ``I'': Horizontal, Vertical
+      \item ``J, L, T'': Up, Right, Down, Left
+      \item ``S, Z'': Horizontal, Vertical
+      \item ``O'': Single (2x2 square)
+    \end{itemize}
+  \end{minipage}
+  \begin{minipage}{0.30\textwidth}
+    \begin{itemize}
+      \item Sticky
+      \item Nonstikcy
+    \end{itemize}
+  \end{minipage}
+  \pause
+  \begin{align*}
+    (1+1\times 2 +3\times 4 + 2 \times 2 + 1) \times 2 = 20 \times 2 = 40 \text{ types of pieces}
+  \end{align*}
+\end{frame}
+\begin{frame}[fragile,t]{Configure files} % Tetromino simulation parameters
+  \begin{minipage}{0.32\textwidth}
+    \scriptsize
+    \begin{verbatim}
+    steps: 12000
+    width: 100
+    height: 300
+    seed: 12
+    Piece-00: [20, 0]
+    Piece-01: [20, 0]
+    Piece-02: [20, 0]
+    Piece-03: [20, 0]
+    Piece-04: [20, 0]
+    Piece-05: [20, 0]
+    Piece-06: [20, 0]
+    Piece-07: [20, 0]
+    Piece-08: [20, 0]
+    Piece-09: [20, 0]
+    Piece-10: [20, 0]
+    Piece-11: [20, 0]
+    Piece-12: [20, 0]
+    Piece-13: [20, 0]
+    Piece-14: [20, 0]
+    Piece-15: [20, 0]
+    Piece-16: [20, 0]
+    Piece-17: [20, 0]
+    Piece-18: [20, 0]
+    Piece-19: [20, 0]
+    \end{verbatim}
+    \centering
+    \small
+    All nonsticky pieces \\
+    with equal prob.
+  \end{minipage}
+  \begin{minipage}{0.32\textwidth}
+    \scriptsize
+    \begin{verbatim}
+    steps: 12000
+    width: 100
+    height: 300
+    seed: 12
+    Piece-00: [0, 20]
+    Piece-01: [0, 20]
+    Piece-02: [0, 20]
+    Piece-03: [0, 20]
+    Piece-04: [0, 20]
+    Piece-05: [0, 20]
+    Piece-06: [0, 20]
+    Piece-07: [0, 20]
+    Piece-08: [0, 20]
+    Piece-09: [0, 20]
+    Piece-10: [0, 20]
+    Piece-11: [0, 20]
+    Piece-12: [0, 20]
+    Piece-13: [0, 20]
+    Piece-14: [0, 20]
+    Piece-15: [0, 20]
+    Piece-16: [0, 20]
+    Piece-17: [0, 20]
+    Piece-18: [0, 20]
+    Piece-19: [0, 20]
+    \end{verbatim}
+    \centering
+    \small
+    All sticky pieces \\ 
+    with equal prob.
+  \end{minipage}
+  \begin{minipage}{0.32\textwidth}
+    \scriptsize
+    \begin{verbatim}
+    steps: 12000
+    width: 100
+    height: 300
+    seed: 12
+    Piece-00: [0, 0]
+    Piece-01: [0, 0]
+    Piece-02: [0, 0]
+    Piece-03: [0, 0]
+    Piece-04: [0, 0]
+    Piece-05: [0, 0]
+    Piece-06: [0, 0]
+    Piece-07: [0, 0]
+    Piece-08: [0, 0]
+    Piece-09: [0, 0]
+    Piece-10: [0, 0]
+    Piece-11: [0, 0]
+    Piece-12: [0, 0]
+    Piece-13: [0, 0]
+    Piece-14: [0, 0]
+    Piece-15: [0, 0]
+    Piece-16: [0, 0]
+    Piece-17: [0, 0]
+    Piece-18: [0, 0]
+    Piece-19: [20, 80]
+    \end{verbatim}
+    \centering
+    \small
+    20\% nonsticky \\
+    + 80\% sticky \\
+    of 1x1 piece
+  \end{minipage}
+\end{frame}
+
 \begin{frame}[fragile] % References
 
   \RefGroup{Main References$^*$}{
-    \nocite{conus.joseph.ea:13:on}
-    \nocite{zel-dovich.ruzmauikin.ea:90:almighty}
-    \nocite{chen.xia:23:asymptotic}
-    \nocite{zel-dovich.molchanov.ea:87:self-excitation}
+    \nocite{kardar.parisi.ea:86:dynamic}
+    \nocite{family.vicsek:85:scaling}
     % \nocite{chen.huang:19:comparison}
     % \nocite{aaronson:97:introduction}
   }
-
   \vfill\vspace{5em}
 
   \myfootnoteline{\footnotesize
   * References are produced from {\it SPDEs-Bib}: \url{https://github.com/chenle02/SPDEs-Bib} \\
   * Download the bib file: \url{https://github.com/chenle02/SPDEs-Bib/blob/main/All.bib} }
 \end{frame}
-
 \end{document}

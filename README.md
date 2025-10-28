@@ -29,23 +29,25 @@ Supplementary movies (Scientific Reports, 2011) used for context and outreach:
 
 <figure>
   <video controls muted playsinline width="420">
+    <source src="./movies/MOESM2.mp4" type="video/mp4" />
     <source src="./movies/MOESM2.mov" type="video/quicktime" />
-    Your browser does not support inline playback. Download: <a href="./movies/MOESM2.mov">MOESM2.mov</a>
+    Your browser does not support inline playback. Download: <a href="./movies/MOESM2.mp4">MOESM2.mp4</a>
   </video>
-  <figcaption>MOESM2.mov — Circular interface growth (Takeuchi et al., 2011)</figcaption>
+  <figcaption>MOESM2 — Circular interface growth (Takeuchi et al., 2011)</figcaption>
   
 </figure>
 
 <figure>
   <video controls muted playsinline width="420">
+    <source src="./movies/MOESM3.mp4" type="video/mp4" />
     <source src="./movies/MOESM3.mov" type="video/quicktime" />
-    Your browser does not support inline playback. Download: <a href="./movies/MOESM3.mov">MOESM3.mov</a>
+    Your browser does not support inline playback. Download: <a href="./movies/MOESM3.mp4">MOESM3.mp4</a>
   </video>
-  <figcaption>MOESM3.mov — Flat interface growth (Takeuchi et al., 2011)</figcaption>
+  <figcaption>MOESM3 — Flat interface growth (Takeuchi et al., 2011)</figcaption>
   
 </figure>
 
-If your browser doesn’t display inline players here, use the direct links: [MOESM2.mov](./movies/MOESM2.mov), [MOESM3.mov](./movies/MOESM3.mov).
+If your browser doesn’t display inline players here, use the direct links: [MOESM2.mp4](./movies/MOESM2.mp4), [MOESM3.mp4](./movies/MOESM3.mp4).
 
 ## Folders
 - `exp13`: Experiment assets used in the talk and demos.

@@ -20,7 +20,7 @@
  \tableofcontents
 \end{frame}
 \section{Tetromino Pieces}
-\begin{frame} % Tetromino overview
+\begin{frame}<7-> % Tetromino overview
   \frametitle{Tetrominoes}
 
   \begin{center}
@@ -39,28 +39,26 @@
       {\small S (Horiz)} & {\small Z (Horiz)} & {\small J (Up)} & {\small L (Up)} \\
     \end{tabular}
   \end{center}
-
+  \vfill
   \begin{minipage}{0.65\textwidth}
     \begin{itemize}
       \item ``1x1'': Single (extra single-site particle)
       \item ``I'': Horizontal, Vertical
       \item ``J, L, T'': Up, Right, Down, Left
       \item ``S, Z'': Horizontal, Vertical
-      \item ``O`: Single (2×2 square)
+      \item ``O'': Single (2x2 square)
     \end{itemize}
   \end{minipage}
-  $\times$
   \begin{minipage}{0.30\textwidth}
     \begin{itemize}
       \item Sticky
       \item Nonstikcy
     \end{itemize}
   \end{minipage}
-
-  % \vspace{0.6em} {\footnotesize Sticky pieces are shown (non-bordered).
-  % Non-sticky variants use bordered images with the same names plus the suffix
-% \texttt{\_bordered}. All orientations are available for I, J, L, T, S, Z; O is a
-% 2x2 square; 1x1 is an extra single-site piece.}
+  \pause
+  \begin{align*}
+    (1+1\times 2 +3\times 4 + 2 \times 2 + 1) \times 2 = 20 \times 2 = 40 \text{ types of pieces}
+  \end{align*}
 \end{frame}
 \section{Introduction to growth model and SPDE}
 \begin{frame}[fragile] % Random deposition

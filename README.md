@@ -1,6 +1,6 @@
 # Talk: Analysis of Tetris Ballistic Deposition and the Robustness of the KPZ Universality Class
 
-Banff workshop: Emerging Synergies between Stochastic Analysis and Statistical Mechanics  
+Banff workshop: [Emerging Synergies between Stochastic Analysis and Statistical Mechanics](https://www.birs.ca/events/2025/5-day-workshops/25w5367)  
 Dates: 2025-10-27 — 2025-10-31
 
 ## Slides

@@ -24,6 +24,21 @@ latexmk -pdf -interaction=nonstopmode Talk-LeChen-Banff_20251028.tex
   - Raw PNG outputs only (no HTML gallery). Browse the folder: [exp11/](./exp11)
   - Contents include combined log–log plots (per piece/type and condition) and configuration thumbnails. Filenames encode parameters, e.g. `combined_loglog_plot_nonsticky_piece_19.png` and `config_type_6_sticky_w=100_seed=30.png`.
 
+## Movies
+Supplementary movies (Scientific Reports, 2011) used for context and outreach:
+
+<figure>
+  <video src="./movies/MOESM2.mov" controls muted playsinline width="420"></video>
+  <figcaption>MOESM2.mov — Circular interface growth (Takeuchi et al., 2011)</figcaption>
+</figure>
+
+<figure>
+  <video src="./movies/MOESM3.mov" controls muted playsinline width="420"></video>
+  <figcaption>MOESM3.mov — Flat interface growth (Takeuchi et al., 2011)</figcaption>
+</figure>
+
+If your browser doesn’t display inline players here, use the direct links: [MOESM2.mov](./movies/MOESM2.mov), [MOESM3.mov](./movies/MOESM3.mov).
+
 ## Folders
 - `exp13`: Experiment assets used in the talk and demos.
   - Static galleries: `images_display.html`, `videos_and_images_display.html`
@@ -34,6 +49,7 @@ latexmk -pdf -interaction=nonstopmode Talk-LeChen-Banff_20251028.tex
   - Note: No HTML gallery; open images directly in the folder.
 - `tetromino`: PNG assets for tetromino pieces (sticky vs non-sticky variants) used in slides and simulations. See `tetromino/README.md` for naming and usage.
 - `figs`: Most figures used in the Beamer slides (may be a symlink in other clones). Update paths if the link breaks.
+- `movies`: Supplementary videos (MOESM2.mov, MOESM3.mov) accompanying Takeuchi et al. (2011).
 
 
 ## Abstract
@@ -43,6 +59,8 @@ The Central Limit Theorem's robustness invites an analogous question for the Kar
 ## References
 - Bibliography collection (SPDEs-Bib): [github.com/chenle02/SPDEs-Bib](https://github.com/chenle02/SPDEs-Bib)
 - Simulation package (surface growth models): [github.com/chenle02/Simulations_on_Some_Surface_Growth_Models](https://github.com/chenle02/Simulations_on_Some_Surface_Growth_Models)
+
+- Takeuchi, K. A.; Sano, M.; Sasamoto, T.; Spohn, H. “Growing interfaces uncover universal fluctuations behind scale invariance.” Scientific Reports 1 (2011), 34. doi:10.1038/srep00034.
 
 ## Acknowledgments
 Support from NSF 2443823, NSF 2246850, and the Simons Foundation Travel Grant (2022–2027) is gratefully acknowledged.

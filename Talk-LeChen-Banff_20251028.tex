@@ -27,23 +27,40 @@
     % Show sticky (non-bordered) variants
     \renewcommand{\arraystretch}{1.2}
     \begin{tabular}{cccc}
-      \includegraphics[height=0.95cm]{tetromino/Tetromino_1x1_Single.png} &
-      \includegraphics[height=0.95cm]{tetromino/Tetromino_I_Vertical.png} &
+      \includegraphics[height=0.425cm]{tetromino/Tetromino_1x1_Single.png} &
+      \includegraphics[height=1.55cm]{tetromino/Tetromino_I_Vertical.png} &
       \includegraphics[height=0.95cm]{tetromino/Tetromino_O_Single.png} &
-      \includegraphics[height=0.95cm]{tetromino/Tetromino_T_Up.png} \\
+      \includegraphics[height=0.90cm]{tetromino/Tetromino_T_Up.png} \\
       {\small 1x1} & {\small I (Vertical)} & {\small O (2x2)} & {\small T (Up)} \\
-      \includegraphics[height=0.95cm]{tetromino/Tetromino_S_Horizontal.png} &
-      \includegraphics[height=0.95cm]{tetromino/Tetromino_Z_Horizontal.png} &
-      \includegraphics[height=0.95cm]{tetromino/Tetromino_J_Up.png} &
-      \includegraphics[height=0.95cm]{tetromino/Tetromino_L_Up.png} \\
+      \includegraphics[height=0.90cm]{tetromino/Tetromino_S_Horizontal.png} &
+      \includegraphics[height=0.90cm]{tetromino/Tetromino_Z_Horizontal.png} &
+      \includegraphics[height=1.35cm]{tetromino/Tetromino_J_Up.png} &
+      \includegraphics[height=1.35cm]{tetromino/Tetromino_L_Up.png} \\
       {\small S (Horiz)} & {\small Z (Horiz)} & {\small J (Up)} & {\small L (Up)} \\
     \end{tabular}
   \end{center}
 
-  \vspace{0.6em} {\footnotesize Sticky pieces are shown (non-bordered).
-  Non-sticky variants use bordered images with the same names plus the suffix
-\texttt{\_bordered}. All orientations are available for I, J, L, T, S, Z; O is a
-2x2 square; 1x1 is an extra single-site piece.}
+  \begin{minipage}{0.65\textwidth}
+    \begin{itemize}
+      \item ``1x1'': Single (extra single-site particle)
+      \item ``I'': Horizontal, Vertical
+      \item ``J, L, T'': Up, Right, Down, Left
+      \item ``S, Z'': Horizontal, Vertical
+      \item ``O`: Single (2×2 square)
+    \end{itemize}
+  \end{minipage}
+  $\times$
+  \begin{minipage}{0.30\textwidth}
+    \begin{itemize}
+      \item Sticky
+      \item Nonstikcy
+    \end{itemize}
+  \end{minipage}
+
+  % \vspace{0.6em} {\footnotesize Sticky pieces are shown (non-bordered).
+  % Non-sticky variants use bordered images with the same names plus the suffix
+% \texttt{\_bordered}. All orientations are available for I, J, L, T, S, Z; O is a
+% 2x2 square; 1x1 is an extra single-site piece.}
 \end{frame}
 \section{Introduction to growth model and SPDE}
 \begin{frame}[fragile] % Random deposition

@@ -588,7 +588,7 @@
   \[
     f(u)\sim 
     \begin{cases}
-      u^{\beta},    & u\ll1, \\ [2pt]
+      u^{\beta},    & u\ll1, \\
       \text{const}, & u\gg1.
     \end{cases}
     \qquad\Rightarrow\qquad
@@ -612,22 +612,30 @@
 
   \myFootCite{family.vicsek:85:scaling}
 \end{frame}
-
-\begin{frame}[t]{How to verify FV scaling (data collapse)}
-\small
-\textbf{Recipe}
-\begin{enumerate}\itemsep2pt
-\item Simulate/measure $w(L,t)$ for several $L$.
-\item Estimate $\alpha$ from $w_{\mathrm{sat}}(L)\!\sim\! L^{\alpha}$ (fit saturated widths).
-\item Estimate $z$ from $t_\times(L)\!\sim\! L^{z}$ or use $\beta=\alpha/z$ with early-time slope.
-\item Plot $w(L,t)/L^{\alpha}$ vs.\ $t/L^{z}$; curves collapse to the master $f(u)$.
-\end{enumerate}
-\textbf{Pitfalls}
-\begin{itemize}\itemsep2pt
-\item Transient window before true power law; finite-size drifts in $w_{\mathrm{sat}}$.
-\item Use consistent fitting ranges; report uncertainty from range variation.
-\end{itemize}
+\begin{frame}[fragile] % COMENTS
+ 
+  Family and Vicsek reported from their simulation that 
+  \begin{align*}
+    \beta = 0.30 \pm 0.02 \approx \frac{1}{3}.
+  \end{align*}
+  
+  \myFootCite{family.vicsek:85:scaling}
 \end{frame}
+% \begin{frame}[t]{How to verify FV scaling (data collapse)}
+% \small
+% \textbf{Recipe}
+% \begin{enumerate}\itemsep2pt
+% \item Simulate/measure $w(L,t)$ for several $L$.
+% \item Estimate $\alpha$ from $w_{\mathrm{sat}}(L)\!\sim\! L^{\alpha}$ (fit saturated widths).
+% \item Estimate $z$ from $t_\times(L)\!\sim\! L^{z}$ or use $\beta=\alpha/z$ with early-time slope.
+% \item Plot $w(L,t)/L^{\alpha}$ vs.\ $t/L^{z}$; curves collapse to the master $f(u)$.
+% \end{enumerate}
+% \textbf{Pitfalls}
+% \begin{itemize}\itemsep2pt
+% \item Transient window before true power law; finite-size drifts in $w_{\mathrm{sat}}$.
+% \item Use consistent fitting ranges; report uncertainty from range variation.
+% \end{itemize}
+% \end{frame}
 
 \begin{frame}[t]{Continuum viewpoint: EW and KPZ}
 \small
@@ -704,6 +712,57 @@ f(u)\sim u^{\beta}\ (u\!\ll\!1),\ f(u)\to\text{const}\ (u\!\gg\!1),\
     Random deposition vs. Ballistic decomposition
   \end{center}
 \end{frame}
+\begin{frame}[fragile] % Surface growth -- Crystal
+  \frametitle{Study of growing interfaces in a thin film \\
+    \small --- Convection of nematic liquid crystal$^*$
+      % Growing interfaces uncover universal fluctuations behind scale invariance.
+  }
+
+  \begin{center}
+    \only<1>{Show movies~!}
+    \only<2>{
+      \includegraphics[scale=0.08]{./figs/Growing-DSM2.png}
+
+      \vfill
+      Prediction from KPZ equation:
+      \begin{align*}
+        h\asymp v_\infty t + \left(\Gamma t\right)^{1/3} \xi
+      \end{align*}
+    }
+    \only<3>{
+      \begin{align*}
+        h\asymp v_\infty t + \left(\Gamma t\right)^{1/3} \xi
+      \end{align*}
+
+      \includegraphics[scale=0.12]{./figs/Universal_Fluctuations_DSM.png}
+    }
+  \end{center}
+
+  \myFootCite{takeuchi.sano.ea:11:growing}
+
+\end{frame}
+\begin{frame}[fragile] % KPZ three authors' photos
+  \frametitle{KPZ Equation '86}
+
+  \begin{align}
+    \tag{KPZ}
+    \dfrac{\partial}{\partial t} h(t,x) = \frac{1}{2} \Delta h(t,x) + \frac{\lambda}{2} \left(\nabla h\right)^2 +\textcolor{contrast_color_1}{\dot{W}(t,x)}
+  \end{align}
+  \vfill
+
+  \begin{center}
+    \includegraphics[scale=0.22]{figs/Kardar.jpg}
+    \includegraphics[scale=0.20]{figs/Parisi.jpg}
+    \includegraphics[scale=0.28]{figs/Zhang.jpg}
+  \end{center}
+
+  \small
+  \quad Mehran Kardar (1957 --) \:\:  Giorgio Parisi (1948 --) \qquad\qquad Yicheng Zhang
+
+  \myFootCite{kardar.parisi.ea:86:dynamic}
+\end{frame}
+
+\section{More examples}
 \begin{frame}[fragile] % More models
   \frametitle{More models? Even more simpler?}
 
@@ -757,57 +816,6 @@ f(u)\sim u^{\beta}\ (u\!\ll\!1),\ f(u)\to\text{const}\ (u\!\gg\!1),\
 
   \myFootCite{kertesz.horvath.ea:93:self-affine}
 \end{frame}
-\begin{frame}[fragile] % Surface growth -- Crystal
-  \frametitle{Study of growing interfaces in a thin film \\
-    \small --- Convection of nematic liquid crystal$^*$
-      % Growing interfaces uncover universal fluctuations behind scale invariance.
-  }
-
-  \begin{center}
-    \only<1>{Show movies~!}
-    \only<2>{
-      \includegraphics[scale=0.08]{./figs/Growing-DSM2.png}
-
-      \vfill
-      Prediction from KPZ equation:
-      \begin{align*}
-        h\asymp v_\infty t + \left(\Gamma t\right)^{1/3} \xi
-      \end{align*}
-    }
-    \only<3>{
-      \begin{align*}
-        h\asymp v_\infty t + \left(\Gamma t\right)^{1/3} \xi
-      \end{align*}
-
-      \includegraphics[scale=0.12]{./figs/Universal_Fluctuations_DSM.png}
-    }
-  \end{center}
-
-  \myFootCite{takeuchi.sano.ea:11:growing}
-
-\end{frame}
-\begin{frame}[fragile] % KPZ three authors' photos
-  \frametitle{KPZ Equation '86}
-
-  \begin{align}
-    \tag{KPZ}
-    \dfrac{\partial}{\partial t} h(t,x) = \frac{1}{2} \Delta h(t,x) + \frac{\lambda}{2} \left(\nabla h\right)^2 +\textcolor{contrast_color_1}{\dot{W}(t,x)}
-  \end{align}
-  \vfill
-
-  \begin{center}
-    \includegraphics[scale=0.22]{figs/Kardar.jpg}
-    \includegraphics[scale=0.20]{figs/Parisi.jpg}
-    \includegraphics[scale=0.28]{figs/Zhang.jpg}
-  \end{center}
-
-  \small
-  \quad Mehran Kardar (1957 --) \:\:  Giorgio Parisi (1948 --) \qquad\qquad Yicheng Zhang
-
-  \myFootCite{kardar.parisi.ea:86:dynamic}
-\end{frame}
-
-
 \section{Tetromino Pieces}
 \begin{frame}<7-> % Tetromino overview
   \frametitle{Tetrominoes}

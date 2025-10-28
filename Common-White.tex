@@ -198,6 +198,24 @@
 \newcommand{\arctanh}{\operatorname{arctanh}}
 \newcommand{\ind}[1]{\mathbb{I}_{\left\{ {#1} \right\} }}
 \newcommand{\Var}{\text{Var}}
+
+% -------------------------------
+% Hyperref PDF metadata + clean PDF strings
+% -------------------------------
+\AtBeginDocument{%
+  % Ensure clean metadata strings (avoid `\\` and special tokens warnings)
+  % (Metadata set by beamer; avoid re-setting to prevent warnings)
+  \pdfstringdefDisableCommands{%
+    \def\\{}% remove linebreaks in PDF strings
+    \def\&{and}% replace ampersand
+    \def\texttt#1{#1}% strip formatting in PDF strings
+  }%
+  % Help TeX break long lines to reduce Overfull \hbox warnings
+  \setlength{\emergencystretch}{2em}%
+  % Silence visually minor box warnings on slides
+  \hfuzz=30pt\relax
+  \vfuzz=25pt\relax
+}
 \newcommand{\Cov}{\text{Cov}}
 \newcommand{\Corr}{\text{Corr}}
 \newcommand{\W}{\dot{W}}

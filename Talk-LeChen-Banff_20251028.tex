@@ -6,15 +6,22 @@
 \begin{frame}[noframenumbering] % Title page.
   \titlepage
 \end{frame}
-\begin{frame}[fragile] % Three deposition models side-by-side (no overlays)
+\begin{frame}[fragile] % Three deposition models in one TikZ (no overlays)
   \frametitle{How do surfaces grow?}
 
-  \begin{columns}[T,onlytextwidth]
-    \column{0.32\textwidth}
-    \centering
-    {\footnotesize Random deposition}\par\vspace{0.3em}
-    \resizebox{\linewidth}{!}{%
-      \begin{tikzpicture}[every node/.style={draw, minimum size=1cm}, node distance=0cm]
+  \begin{center}
+    \resizebox{0.95\linewidth}{!}{%
+    \begin{tikzpicture}[every node/.style={draw, minimum size=1cm}]
+      % Global bounding box to control overall size and align baselines
+      \useasboundingbox (-0.5,-1.2) rectangle (26,6.2);
+
+      % Titles above each panel
+      \node[draw=none, scale=2] at (4, 6.4) {Random deposition};
+      \node[draw=none, scale=2] at (13,6.4) {RD with surface relaxation};
+      \node[draw=none, scale=2] at (22,6.4) {Ballistic deposition};
+
+      % Panel 1: Random deposition
+      \begin{scope}[shift={(0,0)}]
         \tikzset{
           solidnode/.style={draw, fill = gray!80!white, solid, minimum size=1cm},
           dashnodeX/.style={
@@ -35,101 +42,70 @@
         \node[dashnodeX] (7) at (6,5) {7};
         \node[dashnodeD] (6') at (3,1) {6'};
         \node[dashnodeD] (7') at (6,1) {7'};
-      \end{tikzpicture}%
-    }
+      \end{scope}
 
-    \column{0.36\textwidth}
-    \centering
-    {\footnotesize RD with surface relaxation}\par\vspace{0.3em}
-    \resizebox{\linewidth}{!}{%
-      \begin{tikzpicture}[every node/.style={draw, minimum size=1cm}, node distance=0cm]
+      % Panel 2: RD with surface relaxation
+      \begin{scope}[shift={(9,0)}]
         \tikzset{
-          solidnode/.style={
-              draw, fill=gray!80!white, solid, minimum size=1cm
-          },
+          solidnode/.style={draw, fill=gray!80!white, solid, minimum size=1cm},
           dashnodeX/.style={
-              draw, dashed, minimum size=1cm, very thick,
-              append after command={
-              \pgfextra{  % the \\pgfextra command allows multiple draw commands
-                  \draw [->, thick, shorten >=1.5pt] (\tikzlastnode.south) -- ++(0,-0.5cm);
-              }
-              }
+            draw, dashed, minimum size=1cm, very thick,
+            append after command={
+              \pgfextra{\draw [->, thick, shorten >=1.5pt] (\tikzlastnode.south) -- ++(0,-0.5cm);} }
           },
           dashnodeR/.style={
-              draw, dashed, minimum size=1cm, very thick, fill=gray!30!white,
-              append after command={
-              \pgfextra{  % the \\pgfextra command allows multiple draw commands
-                  \draw [->, thick, shorten >=1.5pt] (\tikzlastnode.east) -- ++(0.5cm,0) -- ++(0,-0.5cm);
-              }
-              }
+            draw, dashed, minimum size=1cm, very thick, fill=gray!30!white,
+            append after command={\pgfextra{\draw [->, thick, shorten >=1.5pt] (\tikzlastnode.east) -- ++(0.5cm,0) -- ++(0,-0.5cm);}}
           },
           dashnodeL/.style={
-              draw, dashed, minimum size=1cm, very thick, fill=gray!30!white,
-              append after command={
-              \pgfextra{  % the \\pgfextra command allows multiple draw commands
-                  \draw [->, thick, shorten >=1.5pt] (\tikzlastnode.west) -- ++(-0.5cm,0) -- ++(0,-0.5cm);
-              }
-              }
+            draw, dashed, minimum size=1cm, very thick, fill=gray!30!white,
+            append after command={\pgfextra{\draw [->, thick, shorten >=1.5pt] (\tikzlastnode.west) -- ++(-0.5cm,0) -- ++(0,-0.5cm);}}
           },
           dashnodeT/.style={
-              draw, dashed, minimum size=1cm, very thick, fill=gray!30!white,
-              append after command={
-              \pgfextra{  % the \\pgfextra command allows multiple draw commands
-                  \draw [->, thick, shorten >=1.5pt] (\tikzlastnode.east) -- ++(0.5cm,0) -- ++(0,-0.5cm);
-                  \draw [->, thick, shorten >=1.5pt] (\tikzlastnode.west) -- ++(-0.5cm,0) -- ++(0,-0.5cm);
-              }
-              }
+            draw, dashed, minimum size=1cm, very thick, fill=gray!30!white,
+            append after command={\pgfextra{\draw [->, thick, shorten >=1.5pt] (\tikzlastnode.east) -- ++(0.5cm,0) -- ++(0,-0.5cm); \draw [->, thick, shorten >=1.5pt] (\tikzlastnode.west) -- ++(-0.5cm,0) -- ++(0,-0.5cm);}}
           }
         }
         \draw[thick] (0,-0.5) --++ (8,0) node [midway, below, draw=none] {Substrate};
-        \node[solidnode] (1) at (2,0) {1};
-        \node[solidnode] (3) at (2,1) {3};
-        \node[solidnode] (4) at (2,2) {4};
-        \node[solidnode] (5) at (3,0) {2};
-        \node[solidnode] (2) at (6,0) {5};
-        \node[dashnodeX] (6) at (3,5) {6};
-        \node[dashnodeX] (7) at (6,5) {7};
-        \node[dashnodeX] (8) at (2,5) {8};
-        \node[dashnodeR] (6') at (3,1) {6'};
-        \node[dashnodeT] (7') at (6,1) {7'};
-        \node[dashnodeL] (8') at (2,3) {8'};
-      \end{tikzpicture}%
-    }
+        \node[solidnode] (1b) at (2,0) {1};
+        \node[solidnode] (3b) at (2,1) {3};
+        \node[solidnode] (4b) at (2,2) {4};
+        \node[solidnode] (5b) at (3,0) {2};
+        \node[solidnode] (2b) at (6,0) {5};
+        \node[dashnodeX] (6b) at (3,5) {6};
+        \node[dashnodeX] (7b) at (6,5) {7};
+        \node[dashnodeX] (8b) at (2,5) {8};
+        \node[dashnodeR] (6pb) at (3,1) {6'};
+        \node[dashnodeT] (7pb) at (6,1) {7'};
+        \node[dashnodeL] (8pb) at (2,3) {8'};
+      \end{scope}
 
-    \column{0.32\textwidth}
-    \centering
-    {\footnotesize Ballistic deposition}\par\vspace{0.3em}
-    \resizebox{\linewidth}{!}{%
-      \begin{tikzpicture}[every node/.style={draw, minimum size=1cm}, node distance=0cm]
+      % Panel 3: Ballistic deposition
+      \begin{scope}[shift={(18,0)}]
         \tikzset{
-          solidnode/.style={
-              draw, fill=gray!80!white, solid, minimum size=1cm
-          },
+          solidnode/.style={draw, fill=gray!80!white, solid, minimum size=1cm},
           dashnodeX/.style={
-              draw, dashed, minimum size=1cm, very thick,
-              append after command={
-              \pgfextra{  % the \\pgfextra command allows multiple draw commands
-                  \draw [->, thick, shorten >=1.5pt] (\tikzlastnode.south) -- ++(0,-0.5cm);
-              }
-              }
+            draw, dashed, minimum size=1cm, very thick,
+            append after command={\pgfextra{\draw [->, thick, shorten >=1.5pt] (\tikzlastnode.south) -- ++(0,-0.5cm);}}
           },
           dashnodeD/.style={draw, dashed, minimum size=1cm, very thick, fill = gray!30!white},
         }
         \draw[thick] (0,-0.5) --++ (8,0) node [midway, below, draw=none] {Substrate};
-        \node[solidnode] (1) at (2,0) {1};
-        \node[solidnode] (3) at (2,1) {3};
-        \node[solidnode] (4) at (2,2) {4};
-        \node[solidnode] (5) at (3,0) {2};
-        \node[solidnode] (2) at (6,0) {5};
-        \node[dashnodeX] (6) at (3,5) {6};
-        \node[dashnodeX] (7) at (6,5) {7};
-        \node[dashnodeX] (8) at (1,5) {8};
-        \node[dashnodeD] (6') at (3,2) {6'};
-        \node[dashnodeD] (7') at (6,1) {7'};
-        \node[dashnodeD] (8') at (1,2) {8'};
-      \end{tikzpicture}%
+        \node[solidnode] (1c) at (2,0) {1};
+        \node[solidnode] (3c) at (2,1) {3};
+        \node[solidnode] (4c) at (2,2) {4};
+        \node[solidnode] (5c) at (3,0) {2};
+        \node[solidnode] (2c) at (6,0) {5};
+        \node[dashnodeX] (6c) at (3,5) {6};
+        \node[dashnodeX] (7c) at (6,5) {7};
+        \node[dashnodeX] (8c) at (1,5) {8};
+        \node[dashnodeD] (6pc) at (3,2) {6'};
+        \node[dashnodeD] (7pc) at (6,1) {7'};
+        \node[dashnodeD] (8pc) at (1,2) {8'};
+      \end{scope}
+    \end{tikzpicture}%
     }
-  \end{columns}
+  \end{center}
 \end{frame}
 
 \begin{frame}<15->%{Motivation}
@@ -191,7 +167,7 @@
     \vfill
     {\footnotesize Simulation package: \\[0.5em]
     \url{https://github.com/chenle02/Simulations_on_Some_Surface_Growth_Models}\\[0.5em]
-    \texttt{pip install tetris-ballistic}
+    \texttt{pip install tetris-ballistic}}
   \end{center}
 \end{frame}
 \begin{frame}[fragile,t] % COMENTS
@@ -362,7 +338,7 @@
     \end{tikzpicture}
   \end{center}
 \end{frame}
-\begin{frame}[fragile] % Average height and fluctuation
+\begin{frame}[fragile,t] % Average height and fluctuation
   \frametitle{Average height and fluctuation}
    \begin{center}
      \begin{tikzpicture}[every node/.style={draw, minimum size=1cm}, node distance=0cm]
@@ -413,8 +389,8 @@
 
       \only<2->{
         \draw[thick, dashed] (-0.7, 11/8 - 1) --++ (8.4,0) node[right, draw = none] {$\overline{h}(8) = \dfrac{11}{8}$};
-        \node[draw = none] (av) at (-0.5,6) {$ \displaystyle \overline{h}(t) = \frac{1}{L}\sum_{x=1}^{L}h(t,x)$};
-        \node[draw = none] (fl) at (5,6.0) {Fluctuation $ \displaystyle W(L,t) = \sqrt{\frac{1}{L}\sum_{x=1}^{L}\left[h(t,x) - \overline{h}(t)\right]^2}$};
+        \node[draw = none] (av) at (-0.5,5.3) {$ \displaystyle \overline{h}(t) = \frac{1}{L}\sum_{x=1}^{L}h(t,x)$};
+        \node[draw = none] (fl) at (5,5.1) {Fluctuation $ \displaystyle W(L,t) = \sqrt{\frac{1}{L}\sum_{x=1}^{L}\left[h(t,x) - \overline{h}(t)\right]^2}$};
       }
 
       \only<3->{
@@ -465,6 +441,134 @@
 \begin{frame}[fragile] % COMENTS
   For ballistic deposition (sticky), lateral interactions appear, can we view it
   as a perturbation of random deposition (nonsticky)?
+\end{frame}
+
+\section{Family-Vicsek scaling and experiments}
+
+\begin{frame}[t]{What we measure}
+\small
+Discrete interface with heights $h(x,t)$, $x=1,\dots,L$. Mean
+$\bar h(t)=\frac1L\sum_{x=1}^L h(x,t)$.
+\[
+w(L,t)
+:=\sqrt{\frac1L\sum_{x=1}^L\big(h(x,t)-\bar h(t)\big)^2}
+\quad\text{(interface width / roughness)}.
+\]
+Empirically (log–log):
+\begin{itemize}\itemsep2pt
+\item Early time: $w(L,t)\sim t^{\beta}$ (growth exponent $\beta$).
+\item Late time: $w(L,t)\to w_{\mathrm{sat}}(L)\sim L^{\alpha}$ (roughness exponent $\alpha$).
+\item Crossover time: $t_\times(L)\sim L^{z}$ (dynamic exponent $z$).
+\end{itemize}
+\end{frame}
+
+\begin{frame}[t]{Family–Vicsek scaling ansatz}
+\small
+\[
+\boxed{\;w(L,t)\;\sim\; L^{\alpha}\, f\!\left(\dfrac{t}{L^{z}}\right)\;}
+\]
+with
+\[
+f(u)\sim 
+\begin{cases}
+u^{\beta}, & u\ll1,\\[2pt]
+\text{const}, & u\gg1.
+\end{cases}
+\qquad\Rightarrow\qquad
+\boxed{\;\beta=\dfrac{\alpha}{z}\;}
+\]
+Immediate consequences:
+\[
+w_{\mathrm{sat}}(L) \sim L^{\alpha},\qquad
+t_\times(L)\sim L^{z}.
+\]
+Interpretation: dynamic renormalization $x\!\to\! b x$, $t\!\to\! b^{z}t$, $h\!\to\! b^{\alpha}h$ leaves $w(L,t)/L^{\alpha}$ invariant as a function of $t/L^{z}$.
+\end{frame}
+
+\begin{frame}[t]{How to verify FV scaling (data collapse)}
+\small
+\textbf{Recipe}
+\begin{enumerate}\itemsep2pt
+\item Simulate/measure $w(L,t)$ for several $L$.
+\item Estimate $\alpha$ from $w_{\mathrm{sat}}(L)\!\sim\! L^{\alpha}$ (fit saturated widths).
+\item Estimate $z$ from $t_\times(L)\!\sim\! L^{z}$ or use $\beta=\alpha/z$ with early-time slope.
+\item Plot $w(L,t)/L^{\alpha}$ vs.\ $t/L^{z}$; curves collapse to the master $f(u)$.
+\end{enumerate}
+\textbf{Pitfalls}
+\begin{itemize}\itemsep2pt
+\item Transient window before true power law; finite-size drifts in $w_{\mathrm{sat}}$.
+\item Use consistent fitting ranges; report uncertainty from range variation.
+\end{itemize}
+\end{frame}
+
+\begin{frame}[t]{Continuum viewpoint: EW and KPZ}
+\small
+\textbf{EW (linear diffusion + noise)}:
+\[
+\partial_t h=\nu\nabla^2 h+\eta,\qquad \langle\eta\eta\rangle\propto\delta(x)\delta(t).
+\]
+Scale invariance gives $z=2$, $\alpha=\tfrac12$ in 1D $\Rightarrow \beta=\tfrac14$.
+
+\medskip
+\textbf{KPZ (nonlinear growth)}:
+\[
+\partial_t h=\nu\nabla^2 h+\frac{\lambda}{2}(\nabla h)^2+\eta.
+\]
+Galilean/tilt invariance $\Rightarrow \alpha+z=2$. In 1D (exact):
+\[
+\boxed{\alpha=\tfrac12,\quad z=\tfrac32,\quad \beta=\tfrac13.}
+\]
+Many lattice models (BD, RSOS, Eden) fall into KPZ in 1+1D.
+\end{frame}
+
+\begin{frame}[t]{Reading plots (as in Barabási–Stanley)}
+\small
+\begin{itemize}\itemsep2pt
+\item On $w$ vs.\ $t$ (log–log) for several $L$: early slopes $\approx\beta$; plateaus $\propto L^{\alpha}$; horizontal shift of crossovers $\propto L^{z}$.
+\item After rescaling: plot $w/L^{\alpha}$ vs.\ $t/L^{z}$; all curves collapse to $f(u)$ with
+  $f(u)\sim u^{\beta}$ ($u\!\ll\!1$) and $f(u)\to \text{const}$ ($u\!\gg\!1$).
+\end{itemize}
+Rule of thumb (1D):
+\[
+\text{EW: }\ (\alpha,\beta,z)=\Big(\tfrac12,\tfrac14,2\Big),
+\qquad
+\text{KPZ/BD: }\ (\alpha,\beta,z)=\Big(\tfrac12,\tfrac13,\tfrac32\Big).
+\]
+\end{frame}
+
+\begin{frame}[t]{Exactly solvable baseline: Random Deposition (RD)}
+\small
+One particle per step, random column; after $t$ steps heights are multinomial:
+\[
+\mathbb E\big[w^2(L,t)\big]=\frac{t}{L}\Big(1-\frac1L\Big)\ \sim\ \frac{t}{L}.
+\]
+Hence $w\sim (t/L)^{1/2}$ ($\beta=\tfrac12$), \emph{no lateral correlations}, no finite $z$ and no true saturation. RD serves as a growth-only sanity check; FV scaling requires correlated dynamics (EW/KPZ).
+\end{frame}
+
+\begin{frame}[t]{Structure factor (optional but handy)}
+\small
+Fourier modes $h_k(t)$, structure factor $S(k,t)=\langle|h_k(t)|^2\rangle$ obey
+\[
+S(k,t)\sim k^{-(2\alpha+1)}\,g(k^{z}t),\qquad
+g(y)\sim\begin{cases}
+y^{2\beta+1} & y\ll1,\\
+\text{const} & y\gg1.
+\end{cases}
+\]
+Useful when $w(L,t)$ is noisy; fit $(\alpha,z)$ from spectral slopes and collapse $S(k,t)$.
+\end{frame}
+
+\begin{frame}[t]{Cheat sheet / takeaways}
+\small
+\[
+\boxed{\,w(L,t)\sim L^{\alpha} f\!\left(\dfrac{t}{L^{z}}\right),\quad
+f(u)\sim u^{\beta}\ (u\!\ll\!1),\ f(u)\to\text{const}\ (u\!\gg\!1),\ 
+\beta=\alpha/z\,}
+\]
+1D benchmarks: EW $(\alpha,\beta,z)=(\tfrac12,\tfrac14,2)$; KPZ/BD $(\tfrac12,\tfrac13,\tfrac32)$.
+\medskip
+
+\textbf{Workflow}: measure $w(L,t)$ $\Rightarrow$ fit $\alpha$ and $\beta$ $\Rightarrow$ infer/fit $z$ $\Rightarrow$ collapse $w/L^\alpha$ vs.\ $t/L^z$.
 \end{frame}
 \begin{frame}[fragile] % Random diposition vs ballistic decomposition
   \begin{center}

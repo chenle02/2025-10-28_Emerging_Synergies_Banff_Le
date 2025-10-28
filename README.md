@@ -16,10 +16,9 @@ Build locally (requires TeX Live + biber):
 latexmk -pdf -interaction=nonstopmode Talk-LeChen-Banff_20251028.tex
 ```
 
-## Interactive Media
-- Images gallery (GitHub Pages): https://chenle02.github.io/2025-10-28_Emerging_Synergies_Banff_Le/exp13/images_display.html
-- Videos + images (GitHub Pages): https://chenle02.github.io/2025-10-28_Emerging_Synergies_Banff_Le/exp13/videos_and_images_display.html
-  - If Pages isn’t enabled yet: Settings → Pages → Deploy from branch → `master` (root).
+## Simulation results
+- [Plots without videos](https://chenle02.github.io/2025-10-28_Emerging_Synergies_Banff_Le/exp13/images_display.html) 
+- [Plots with videos](https://chenle02.github.io/2025-10-28_Emerging_Synergies_Banff_Le/exp13/videos_and_images_display.html) 
 
 ## Folders
 - `exp13`: Experiment assets used in the talk and demos.

@@ -1,0 +1,53 @@
+# LaTeX build artifacts
+*.aux
+*.auxlock
+*.out
+*.toc
+*.log
+*.lof
+*.lot
+*.lol
+*.brf
+*.idx
+*.ilg
+*.ind
+*.fls
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.nav
+*.snm
+*.vrb
+*.bcf
+*.blg
+*.bbl
+*-blx.bib
+*.run.xml
+*.xdv
+*.dvi
+*.ps
+*-eps-converted-to.pdf
+auto/
+
+# TikZ/PGF externalization & minted
+_minted*
+*.pyg
+tikzexternal/*
+
+# Common OS/editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.#*
+.idea/
+.vscode/
+.history/
+*.code-workspace
+
+# Optional: ignore compiled PDFs (uncomment if desired)
+# *.pdf
+

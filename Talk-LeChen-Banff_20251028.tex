@@ -1,0 +1,425 @@
+\documentclass[9pt,table,xcolor=dvipsnames]{beamer}
+\input{Common-White.tex}
+\input{Title.tex}
+\begin{document}
+
+\begin{frame}[noframenumbering] % Title page.
+  \titlepage
+\end{frame}
+\begin{frame}[fragile] % Coauthors
+  \begin{center}
+    Math 7820/30: Applied Stochastic Processes (2023/24):
+    \includegraphics[scale=0.30]{./figs/mau.jpeg}
+    \includegraphics[scale=0.50]{./figs/ruau.jpg}
+    \bigskip
+
+    Mauricio Montes and Ian Ruau
+  \end{center}
+\end{frame}
+\begin{frame}{Plan} % TOC
+ \tableofcontents
+\end{frame}
+\section{Tetromino Pieces}
+\begin{frame} % Tetromino overview
+  \frametitle{Tetrominoes}
+
+  \begin{center}
+    % Show sticky (non-bordered) variants
+    \renewcommand{\arraystretch}{1.2}
+    \begin{tabular}{cccc}
+      \includegraphics[height=0.95cm]{tetromino/Tetromino_1x1_Single.png} &
+      \includegraphics[height=0.95cm]{tetromino/Tetromino_I_Vertical.png} &
+      \includegraphics[height=0.95cm]{tetromino/Tetromino_O_Single.png} &
+      \includegraphics[height=0.95cm]{tetromino/Tetromino_T_Up.png} \\
+      {\small 1x1} & {\small I (Vertical)} & {\small O (2x2)} & {\small T (Up)} \\
+      \includegraphics[height=0.95cm]{tetromino/Tetromino_S_Horizontal.png} &
+      \includegraphics[height=0.95cm]{tetromino/Tetromino_Z_Horizontal.png} &
+      \includegraphics[height=0.95cm]{tetromino/Tetromino_J_Up.png} &
+      \includegraphics[height=0.95cm]{tetromino/Tetromino_L_Up.png} \\
+      {\small S (Horiz)} & {\small Z (Horiz)} & {\small J (Up)} & {\small L (Up)} \\
+    \end{tabular}
+  \end{center}
+
+  \vspace{0.6em} {\footnotesize Sticky pieces are shown (non-bordered).
+  Non-sticky variants use bordered images with the same names plus the suffix
+\texttt{\_bordered}. All orientations are available for I, J, L, T, S, Z; O is a
+2x2 square; 1x1 is an extra single-site piece.}
+\end{frame}
+\section{Introduction to growth model and SPDE}
+\begin{frame}[fragile] % Random deposition
+  \frametitle{Random deposition}
+
+  \begin{center}
+    \begin{tikzpicture}[every node/.style={draw, minimum size=1cm}, node distance=0cm]
+      \tikzset{
+        solidnode/.style={draw, fill = gray!80!white, solid, minimum size=1cm},
+        dashnodeX/.style={
+          draw, dashed, minimum size=1cm, very thick,
+          append after command={
+            (\tikzlastnode.south) [shorten >=1.5pt, very thick] edge [->, thick] ++(0,-0.5cm)
+          }
+        },
+        dashnodeD/.style={draw, dashed, minimum size=1cm, very thick, fill = gray!30!white},
+      }
+      \draw[thick] (0,-0.5) --++ (8,0) node [midway, below, draw=none] {Substrate};
+      \node[solidnode] (1) at (2,0) {1};
+      \node[solidnode] (3) at (2,1) {3};
+      \node[solidnode] (4) at (2,2) {4};
+      \node[solidnode] (5) at (3,0) {2};
+      \node[solidnode] (2) at (6,0) {5};
+
+      \pause
+      \node[dashnodeX] (6) at (3,5) {6};
+      \node[dashnodeX] (7) at (6,5) {7};
+
+      \pause
+      \node[dashnodeD] (6') at (3,1) {6'};
+
+      \pause
+      \node[dashnodeD] (7') at (6,1) {7'};
+    \end{tikzpicture}
+  \end{center}
+
+\end{frame}
+\begin{frame}[fragile] % Random deposition with surface relaxation.
+  \frametitle{Random deposition with surface relaxation}
+
+  \begin{center}
+    \begin{tikzpicture}[every node/.style={draw, minimum size=1cm}, node distance=0cm]
+      \tikzset{
+        solidnode/.style={
+            draw, fill=gray!80!white, solid, minimum size=1cm
+        },
+        dashnodeX/.style={
+            draw, dashed, minimum size=1cm, very thick,
+            append after command={
+            \pgfextra{  % the \pgfextra command allows multiple draw commands
+                \draw [->, thick, shorten >=1.5pt] (\tikzlastnode.south) -- ++(0,-0.5cm);
+                % \draw [->, thick, shorten <=1.5pt] (\tikzlastnode.north) -- ++(0,0.5cm);
+            }
+            }
+        },
+        dashnodeR/.style={
+            draw, dashed, minimum size=1cm, very thick, fill=gray!30!white,
+            append after command={
+            \pgfextra{  % the \pgfextra command allows multiple draw commands
+                \draw [->, thick, shorten >=1.5pt] (\tikzlastnode.east) -- ++(0.5cm,0) -- ++(0,-0.5cm);
+                % \draw [->, thick, shorten <=1.5pt] (\tikzlastnode.north) -- ++(0,0.5cm);
+            }
+            }
+        },
+        dashnodeL/.style={
+            draw, dashed, minimum size=1cm, very thick, fill=gray!30!white,
+            append after command={
+            \pgfextra{  % the \pgfextra command allows multiple draw commands
+                \draw [->, thick, shorten >=1.5pt] (\tikzlastnode.west) -- ++(-0.5cm,0) -- ++(0,-0.5cm);
+                % \draw [->, thick, shorten <=1.5pt] (\tikzlastnode.north) -- ++(0,0.5cm);
+            }
+            }
+        },
+        dashnodeT/.style={
+            draw, dashed, minimum size=1cm, very thick, fill=gray!30!white,
+            append after command={
+            \pgfextra{  % the \pgfextra command allows multiple draw commands
+                \draw [->, thick, shorten >=1.5pt] (\tikzlastnode.east) -- ++(0.5cm,0) -- ++(0,-0.5cm);
+                \draw [->, thick, shorten >=1.5pt] (\tikzlastnode.west) -- ++(-0.5cm,0) -- ++(0,-0.5cm);
+                % \draw [->, thick, shorten <=1.5pt] (\tikzlastnode.north) -- ++(0,0.5cm);
+            }
+            }
+        }
+      }
+      \draw[thick] (0,-0.5) --++ (8,0) node [midway, below, draw=none] {Substrate};
+      \node[solidnode] (1) at (2,0) {1};
+      \node[solidnode] (3) at (2,1) {3};
+      \node[solidnode] (4) at (2,2) {4};
+      \node[solidnode] (5) at (3,0) {2};
+      \node[solidnode] (2) at (6,0) {5};
+
+      \pause
+      \node[dashnodeX] (6) at (3,5) {6};
+      \node[dashnodeX] (7) at (6,5) {7};
+      \node[dashnodeX] (8) at (2,5) {8};
+
+      \pause
+      \node[dashnodeR] (6') at (3,1) {6'};
+
+      \pause
+      \node[dashnodeT] (7') at (6,1) {7'};
+
+      \pause
+      \node[dashnodeL] (8') at (2,3) {8'};
+    \end{tikzpicture}
+  \end{center}
+\end{frame}
+\begin{frame}[fragile] % Ballistic deposition with surface relaxation.
+  \frametitle{Ballistic deposition}
+
+  \begin{center}
+    \begin{tikzpicture}[every node/.style={draw, minimum size=1cm}, node distance=0cm]
+      \tikzset{
+        solidnode/.style={
+            draw, fill=gray!80!white, solid, minimum size=1cm
+        },
+        dashnodeX/.style={
+            draw, dashed, minimum size=1cm, very thick,
+            append after command={
+            \pgfextra{  % the \pgfextra command allows multiple draw commands
+                \draw [->, thick, shorten >=1.5pt] (\tikzlastnode.south) -- ++(0,-0.5cm);
+                % \draw [->, thick, shorten <=1.5pt] (\tikzlastnode.north) -- ++(0,0.5cm);
+            }
+            }
+        },
+        dashnodeD/.style={draw, dashed, minimum size=1cm, very thick, fill = gray!30!white},
+      }
+      \draw[thick] (0,-0.5) --++ (8,0) node [midway, below, draw=none] {Substrate};
+      \node[solidnode] (1) at (2,0) {1};
+      \node[solidnode] (3) at (2,1) {3};
+      \node[solidnode] (4) at (2,2) {4};
+      \node[solidnode] (5) at (3,0) {2};
+      \node[solidnode] (2) at (6,0) {5};
+
+      \pause
+      \node[dashnodeX] (6) at (3,5) {6};
+      \node[dashnodeX] (7) at (6,5) {7};
+      \node[dashnodeX] (8) at (1,5) {8};
+
+      \pause
+      \node[dashnodeD] (6') at (3,2) {6'};
+
+      \pause
+      \node[dashnodeD] (7') at (6,1) {7'};
+
+      \pause
+      \node[dashnodeD] (8') at (1,2) {8'};
+    \end{tikzpicture}
+  \end{center}
+\end{frame}
+\begin{frame}[fragile] % Average height and fluctuation
+  \frametitle{Average height and fluctuation}
+   \begin{center}
+     \begin{tikzpicture}[every node/.style={draw, minimum size=1cm}, node distance=0cm]
+      \tikzset{
+        solidnode/.style={
+            draw, fill=gray!80!white, solid, minimum size=1cm
+        },
+        dashnodeX/.style={
+            draw, dashed, minimum size=1cm, very thick,
+            append after command={
+            \pgfextra{  % the \pgfextra command allows multiple draw commands
+                \draw [->, thick, shorten >=1.5pt] (\tikzlastnode.south) -- ++(0,-0.5cm);
+                % \draw [->, thick, shorten <=1.5pt] (\tikzlastnode.north) -- ++(0,0.5cm);
+            }
+            }
+        },
+        dashnodeD/.style={draw, dashed, minimum size=1cm, very thick, fill = gray!30!white},
+      }
+      \draw[thick] (-0.5,-0.5) --++ (8,0) node [midway, below, draw=none, yshift = -1em] {Substrate size $L=8$}; % node [right, draw = none, xshift =-1em] {$x$};
+      \draw[thick] (-0.5,-0.5) --++ (0,4);
+      \draw[thick] (+7.5,-0.5) --++ (0,4);
+      \draw[thick, ->] (-1.2,-1.0) --++ (0,5) node [above, draw = none] {$h(8,x) = $};
+      \foreach \y in {0,1,...,4}{
+        \draw[thick] (-1.1,\y-1) --++ (-0.2,0) node [left, draw = none, xshift = 0em] {\y};
+      }
+
+      \foreach \x in {1,...,8}{
+        \draw[thick] (\x-1,-0.5) --++ (0,-0.1) node [below, draw = none, yshift = 1em] {\x};
+        \draw[dotted] (\x-0.5,-0.5) --++ (0,4);
+      }
+      \node[draw = none] at (0, 4.5) {0};
+      \node[draw = none] at (1, 4.5) {3};
+      \node[draw = none] at (2, 4.5) {3};
+      \node[draw = none] at (3, 4.5) {3};
+      \node[draw = none] at (4, 4.5) {0};
+      \node[draw = none] at (5, 4.5) {0};
+      \node[draw = none] at (6, 4.5) {2};
+      \node[draw = none] at (7, 4.5) {0};
+
+      \node[solidnode] (1) at (2,0) {1};
+      \node[solidnode] (3) at (2,1) {3};
+      \node[solidnode] (4) at (2,2) {4};
+      \node[solidnode] (5) at (3,0) {2};
+      \node[solidnode] (2) at (6,0) {5};
+      \node[solidnode] (6) at (3,2) {6};
+      \node[solidnode] (7) at (6,1) {7};
+      \node[solidnode] (8) at (1,2) {8};
+
+      \only<2->{
+        \draw[thick, dashed] (-0.7, 11/8 - 1) --++ (8.4,0) node[right, draw = none] {$\overline{h}(8) = \dfrac{11}{8}$};
+        \node[draw = none] (av) at (-0.5,6) {$ \displaystyle \overline{h}(t) = \frac{1}{L}\sum_{x=1}^{L}h(t,x)$};
+        \node[draw = none] (fl) at (5,6.0) {Fluctuation $ \displaystyle W(L,t) = \sqrt{\frac{1}{L}\sum_{x=1}^{L}\left[h(t,x) - \overline{h}(t)\right]^2}$};
+      }
+
+      \only<3->{
+        \draw[red, thick] (0,-1) -- (1,2) -- (2,2) -- (3,2) -- (4,-1) -- (5,-1) -- (6, 1) -- (7,-1);
+      }
+
+    \end{tikzpicture}
+  \end{center}
+
+\end{frame}
+\begin{frame}[fragile] % Random diposition vs ballistic decomposition
+  \begin{center}
+    \Large Simulations on \\ \bigskip
+    Random deposition  vs. Ballistic decomposition
+  \end{center}
+\end{frame}
+\begin{frame}[fragile] % More models
+  \frametitle{More models? Even more simpler?}
+
+  \begin{center}
+    \begin{tikzpicture}
+        % Node for the image
+        \node[anchor=east, inner sep=0] (image) at (0,0) {\includegraphics[width=0.5\textwidth]{./figs/Figure_8-4_SOS-Issing-Gas.png}};
+
+        % Labels
+        \node[anchor=west] at ([yshift=3cm]image.east) {Solid-on-Solid};
+        \node[anchor=west] at ([yshift=1.4cm]image.east) {Ising};
+        \node[anchor=west] at ([yshift=0.8cm]image.east) {Lattice Gas};
+    \end{tikzpicture}
+  \end{center}
+
+\end{frame}
+\begin{frame}[fragile] % Paper -- a random environment
+  \frametitle{Paper -- a random environment}
+
+  \begin{center}
+    \includegraphics[scale=0.20]{./figs/Paper_Random_Environment.png}
+  \end{center}
+
+  \myFootCite{zhang.zhang.ea:92:modeling}
+\end{frame}
+\begin{frame}[fragile] % Paper wetting experiments
+  \frametitle{Paper wetting experiment}
+
+  \begin{center}
+    \includegraphics[scale=0.14]{./figs/Figure_1-2_Paper-ink.png} \pause
+    \includegraphics[scale=0.20]{./figs/Figure_1-2_PaperInk-b-c.png}
+  \end{center}
+
+  \myFootCite{barabasi.stanley:95:fractal}
+\end{frame}
+\begin{frame}[fragile] % Paper burning experiment
+  \frametitle{Paper burning experiment}
+
+  \begin{center}
+    \includegraphics[scale=0.25]{./figs/Figure_1-3_Paper_Fire.png}
+  \end{center}
+
+  \myFootCite{zhang.zhang.ea:92:modeling}
+\end{frame}
+\begin{frame}[fragile] % Paper rupture experiments
+  \frametitle{Paper rupture experiment}
+
+  \begin{center}
+    \includegraphics[scale=0.24]{./figs/Figure_11-8_Paper_Rupture.png}
+  \end{center}
+
+  \myFootCite{kertesz.horvath.ea:93:self-affine}
+\end{frame}
+\begin{frame} % Surface growth -- Cell
+  % \frametitle{Off-lattice Eden model}
+
+  \begin{center}
+    Rule of replication of \textcolor{cyan!50!black}{\bf cells}\\[1em]
+    Replication probability $\propto$ Aperture angle \textcolor{red}{\bf $\theta_i$}
+    % depends on the \textcolor{gray}{empty space} \\
+    % bridging its position at the colony and  \\
+    % the outer medium of the culture
+  \end{center}
+
+  \bigskip
+  \begin{center}
+    \begin{minipage}{0.4\textwidth}
+      \begin{center}
+        \textcolor{gray}{\tiny Microscopic world}
+
+        \includegraphics[scale=0.25]{figs/Eden-Mechanism.png}
+        \bigskip
+
+      \end{center}
+    \end{minipage}
+    \hfill
+    {\Huge $\Rightarrow$}
+    \hfill
+    \begin{minipage}{0.4\textwidth}
+      \begin{center}
+        \textcolor{gray}{\tiny Macroscopic world}
+        \medskip
+
+        \includegraphics[scale=0.3]{figs/Eden-Simulation-a.png}
+
+      \end{center}
+    \end{minipage}
+  \end{center}
+
+  \myFootCite{santalla.ferreira:18:eden}
+\end{frame}
+\begin{frame}[fragile] % Surface growth -- Crystal
+  \frametitle{Study of growing interfaces in a thin film \\
+    \small --- Convection of nematic liquid crystal$^*$
+      % Growing interfaces uncover universal fluctuations behind scale invariance.
+  }
+
+  \begin{center}
+    \only<1>{Show movies~!}
+    \only<2>{
+      \includegraphics[scale=0.08]{./figs/Growing-DSM2.png}
+
+      \vfill
+      Prediction from KPZ equation:
+      \begin{align*}
+        h\asymp v_\infty t + \left(\Gamma t\right)^{1/3} \xi
+      \end{align*}
+    }
+    \only<3>{
+      \begin{align*}
+        h\asymp v_\infty t + \left(\Gamma t\right)^{1/3} \xi
+      \end{align*}
+
+      \includegraphics[scale=0.12]{./figs/Universal_Fluctuations_DSM.png}
+    }
+  \end{center}
+
+  \myFootCite{takeuchi.sano.ea:11:growing}
+
+\end{frame}
+\begin{frame}[fragile] % KPZ three authors' photos
+  \frametitle{KPZ Equation '86}
+
+  \begin{align}
+    \tag{KPZ}
+    \dfrac{\partial}{\partial t} h(t,x) = \frac{1}{2} \Delta h(t,x) + \frac{\lambda}{2} \left(\nabla h\right)^2 +\textcolor{contrast_color_1}{\dot{W}(t,x)}
+  \end{align}
+  \vfill
+
+  \begin{center}
+    \includegraphics[scale=0.22]{figs/Kardar.jpg}
+    \includegraphics[scale=0.20]{figs/Parisi.jpg}
+    \includegraphics[scale=0.28]{figs/Zhang.jpg}
+  \end{center}
+
+  \small
+  \quad Mehran Kardar (1957 --) \:\:  Giorgio Parisi (1948 --) \qquad\qquad Yicheng Zhang
+
+  \myFootCite{kardar.parisi.ea:86:dynamic}
+\end{frame}
+
+\begin{frame}[fragile] % References
+
+  \RefGroup{Main References$^*$}{
+    \nocite{conus.joseph.ea:13:on}
+    \nocite{zel-dovich.ruzmauikin.ea:90:almighty}
+    \nocite{chen.xia:23:asymptotic}
+    \nocite{zel-dovich.molchanov.ea:87:self-excitation}
+    % \nocite{chen.huang:19:comparison}
+    % \nocite{aaronson:97:introduction}
+  }
+
+  \vfill\vspace{5em}
+
+  \myfootnoteline{\footnotesize
+  * References are produced from {\it SPDEs-Bib}: \url{https://github.com/chenle02/SPDEs-Bib} \\
+  * Download the bib file: \url{https://github.com/chenle02/SPDEs-Bib/blob/main/All.bib} }
+\end{frame}
+
+\end{document}

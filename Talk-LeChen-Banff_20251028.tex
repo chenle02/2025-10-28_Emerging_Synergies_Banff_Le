@@ -619,7 +619,11 @@
   \begin{align*}
     \beta = 0.30 \pm 0.02 \approx \frac{1}{3}.
   \end{align*}
-  
+ 
+  \vfill
+
+  Difficulty: Robust way to compute the slope in order to obtain an estimate of $\beta$. 
+
   \myFootCite{family.vicsek:85:scaling}
 \end{frame}
 % \begin{frame}[t]{How to verify FV scaling (data collapse)}
@@ -639,23 +643,38 @@
 % \end{frame}
 
 \begin{frame}[t]{Continuum viewpoint: EW and KPZ}
-\small
-\textbf{EW (linear diffusion + noise)}:
-\[
-\partial_t h=\nu\nabla^2 h+\eta,\qquad \langle\eta\eta\rangle\propto\delta(x)\delta(t).
-\]
-Scale invariance gives $z=2$, $\alpha=\tfrac12$ in 1D $\Rightarrow \beta=\tfrac14$.
+  \small
+  \begin{columns}[T,onlytextwidth]
+    \column{0.48\textwidth}
+    \begin{assblock}{Edwards--Wilkinson (EW)}
+      \emph{Linear diffusion + noise}
+      \[
+        \partial_t h \,=\, \nu\,\nabla^2 h \,+\, \eta,
+        \qquad \langle\eta\eta\rangle \propto \delta(x)\,\delta(t).
+      \]
+      Scale invariance (1D): \ $z=2$, $\alpha=\tfrac12$ \Rightarrow $\beta=\tfrac14$.
+      \[
+        \boxed{\alpha=\tfrac12\!,\ z=2\!,\ \beta=\tfrac14}
+      \]
+    \end{assblock}
 
-\medskip
-\textbf{KPZ (nonlinear growth)}:
-\[
-\partial_t h=\nu\nabla^2 h+\frac{\lambda}{2}(\nabla h)^2+\eta.
-\]
-Galilean/tilt invariance $\Rightarrow \alpha+z=2$. In 1D (exact):
-\[
-\boxed{\alpha=\tfrac12,\quad z=\tfrac32,\quad \beta=\tfrac13.}
-\]
-Many lattice models (BD, RSOS, Eden) fall into KPZ in 1+1D.
+    \column{0.04\textwidth}
+    \centering\Large $\Rightarrow$
+
+    \column{0.48\textwidth}
+    \begin{problock}{Kardar--Parisi--Zhang (KPZ)}
+      \emph{Nonlinear growth}
+      \[
+        \partial_t h \,=\, \nu\,\nabla^2 h \,+\, \tfrac{\lambda}{2}(\nabla h)^2 \,+\, \eta.
+      \]
+      Galilean/tilt invariance: $\alpha+z=2$. In 1D (exact):
+      \[
+        \boxed{\alpha=\tfrac12\!,\ z=\tfrac32\!,\ \beta=\tfrac13}
+      \]
+      \vspace{-0.3em}
+      {\footnotesize BD, RSOS, Eden $\Rightarrow$ KPZ universality in 1+1D.}
+    \end{problock}
+  \end{columns}
 \end{frame}
 
 \begin{frame}[t]{Reading plots (as in Barabási–Stanley)}

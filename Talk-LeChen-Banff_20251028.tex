@@ -60,6 +60,74 @@
     (1+1\times 2 +3\times 4 + 2 \times 2 + 1) \times 2 = 20 \times 2 = 40 \text{ types of pieces}
   \end{align*}
 \end{frame}
+\begin{frame}[fragile,t] % Tetromino simulation parameters
+  \begin{minipage}{0.45\textwidth}
+    \small
+    \begin{verbatim}
+        steps: 12000
+        width: 100
+        height: 300
+        seed: 12
+        Piece-00: [20, 0]
+        Piece-01: [20, 0]
+        Piece-02: [20, 0]
+        Piece-03: [20, 0]
+        Piece-04: [20, 0]
+        Piece-05: [20, 0]
+        Piece-06: [20, 0]
+        Piece-07: [20, 0]
+        Piece-08: [20, 0]
+        Piece-09: [20, 0]
+        Piece-10: [20, 0]
+        Piece-11: [20, 0]
+        Piece-12: [20, 0]
+        Piece-13: [20, 0]
+        Piece-14: [20, 0]
+        Piece-15: [20, 0]
+        Piece-16: [20, 0]
+        Piece-17: [20, 0]
+        Piece-18: [20, 0]
+        Piece-19: [20, 0]
+   \end{verbatim}
+    \centering
+    All non-sticky pieces \\
+    with equal probability 
+    \end{minipage}
+  \begin{minipage}{0.45\textwidth}
+    \small
+    \begin{verbatim}
+        steps: 12000
+        width: 100
+        height: 300
+        seed: 12
+        Piece-00: [0, 20]
+        Piece-01: [0, 20]
+        Piece-02: [0, 20]
+        Piece-03: [0, 20]
+        Piece-04: [0, 20]
+        Piece-05: [0, 20]
+        Piece-06: [0, 20]
+        Piece-07: [0, 20]
+        Piece-08: [0, 20]
+        Piece-09: [0, 20]
+        Piece-10: [0, 20]
+        Piece-11: [0, 20]
+        Piece-12: [0, 20]
+        Piece-13: [0, 20]
+        Piece-14: [0, 20]
+        Piece-15: [0, 20]
+        Piece-16: [0, 20]
+        Piece-17: [0, 20]
+        Piece-18: [0, 20]
+        Piece-19: [0, 20]
+    \end{verbatim}
+    \centering
+    All sticky pieces \\ 
+    with equal probability 
+  \end{minipage}
+    
+
+\end{frame}
 \section{Introduction to growth model and SPDE}
 \begin{frame}[fragile] % Random deposition
   \frametitle{Random deposition}
@@ -96,6 +164,7 @@
   \end{center}
 
 \end{frame}
+
 \begin{frame}[fragile] % Random deposition with surface relaxation.
   \frametitle{Random deposition with surface relaxation}
 

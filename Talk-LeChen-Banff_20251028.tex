@@ -35,7 +35,7 @@
     \end{block}
 
   \end{columns}
-   \vfill 
+   \vfill
    \begin{center}
       \begin{minipage}{0.35\textwidth}
         \begin{block}{Research}
@@ -565,11 +565,11 @@
       \item[Crossover time] $t_\times(L)\sim L^{z}$ \hfill {\footnotesize $z$: dynamic exponent}
     \end{description}
   \end{assblock}
-  
+
   \myFootCite{family.vicsek:85:scaling}
 \end{frame}
 \begin{frame}[fragile,t] % COMENTS
- \frametitle{Family--Vicsek scaling theory \\ 
+ \frametitle{Family--Vicsek scaling theory \\
  \small $\alpha$: Roughness exp.; $\beta$: Growth exp.; $z$: Dynamic exp.}
   \begin{center}
     \includegraphics[width=0.9\linewidth]{./figs/log-log_Illistrutaion.jpg} \\
@@ -579,7 +579,7 @@
   \end{center}
 \end{frame}
 \begin{frame}[t]
-   \frametitle{Family--Vicsek scaling theory \\ 
+   \frametitle{Family--Vicsek scaling theory \\
    \small $\alpha$: Roughness exp.; $\beta$: Growth exp.; $z$: Dynamic exp.}
    \small
   \[
@@ -587,7 +587,7 @@
   \]
   with
   \[
-    f(u)\sim 
+    f(u)\sim
     \begin{cases}
       u^{\beta},    & u\ll1, \\
       \text{const}, & u\gg1.
@@ -613,39 +613,29 @@
 
   \myFootCite{family.vicsek:85:scaling}
 \end{frame}
-\begin{frame}[fragile] % COMENTS
- 
-  Family and Vicsek reported from their simulation that 
-  \begin{align*}
-    \beta = 0.30 \pm 0.02 \approx \frac{1}{3}.
-  \end{align*}
- 
+\begin{frame} % Family--Vicsek beta result
+  \frametitle{Family--Vicsek (1985): Growth Exponent $\beta$}
+
+  \begin{assblock}{Reported from simulations}
+    \[
+      \boxed{\;\beta \,=\, 0.30 \pm 0.02 \;\approx\; \frac{1}{3}\;}
+    \]
+  \end{assblock}
   \vfill
 
-  Difficulty: Robust way to compute the slope in order to obtain an estimate of $\beta$. 
+  \begin{problock}{Practical difficulty}
+    Robustly estimating the log--log slope $\beta$ requires careful choices of
+    fitting window and handling of finite-size effects.
+  \end{problock}
 
+  \vspace{0.2em}
   \myFootCite{family.vicsek:85:scaling}
 \end{frame}
-% \begin{frame}[t]{How to verify FV scaling (data collapse)}
-% \small
-% \textbf{Recipe}
-% \begin{enumerate}\itemsep2pt
-% \item Simulate/measure $w(L,t)$ for several $L$.
-% \item Estimate $\alpha$ from $w_{\mathrm{sat}}(L)\!\sim\! L^{\alpha}$ (fit saturated widths).
-% \item Estimate $z$ from $t_\times(L)\!\sim\! L^{z}$ or use $\beta=\alpha/z$ with early-time slope.
-% \item Plot $w(L,t)/L^{\alpha}$ vs.\ $t/L^{z}$; curves collapse to the master $f(u)$.
-% \end{enumerate}
-% \textbf{Pitfalls}
-% \begin{itemize}\itemsep2pt
-% \item Transient window before true power law; finite-size drifts in $w_{\mathrm{sat}}$.
-% \item Use consistent fitting ranges; report uncertainty from range variation.
-% \end{itemize}
-% \end{frame}
 
 \begin{frame}[t]{Continuum viewpoint: EW and KPZ}
   \small
   \begin{columns}[T,onlytextwidth]
-    \column{0.48\textwidth}
+    \column{0.5\textwidth}
     \begin{assblock}{Edwards--Wilkinson (EW)}
       \emph{Linear diffusion + noise}
       \[
@@ -658,10 +648,7 @@
       \]
     \end{assblock}
 
-    \column{0.04\textwidth}
-    \centering\Large $\Rightarrow$
-
-    \column{0.48\textwidth}
+    \column{0.5\textwidth}
     \begin{problock}{Kardar--Parisi--Zhang (KPZ)}
       \emph{Nonlinear growth}
       \[
@@ -675,56 +662,6 @@
       {\footnotesize BD, RSOS, Eden $\Rightarrow$ KPZ universality in 1+1D.}
     \end{problock}
   \end{columns}
-\end{frame}
-
-\begin{frame}[t]{Reading plots (as in Barabási–Stanley)}
-\small
-\begin{itemize}\itemsep2pt
-\item On $w$ vs.\ $t$ (log–log) for several $L$: early slopes $\approx\beta$; plateaus $\propto L^{\alpha}$; horizontal shift of crossovers $\propto L^{z}$.
-\item After rescaling: plot $w/L^{\alpha}$ vs.\ $t/L^{z}$; all curves collapse to $f(u)$ with
-  $f(u)\sim u^{\beta}$ ($u\!\ll\!1$) and $f(u)\to \text{const}$ ($u\!\gg\!1$).
-\end{itemize}
-Rule of thumb (1D):
-\[
-\text{EW: }\ (\alpha,\beta,z)=\Big(\tfrac12,\tfrac14,2\Big),
-\qquad
-\text{KPZ/BD: }\ (\alpha,\beta,z)=\Big(\tfrac12,\tfrac13,\tfrac32\Big).
-\]
-\end{frame}
-
-\begin{frame}[t]{Exactly solvable baseline: Random Deposition (RD)}
-\small
-One particle per step, random column; after $t$ steps heights are multinomial:
-\[
-\mathbb E\big[w^2(L,t)\big]=\frac{t}{L}\Big(1-\frac1L\Big)\ \sim\ \frac{t}{L}.
-\]
-Hence $w\sim (t/L)^{1/2}$ ($\beta=\tfrac12$), \emph{no lateral correlations}, no finite $z$ and no true saturation. RD serves as a growth-only sanity check; FV scaling requires correlated dynamics (EW/KPZ).
-\end{frame}
-
-\begin{frame}[t]{Structure factor (optional but handy)}
-\small
-Fourier modes $h_k(t)$, structure factor $S(k,t)=\langle|h_k(t)|^2\rangle$ obey
-\[
-S(k,t)\sim k^{-(2\alpha+1)}\,g(k^{z}t),\qquad
-g(y)\sim\begin{cases}
-y^{2\beta+1} & y\ll1,\\
-\text{const} & y\gg1.
-\end{cases}
-\]
-Useful when $w(L,t)$ is noisy; fit $(\alpha,z)$ from spectral slopes and collapse $S(k,t)$.
-\end{frame}
-
-\begin{frame}[t]{Cheat sheet / takeaways}
-\small
-\[
-\boxed{\,w(L,t)\sim L^{\alpha} f\!\left(\dfrac{t}{L^{z}}\right),\quad
-f(u)\sim u^{\beta}\ (u\!\ll\!1),\ f(u)\to\text{const}\ (u\!\gg\!1),\ 
-\beta=\alpha/z\,}
-\]
-1D benchmarks: EW $(\alpha,\beta,z)=(\tfrac12,\tfrac14,2)$; KPZ/BD $(\tfrac12,\tfrac13,\tfrac32)$.
-\medskip
-
-\textbf{Workflow}: measure $w(L,t)$ $\Rightarrow$ fit $\alpha$ and $\beta$ $\Rightarrow$ infer/fit $z$ $\Rightarrow$ collapse $w/L^\alpha$ vs.\ $t/L^z$.
 \end{frame}
 \begin{frame}[fragile] % Random diposition vs ballistic decomposition
   \begin{center}
@@ -941,7 +878,7 @@ f(u)\sim u^{\beta}\ (u\!\ll\!1),\ f(u)\to\text{const}\ (u\!\gg\!1),\
     \end{verbatim}
     \centering
     \small
-    All sticky pieces \\ 
+    All sticky pieces \\
     with equal prob.
   \end{minipage}
   \begin{minipage}{0.32\textwidth}
@@ -987,7 +924,13 @@ f(u)\sim u^{\beta}\ (u\!\ll\!1),\ f(u)\to\text{const}\ (u\!\gg\!1),\
 
     Will the scaling exponent $\beta$ be always close to $ \displaystyle \frac{1}{3}$?
   \end{problock}
-  
+  \vfill
+
+  \begin{problock}{Practical difficulty}
+    Robustly estimating the log--log slope $\beta$ requires careful choices of
+    fitting window and handling of finite-size effects.
+  \end{problock}
+
 \end{frame}
 \begin{frame}[fragile] % Mixture question (sticky vs nonsticky)
   \frametitle{Mixture Parameter $\ell$ and Scaling}
@@ -997,15 +940,34 @@ f(u)\sim u^{\beta}\ (u\!\ll\!1),\ f(u)\to\text{const}\ (u\!\gg\!1),\
     $(100{-}\alpha)\%$ sticky pieces, where only the $1\times1$ piece is sticky.
   \end{assblock}
 
+  \vfill
   \begin{problock}{Question}
     How does $\alpha$ influence the scaling exponents, in particular, $ \displaystyle \beta \stackrel{?}{\approx} \frac{1}{3}$?
   \end{problock}
+  \vfill
 
   \vspace{0.5em}
   {\small
     \textbf{Simulations and log--log plots:}\newline
     \url{https://chenle02.github.io/2025-10-28_Emerging_Synergies_Banff_Le/exp13/videos_and_images_display.html}
   }
+\end{frame}
+
+\begin{frame}[fragile] % References
+
+  \RefGroup{Main References}{
+    \nocite{kardar.parisi.ea:86:dynamic}
+    \nocite{family.vicsek:85:scaling}
+    \nocite{barabasi.stanley:95:fractal}
+    \nocite{takeuchi.sano.ea:11:growing}
+    \nocite{kertesz.horvath.ea:93:self-affine}
+    \nocite{zhang.zhang.ea:92:modeling}
+  }
+  \vfill\vspace{5em}
+
+  % \myfootnoteline{\footnotesize
+  % * References are produced from {\it SPDEs-Bib}: \url{https://github.com/chenle02/SPDEs-Bib} \\
+  % * Download the bib file: \url{https://github.com/chenle02/SPDEs-Bib/blob/main/All.bib} }
 \end{frame}
 \begin{frame}<13->[t,fragile] % Outreach photos
   \frametitle{Outreach Highlights}
@@ -1028,22 +990,6 @@ f(u)\sim u^{\beta}\ (u\!\ll\!1),\ f(u)\to\text{const}\ (u\!\gg\!1),\
     \includegraphics[width=\linewidth]{./figs/2023_Destination-STEM.jpg}\\[0.3em]
     {\footnotesize Destination STEM 2023}
   \end{columns}
-\end{frame}
-\begin{frame}[fragile] % References
-
-  \RefGroup{Main References}{
-    \nocite{kardar.parisi.ea:86:dynamic}
-    \nocite{family.vicsek:85:scaling}
-    \nocite{barabasi.stanley:95:fractal}
-    \nocite{takeuchi.sano.ea:11:growing}
-    \nocite{kertesz.horvath.ea:93:self-affine}
-    \nocite{zhang.zhang.ea:92:modeling}
-  }
-  \vfill\vspace{5em}
-
-  % \myfootnoteline{\footnotesize
-  % * References are produced from {\it SPDEs-Bib}: \url{https://github.com/chenle02/SPDEs-Bib} \\
-  % * Download the bib file: \url{https://github.com/chenle02/SPDEs-Bib/blob/main/All.bib} }
 \end{frame}
 \begin{frame}[fragile] % References
   \begin{center}

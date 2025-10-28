@@ -1,11 +1,14 @@
 # Talk: Analysis of Tetris Ballistic Deposition and the Robustness of the KPZ Universality Class
 
+[Le Chen](https://webhome.auburn.edu/~lzc0090/index.html)
+Auburn University
+
 Banff workshop: [Emerging Synergies between Stochastic Analysis and Statistical Mechanics](https://www.birs.ca/events/2025/5-day-workshops/25w5367)  
 Dates: 2025-10-27 — 2025-10-31
 
 ## Slides
 - PDF: [Talk-LeChen-Banff_20251028.pdf](./Talk-LeChen-Banff_20251028.pdf)
-- Source: [Talk-LeChen-Banff_20251028.tex](./Talk-LeChen-Banff_20251028.tex)
+- LaTex Source: [Talk-LeChen-Banff_20251028.tex](./Talk-LeChen-Banff_20251028.tex)
 
 Build locally (requires TeX Live + biber):
 
@@ -17,6 +20,15 @@ latexmk -pdf -interaction=nonstopmode Talk-LeChen-Banff_20251028.tex
 - Images gallery (GitHub Pages): https://chenle02.github.io/2025-10-28_Emerging_Synergies_Banff_Le/exp13/images_display.html
 - Videos + images (GitHub Pages): https://chenle02.github.io/2025-10-28_Emerging_Synergies_Banff_Le/exp13/videos_and_images_display.html
   - If Pages isn’t enabled yet: Settings → Pages → Deploy from branch → `master` (root).
+
+## Folders
+- `exp13`: Experiment assets used in the talk and demos.
+  - Static galleries: `images_display.html`, `videos_and_images_display.html`
+  - Media: PNG plots and MP4 videos
+  - Configs: `exp13/configs/` contains experiment configuration files
+- `tetromino`: PNG assets for tetromino pieces (sticky vs non-sticky variants) used in slides and simulations. See `tetromino/README.md` for naming and usage.
+- `figs`: Most figures used in the Beamer slides (may be a symlink in other clones). Update paths if the link breaks.
+
 
 ## Abstract
 

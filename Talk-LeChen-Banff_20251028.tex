@@ -232,7 +232,7 @@
   \end{center}
 \end{frame}
 
-\begin{frame}[t]{Random Deposition (one drop per time step)}
+\begin{frame}[t]{Random Deposition (independent columns)}
   \small \textbf{Model.} $L$ independent columns. At each integer time $t =
   1,2,\dots$, drop \emph{one} particle on a uniformly random column. Heights
   $h(t,x)$, mean $\overline h(t)=\frac1L\sum_{x=1}^L h(t,x) = \frac{t}{L}$,
@@ -263,11 +263,11 @@
   \]
   and
   \[
-    \boxed{\,W(L,t)\;\sim\;\left(1-\frac1L\right)\;\left(\frac{t}{L}\right)^{1/2}\,}
+    \boxed{\,W(L,t)\; \simeq \;\left(1-\frac1L\right)\;\left(\frac{t}{L}\right)^{1/2}\,}
   \]
 
-  \medskip \alert{Scaling.} Growth exponent \(\beta = \tfrac12\):
-  \(W^2(L,t)\simeq t/L\) (no lateral correlations, no true saturation).
+  \medskip \alert{Scaling.} Growth exponent \( \displaystyle \beta = \frac12\).
+  % \(W^2(L,t)\simeq t/L\) (no lateral correlations, no true saturation).
 
 \end{frame}
 \begin{frame}[fragile] % Random diposition vs ballistic decomposition

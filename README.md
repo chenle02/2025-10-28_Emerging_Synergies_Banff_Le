@@ -9,7 +9,8 @@ Dates: 2025-10-27 — 2025-10-31
 ## Slides
 - PDF: [Talk-LeChen-Banff_20251028.pdf](./Talk-LeChen-Banff_20251028.pdf)
 - LaTex Source: [Talk-LeChen-Banff_20251028.tex](./Talk-LeChen-Banff_20251028.tex)
-- Video: [BIRS workshop recording](https://www.birs.ca/events/2025/5-day-workshops/25w5367/videos/watch/202510281401-Chen.html)
+- Video: [BIRS workshop recording -- Le Chen](https://www.birs.ca/events/2025/5-day-workshops/25w5367/videos/watch/202510281401-Chen.html)
+- All available talks at the workshop: [BIRS workshop videos](https://www.birs.ca/events/2025/5-day-workshops/25w5367/videos)
 
 Build locally (requires TeX Live + biber):
 
